@@ -389,3 +389,28 @@ figcaption
       display: block
       margin-left: auto
       margin-right: auto
+
+// Banda del audio (4.1) y del carrusel de estrategias (4.3): el mismo rect de 1328x254.
+.banda-4, .banda-5
+  background-image: url(../assets/curso/temas/t4/banda-1.png)
+  background-repeat: no-repeat
+  background-size: 100% auto
+  background-position: center
+  margin-inline: -3rem
+  padding-inline: 3rem
+  @media (max-width: $bp-max-md)
+    margin-inline: 0
+    padding-inline: 0
+    background-image: none
+
+// Pestañas del 4.1. El kit pinta la inactiva con $color-sistema-h (#F6F6F6) y el XD la
+// quiere en #E5EBFC (4-VC); la activa va transparente sobre el panel, con el subrayado de
+// 340x5 en #003CE1 que ya pone `.color-acento-botones`.
+.tabs-b__tab
+  background-color: $color-4-vc
+  // El kit marca la pestaña activa con `border-top`; el XD dibuja la linea de 340x5 en el
+  // BORDE INFERIOR (pestaña y=3296..3361, linea en y=3361).
+  border-top: 0 !important
+  &--active
+    background-color: transparent
+    border-bottom: 5px solid $color-acento-botones
