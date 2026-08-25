@@ -135,6 +135,46 @@
 
         p.mt-4.mb-0(data-aos="fade-left") La comunicación organizacional cumple, de manera simultánea o alternada, distintas funciones que se articulan para sostener el funcionamiento de los equipos. Entre las más relevantes en el contexto de la gestión del talento humano se distinguen las siguientes:
 
+    //- Las cinco funciones, en el slider de la banda de 1328x559. Sólo la primera está en el
+    //- artboard; las otras cuatro, con sus imágenes, salen del pasteboard.
+    .banda-2.mt-4
+      .tarjeta.bg-3-v.r-20(data-aos="fade-up")
+        SlyderA(tipo="b")
+          .row.justify-content-center.align-items-center.p-4.p-lg-5
+            .col-lg-6.mb-4.mb-lg-0
+              p.mb-0 #[b Función informativa:] permite compartir con los integrantes de la organización datos, indicadores, decisiones, cambios en procesos y resultados de gestión. Garantiza que cada persona cuente con la información necesaria para ejecutar sus tareas, comprender el estado de los procesos y fundamentar sus decisiones.
+            .col-lg-6
+              figure.mb-0
+                img(src="@/assets/curso/temas/t1/funcion-1.png" alt="").w-100
+          .row.justify-content-center.align-items-center.p-4.p-lg-5
+            .col-lg-6.mb-4.mb-lg-0
+              p.mb-0 #[b Función reguladora:] orienta el comportamiento de los integrantes de la organización mediante el establecimiento y la difusión de normas, políticas, procedimientos y manuales. Asegura que las decisiones y acciones individuales sean coherentes con los estándares institucionales y contribuyan al logro de los objetivos colectivos.
+            .col-lg-6
+              figure.mb-0
+                img(src="@/assets/curso/temas/t1/funcion-2.png" alt="").w-100
+          .row.justify-content-center.align-items-center.p-4.p-lg-5
+            .col-lg-6.mb-4.mb-lg-0
+              p.mb-0 #[b Función motivadora:] contribuye a generar compromiso, sentido de propósito y reconocimiento en los integrantes de la organización. Cuando la comunicación explica el significado del trabajo, reconoce los logros y vincula las tareas individuales con los objetivos institucionales, fortalece la motivación y el sentido de pertenencia.
+            .col-lg-6
+              figure.mb-0
+                img(src="@/assets/curso/temas/t1/funcion-3.png" alt="").w-100
+          .row.justify-content-center.align-items-center.p-4.p-lg-5
+            .col-lg-6.mb-4.mb-lg-0
+              p.mb-0 #[b Función integradora:] refuerza la identidad organizacional, los valores compartidos y la cohesión entre los integrantes. Al promover espacios de diálogo, intercambio de experiencias y trabajo colaborativo, contribuye a que las personas se reconozcan como parte de un proyecto colectivo con propósitos comunes.
+            .col-lg-6
+              figure.mb-0
+                img(src="@/assets/curso/temas/t1/funcion-4.png" alt="").w-100
+          .row.justify-content-center.align-items-center.p-4.p-lg-5
+            .col-lg-6.mb-4.mb-lg-0
+              p.mb-0 #[b Función de control:] posibilita el seguimiento, la verificación y la evaluación del cumplimiento de metas, estándares y compromisos organizacionales. A través de informes, indicadores y mecanismos de rendición de cuentas, permite detectar desviaciones y tomar decisiones correctivas de manera oportuna y fundamentada.
+            .col-lg-6
+              figure.mb-0
+                img(src="@/assets/curso/temas/t1/funcion-5.png" alt="").w-100
+
+
+    //- El XD dibuja este parrafo DOS veces (y=3829 y y=5328); la segunda no introduce nada,
+    //- asi que va una sola vez, delante del caso que presenta.
+    p.mt-4(data-aos="fade-right") El siguiente caso ilustra cómo dos funciones de la comunicación organizacional, la informativa y la motivadora, pueden integrarse en una misma acción de gestión del talento humano, con efectos positivos en el clima y el desempeño del equipo.
 
     //- Caso de estudio: caja #CBD5FF de 1020x248 (col-10) con la ilustracion de 243x198 dentro.
     .row.justify-content-center.mt-4
