@@ -360,3 +360,32 @@ figcaption
 // relleno en #474A59 (3-VO) sobre el fondo de la caja.
 .lista-ul li > i:first-of-type
   color: $color-3-vo
+
+// Banda decorativa del carrusel de etapas (3.3): mismo rect de 1328x254 del Tema 1.
+.banda-3
+  background-image: url(../assets/curso/temas/t3/banda-1.png)
+  background-repeat: no-repeat
+  background-size: 100% auto
+  background-position: center
+  margin-inline: -3rem
+  padding-inline: 3rem
+  @media (max-width: $bp-max-md)
+    margin-inline: 0
+    padding-inline: 0
+    background-image: none
+
+// Tarjeta con el icono circular montado sobre el borde superior: el circulo mide 150 y el
+// XD lo pone 75 px por encima de la tarjeta (circulo y=433, tarjeta y=509).
+.tarjeta--icono-arriba
+  margin-top: 75px
+  padding: 0 20px 24px
+  height: calc(100% - 75px)
+  display: flow-root          // sin esto el margin -75px del figure COLAPSA con el del padre
+  figure
+    margin: -75px 0 12px
+    text-align: center
+    img
+      width: 150px
+      display: block
+      margin-left: auto
+      margin-right: auto
