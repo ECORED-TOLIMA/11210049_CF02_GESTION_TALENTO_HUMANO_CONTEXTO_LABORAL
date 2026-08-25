@@ -56,12 +56,28 @@ $color-institucional: #39A900
 
 // Colores Curso ---------------------------------------
 
-$color-primario: #88dff5
-$color-secundario: #ba59e7
-$color-acento-contenido: #FF4A69
-$color-acento-botones: #39A900
-$color-adicional-1: #CDDC39
-$color-adicional-2: #00BCD4
+$color-primario: #FEDDB4          // 1- Primario
+$color-secundario: #EBB9C1        // 2- Secundario
+$color-acento-contenido: #CBD5FF  // 3- Acento contenido
+$color-acento-botones: #003CE1    // 4- Acento BOTON
+$color-adicional-1: #FFF5E8       // 1-VC
+$color-adicional-2: #F7E3E6       // 2-VC
+$color-terciario: #FFE9F8         // 5- Terciario
+
+// Variables del XD tal cual las pinta el arte (hoja de spec del artboard Portada).
+// Los 16 hex estan verificados como `fill` en el .xd, no solo escritos en la hoja.
+$color-1-vc: #FFF5E8
+$color-1-v:  #FFFCF7
+$color-1-vo: #665848
+$color-2-vc: #F7E3E6
+$color-2-v:  #FDF8F9
+$color-2-vo: #5E4A4D
+$color-3-vc: #EFF2FF
+$color-3-v:  #FAFBFF
+$color-3-vo: #474A59
+$color-4-vc: #E5EBFC
+$color-5-t:  #FFE9F8
+$color-5-tc: #FFF4FB
 
 // Color Tipografias -----------------------------------
 $color-headers: $color-sistema-texto
@@ -77,11 +93,11 @@ $color-link-hover: color.adjust($blue, $lightness: -15%)
 
 // Color Botones ---------------------------------------
 $color-btn-fondo: $color-acento-botones
-$color-btn-texto: $color-sistema-texto
+$color-btn-texto: $white
 
 // Colores banner --------------------------------------
 $color-banner-fondo: $color-primario
-$color-banner-text: $white
+$color-banner-text: $color-sistema-texto
 
 // Colores anexos
 $color-fondo-anexo: $color-sistema-g
@@ -160,8 +176,10 @@ $form-box-shadow: inset 0 1px 3px rgba($black, 0.06)
 $form-box-shadow-focus: $form-box-shadow, 0 0 5px color.adjust($color-primario, $lightness: -5%, $alpha: -0.3)
 
 // Tables ----------------------------------------------
-$table-header-bg-color: $color-sistema-f
-$table-header-color: $color-sistema-a
+// El encabezado de la Tabla 1 del XD es una banda #CBD5FF con el texto oscuro; el
+// template traia el gris #e8e8e8 del sistema.
+$table-header-bg-color: $color-acento-contenido
+$table-header-color: $color-sistema-texto
 
 // Animations ------------------------------------------
 $base-duration: 150ms
@@ -186,8 +204,8 @@ $bp-max-xs: 576px
 .actividad
   background-color: #F2F2F2  
 // Imágen banner principal -----------------------------
-$banner-principal-img-y: '' // 'arriba','abajo',''
-$banner-principal-img-x: '' // 'derecha',''
+$banner-principal-img-y: 'abajo' // 'arriba','abajo',''
+$banner-principal-img-x: 'derecha' // 'derecha',''
 
 // .tarjeta-avatar -----------------------------------
 $tarjeta-avatar-b-ancho-img: 20%

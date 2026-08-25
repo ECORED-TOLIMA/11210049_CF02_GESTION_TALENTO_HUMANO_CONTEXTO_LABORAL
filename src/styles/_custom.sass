@@ -1,17 +1,37 @@
 @use 'variables' as *
+// Los dos distintivos de la portada. El pasteboard del XD deja la instruccion escrita
+// («Flotar verticalmente en diferentes tiempos»), asi que van FUERA de la ilustracion,
+// como imagenes decorativas con la animacion del scaffold y tiempos distintos.
+//
+// El kit los posiciona en absoluto contra la COLUMNA, que es mas ancha y mas alta que la
+// ilustracion; asi no hay forma de anclarlos a la imagen. Con una rejilla de una sola
+// celda, imagen y distintivos comparten caja y los margenes en % se resuelven contra el
+// ancho de esa celda, que es justo el de la ilustracion (506 px).
+//   distintivo 1: 80x80 en (857,538) -> pegado a la izquierda, 41 px sobre el borde inferior
+//   distintivo 2: 80x80 en (1283,373) -> pegado a la derecha, 206 px sobre el borde inferior
+.banner-principal__img
+  // La rejilla SOLO de lg para arriba. La columna lleva `.d-none.d-lg-block`: por debajo
+  // de lg tiene que seguir siendo `display: none`, porque el diseno quita la ilustracion
+  // en tablet y en movil. Sin el `@media`, el `!important` de aqui pisaba el `d-none` y
+  // la ilustracion se colaba en las dos.
+  @media (min-width: $bp-min-lg)
+    display: grid !important
+  > img, > div
+    grid-area: 1 / 1
+  > div
+    position: relative !important
+    align-self: end
+    width: 15.8%                     // 80 de 506
+
 .banner-principal-decorativo
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
+    justify-self: start
+    margin-bottom: 8.1%              // 41 de 506
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
-    position: absolute
-    top: 30%
-    right: 10%
-    width: 20%
+    justify-self: end
+    margin-bottom: 40.7%             // 206 de 506
 
 
 @keyframes float1
@@ -21,16 +41,29 @@
   100%
     transform: translateY(0px)
 
+// Portada. Medido sobre el artboard `Portada` (hero 1328x559 en 136,100):
+//   columna de texto  x=106  ancho de frame 490      -> 8% y 36.9% de 1328
+//   ilustracion       x=721  506x506, pegada abajo   -> hueco derecho 101px = 7.6%
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
-  width: 58.33333333% !important
+  width: 46% !important
+  padding-left: 8% !important
 .banner-principal__img 
   padding-bottom: 0 !important;
-//.banner-principal__row .banner-principal__img 
-//    width: 33%;
-    
+  padding-right: 7.6% !important
+  flex: 0 0 auto !important
+  width: 45.93% !important                // contenido = 45.93-7.6 = 38.33% de 1328 = 506px
+  img
+    width: 100%
+
+// En movil el XD pinta la portada con el color plano 1- Primario, sin el degradado.
+@media (max-width: $bp-max-xs)
+  .banner-principal .tarjeta
+    background-image: none !important
+    background-color: $color-primario
+
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $white !important  
+  color: $color-sistema-texto !important  
 
 .boton *, .boton--sm *,
 .barra-avance__boton--regresar span
@@ -104,3 +137,40 @@ figcaption
 
   
  
+
+// ── Paleta del curso como clases de fondo. La paleta de CF02 es la MISMA que la de
+// CF01 (verificado color por color contra el .xd), asi que estas clases se heredan.
+.bg-1
+  background-color: $color-1-vc     // 1-VC  #FFF5E8
+.bg-1-v
+  background-color: $color-1-v      // 1-V   #FFFCF7
+.bg-1-p
+  background-color: $color-primario // 1     #FEDDB4
+.bg-2
+  background-color: $color-2-vc     // 2-VC  #F7E3E6
+.bg-2-v
+  background-color: $color-2-v      // 2-V   #FDF8F9
+.bg-2-s
+  background-color: $color-secundario // 2   #EBB9C1
+.bg-3
+  background-color: $color-3-vc     // 3-VC  #EFF2FF
+.bg-3-v
+  background-color: $color-3-v      // 3-V   #FAFBFF
+.bg-3-a
+  background-color: $color-acento-contenido // 3  #CBD5FF
+.bg-4
+  background-color: $color-4-vc     // 4-VC  #E5EBFC
+.bg-5
+  background-color: $color-5-t      // 5-T   #FFE9F8
+.bg-5-c
+  background-color: $color-5-tc     // 5-TC  #FFF4FB
+
+// Radios sueltos: el .xd los da por rect, esquina por esquina.
+.r-0
+  border-radius: 0 !important
+.r-5
+  border-radius: 5px !important
+.r-10
+  border-radius: 10px !important
+.r-20
+  border-radius: 20px !important
