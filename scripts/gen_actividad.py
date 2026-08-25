@@ -78,7 +78,11 @@ def main():
         etiqueta = celdas[0]
         valor = celdas[1] if len(celdas) > 1 else ''
         if etiqueta.startswith('Nombre de la Actividad'):
-            campos['titulo'] = valor.rstrip('.')
+            # El docx trae aqui un nombre largo y descriptivo, pero el encabezado de la
+            # actividad NO lo usa: la convencion de la casa es «Cuestionario» (3 de 4
+            # entregables cerrados, y Manuel lo corrigio asi en CF01). Se guarda por si
+            # hace falta en otro sitio, pero el `titulo` de la vista no sale de aqui.
+            campos['nombre_docx'] = valor.rstrip('.')
         elif etiqueta.startswith('Objetivo de la actividad'):
             campos['objetivo'] = valor
         elif etiqueta.startswith('Instrucciones para el aprendiz'):
@@ -118,12 +122,18 @@ def main():
         bloques.append(
             f"        {{\n          id: {p['id']},\n"
             f"          texto: '{js(p['texto'])}',\n"
-            f"          imagen: '@/assets/actividad/imagen{math.ceil(p['id'] / 4)}.png',\n"
+            # Una imagen por pregunta MOSTRADA: el kit ensena 10 del banco, asi que con
+            # `ceil(id/4)` dos preguntas de la misma tanda salian con la misma foto.
+            # Manuel entrego 10 en CF01 justo por esto.
+            f"          imagen: '@/assets/actividad/imagen{(p['id'] - 1) % 10 + 1}.png',\n"
             f"          barajarRespuestas: true,\n          opciones: [\n{ops},\n          ],\n"
             f"          mensaje_correcto: '{js(p.get('ok', ''))}',\n"
             f"          mensaje_incorrecto: '{js(p.get('no', ''))}',\n        }}")
 
     TODOS = ',\n'.join(bloques)
+    # El objetivo va en MINUSCULA detras de «Objetivo:», como en los entregables cerrados.
+    objetivo = campos.get('objetivo', '').strip()
+    objetivo_min = (objetivo[:1].lower() + objetivo[1:]) if objetivo else ''
     vue = f'''<template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
@@ -146,9 +156,9 @@ export default {{
   data: () => ({{
     cuestionario: {{
       tema: '{js(nombre_del_componente())}',
-      titulo: '{js(campos.get("titulo", "Cuestionario"))}',
+      titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> {js(campos.get("objetivo", ""))}<br><br>{js(campos.get("instrucciones", ""))}',
+        '<b>Objetivo:</b> {js(objetivo_min)}',
       // el kit sólo muestra 10 de las {len(preguntas)}: barajar es OBLIGATORIO
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',

@@ -1,15 +1,15 @@
 <template lang="pug">
-  .curso-main-container.pb-3
-    BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
-      // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
-      #Actividad                
-      <ActividadController :cuestionario="cuestionario"/>
-  
-  </template>
+.curso-main-container.pb-3
+  BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    #Actividad
+    ActividadController(:cuestionario="cuestionario")
+
+</template>
 
 <script>
+//- GENERADO por `scripts/gen_actividad.py` desde `11210049_CF02_AD.docx`.
+//- No editar a mano: volver a correr el script si cambia el docx.
 import ActividadController from '@ecored-sena/boulder-kit/plugin/components/actividad/ActividadController.vue'
 
 export default {
@@ -19,489 +19,624 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Comunicación, trabajo colaborativo y asertividad',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> evaluar la comprensión de los conceptos de comunicación organizacional, trabajo colaborativo, asertividad y resolución de problemas aplicados a la gestión del talento humano.',
+      // el kit sólo muestra 10 de las 20: barajar es OBLIGATORIO
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
-      titulo_reprobado: 'VUELVA A INTENTARLO.',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
+      // `mensaje_final_*`, NO `mensaje_*`: es el nombre que lee
+      // `actividadCuestionario/Actividad.vue` del kit (1.0.9). Con el nombre corto los dos
+      // mensajes finales del docx no se pintan nunca y no salta ningún error.
+      mensaje_final_aprobado: 'Ha superado la actividad. Sus respuestas demuestran conocimientos sólidos sobre la comunicación organizacional, el trabajo colaborativo en equipo, la resolución de problemas y la asertividad para la dirección de personas.',
+      mensaje_final_reprobado: 'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Cuál es una función de la comunicación organizacional relacionada con compartir datos y resultados?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Función motivadora.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+              texto: 'Función informativa.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Función integradora.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Función de control.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_correcto: 'La función informativa permite transmitir datos, decisiones, indicadores y resultados necesarios para el funcionamiento de la organización.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Qué componente del proceso comunicativo corresponde al medio por donde circula el mensaje?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Código.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Receptor.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Canal.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Contexto.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'El canal es el medio utilizado para transmitir el mensaje, como correos electrónicos, reuniones o plataformas digitales.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: 'La comunicación no verbal incluye:',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Únicamente documentos escritos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Exclusivamente conversaciones orales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
+              texto: 'Gestos, posturas y tono de voz.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Manuales y políticas institucionales.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'La comunicación no verbal comprende elementos corporales y vocales que complementan o contradicen el mensaje verbal.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Qué estudia la comunicación proxémica?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'El significado de las palabras.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
+              texto: 'El uso del espacio y las distancias.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Los movimientos corporales.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'La redacción de mensajes escritos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'La comunicación proxémica analiza cómo las personas utilizan el espacio físico durante las interacciones.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Cuál técnica de comunicación implica prestar atención plena al interlocutor?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Comunicación empática.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Escucha activa.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'Argumentación.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Retroalimentación escrita.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'La escucha activa requiere atención, interés y preguntas de clarificación para comprender correctamente al interlocutor.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Qué riesgo puede presentarse cuando no existe claridad y precisión en el mensaje?',
+          imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Motivación organizacional.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
+              texto: 'Sentido de pertenencia.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
-              esCorrecta: false,
+              texto: 'Confusión y errores operativos.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Innovación organizacional.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'Los mensajes ambiguos generan malentendidos, conflictos y errores en los procesos laborales.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: 'El trabajo colaborativo se caracteriza principalmente por:',
+          imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'La competencia entre integrantes.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
+              texto: 'La supervisión estricta.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
+              texto: 'La construcción conjunta de soluciones.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'El trabajo individual aislado.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'En el trabajo colaborativo existe diálogo, negociación y co-creación para alcanzar objetivos comunes.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Cuál es un principio fundamental del trabajo colaborativo?',
+          imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Autoridad centralizada.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Interdependencia positiva.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Competencia individual.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Comunicación limitada.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'La interdependencia positiva implica reconocer que el éxito individual depende también del éxito del grupo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: 'La técnica conocida como brainstorming tiene como objetivo:',
+          imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Controlar el desempeño.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Sancionar errores.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Generar ideas creativas.',
               esCorrecta: true,
             },
+            {
+              id: 'd',
+              texto: 'Elaborar manuales.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Cuál es la función principal de la retroalimentación asertiva en el entorno laboral?',
+          imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Señalar los errores del equipo de forma directa.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Comunicar observaciones con claridad y respeto.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Evitar el conflicto entre los integrantes del equipo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reforzar la autoridad del líder frente al grupo.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'La retroalimentación asertiva permite expresar observaciones de manera clara y respetuosa, con el fin de fortalecer el desempeño individual y colectivo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: 'Un conflicto funcional en la organización:',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Deteriora permanentemente el desempeño.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Impide la innovación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Genera tensión productiva y cambio.',
               esCorrecta: true,
             },
+            {
+              id: 'd',
+              texto: 'Elimina la comunicación.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'Los conflictos funcionales pueden estimular mejoras, innovación y aprendizaje organizacional.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: '¿Cuál es el primer paso en una metodología estructurada de resolución de problemas?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Implementar la solución.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Evaluar resultados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Definir el problema con precisión.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Asignar sanciones.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: 'Definir correctamente el problema evita confundir síntomas con causas reales.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 13,
+          texto: 'La argumentación organizacional debe basarse en:',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Opiniones personales sin evidencia.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
+              texto: 'Hechos y datos verificables.',
               esCorrecta: true,
             },
             {
-              id: 'b',
-              texto: 'Falso',
+              id: 'c',
+              texto: 'Rumores organizacionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Emociones únicamente.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'Una argumentación sólida utiliza información objetiva y verificable para sustentar posiciones.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: 'El consenso organizacional implica:',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Que todos piensen exactamente igual.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'La imposición de una sola opinión.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La aceptación colectiva de una decisión.',
               esCorrecta: true,
             },
+            {
+              id: 'd',
+              texto: 'Evitar cualquier desacuerdo.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'El consenso no significa unanimidad absoluta, sino aceptación y compromiso con la decisión tomada.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: 'La asertividad se ubica entre:',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Liderazgo y control.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Pasividad y agresividad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Creatividad y disciplina.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Motivación y productividad.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-      ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
-      mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
+          mensaje_correcto: 'La comunicación asertiva permite expresar ideas y necesidades con respeto y claridad.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
+          id: 16,
+          texto: '¿Cuál es una característica de la persona agresiva?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Expresa sus ideas respetando a los demás.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Evita cualquier conflicto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Impone sus ideas sin considerar a otros.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Escucha activamente todas las opiniones.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: 'La persona con estilo de comunicación agresivo tiende a imponer sus ideas sin considerar las necesidades ni las opiniones de los demás, lo que genera tensión y dificulta la colaboración en los equipos de trabajo.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
+          id: 17,
+          texto: '¿Qué estrategia fortalece la motivación y retención del talento humano?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Comunicación ambigua.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Reconocimiento y valoración.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Aislamiento laboral.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Falta de retroalimentación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: 'Reconocer los logros y esfuerzos incrementa el compromiso y el sentido de pertenencia.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
+          id: 18,
+          texto: '¿Cuál es una característica de la retroalimentación constructiva?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Se basa en descalificaciones personales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Evita señalar oportunidades de mejora.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Se orienta al aprendizaje y mejora futura.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Busca generar temor.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: 'La retroalimentación constructiva ayuda a mejorar el desempeño sin afectar la dignidad de la persona.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
+          id: 19,
+          texto: 'La comunicación kinésica se relaciona con:',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Las normas organizacionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El manejo del espacio físico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Los movimientos corporales y gestos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Los documentos institucionales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: 'La kinésica estudia expresiones faciales, posturas y movimientos corporales como formas de comunicación.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
+          id: 20,
+          texto: '¿Qué busca la comunicación empática?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ignorar emociones del interlocutor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Imponer decisiones rápidamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Considerar emociones y perspectivas del otro.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Limitar la participación grupal.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: 'La comunicación empática tiene en cuenta las emociones, necesidades y expectativas del interlocutor para fortalecer las relaciones laborales.',
+          mensaje_incorrecto: 'Revise nuevamente el contenido del componente formativo.',
         },
       ],
     },
   }),
 }
 </script>
+
+<style lang="sass"></style>
