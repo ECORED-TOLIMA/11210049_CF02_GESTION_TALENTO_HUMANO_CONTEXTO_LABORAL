@@ -63,6 +63,7 @@
         p Estos seis factores no operan de manera independiente, se articulan y se condicionan mutuamente para generar un proceso comunicativo complejo y dinámico. Identificar cómo interactúan hace posible reconocer los puntos en los que la comunicación puede fortalecerse o deteriorarse dentro de la organización.
         p.mb-0 Con esta comprensión del proceso comunicativo en su conjunto, es posible ahondar en los fundamentos teóricos que explican cómo se origina, se transmite y se recibe un mensaje en el entorno de trabajo.
 
+    separador 
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Fundamentos de la comunicación
 

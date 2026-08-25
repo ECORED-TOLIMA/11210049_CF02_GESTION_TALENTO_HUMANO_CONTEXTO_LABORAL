@@ -118,3 +118,17 @@ Las cinco comprobaciones que se ejecutan al cerrar, con lo que dieron:
 
 Además: **0 desbordes horizontales a 360 px** en las once rutas, ninguna vista rota, ningún
 elemento que se quede sin animar y ningún icono repetido dentro de un mismo tema.
+
+
+**Revisiones pendientes**
+- valida el pdf y el xd que tienen algunos cambios.
+- Revisa el background de las tarjetas que inician con este texto "Condiciones físicas, culturales, históricas y relacionales en las que se produce el intercambio comunicativo. El contexto determina el significado de los mensajes: una misma expresión puede interpretarse de manera distinta según el ambiente, la jerarquía o el momento en que se emite." ya que es una imagen png con diseño. 
+- recuerda que siempre antes de un titulo segundo sin excepcion va un separador asi: 
+  separador 
+  #t_1_1.titulo-segundo.color-acento-contenido
+    h2 1.1 Fundamentos de la comunicación
+- Recuerda siempre revisar los colores de los bullets de los sliders.
+- Revisar el componente que inicia en: "Reuniones de resultados: espacio para compartir cifras de desempeño y, al mismo tiempo, reconocer el trabajo del equipo en un solo mensaje." ya que recuerda que todas las viñetas que tengan salto de linea deben iniciar sin excepcion debajo de la primer letra de la primera fila.
+- En ese mismo componente revisa la imagen que la exportaste sin el fondo.
+- Revisa todos los temas que al parecer te falta texto. Revisa nuevamente el XD, el pdf y el di.
+
