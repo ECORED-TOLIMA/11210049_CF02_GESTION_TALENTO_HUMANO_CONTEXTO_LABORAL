@@ -156,20 +156,20 @@
         .bg-2.p-4.h-100(data-aos="fade-right")
           ul.lista-ul.mb-0
             li
-              i.fas.fa-angle-right
-              p.mb-0 #[b Reuniones de resultados:] espacio para compartir cifras de desempeño y, al mismo tiempo, reconocer el trabajo del equipo en un solo mensaje.
+              i.fas.fa-circle-right
+              | #[b Reuniones de resultados:] espacio para compartir cifras de desempeño y, al mismo tiempo, reconocer el trabajo del equipo en un solo mensaje.
             li
-              i.fas.fa-angle-right
-              p.mb-0 #[b Procesos de inducción:] momento para explicar normas, funciones y expectativas del cargo de forma ordenada a quien se integra al equipo.
+              i.fas.fa-circle-right
+              | #[b Procesos de inducción:] momento para explicar normas, funciones y expectativas del cargo de forma ordenada a quien se integra al equipo.
             li
-              i.fas.fa-angle-right
-              p.mb-0 #[b Entrevistas de desempeño:] conversación para revisar qué salió bien y qué se puede mejorar, orientando a la persona sin limitarse a señalar errores.
+              i.fas.fa-circle-right
+              | #[b Entrevistas de desempeño:] conversación para revisar qué salió bien y qué se puede mejorar, orientando a la persona sin limitarse a señalar errores.
             li
-              i.fas.fa-angle-right
-              p.mb-0 #[b Comunicados de cambio organizacional:] oportunidad para explicar a los equipos por qué cambia algo en la empresa y cómo ese cambio los involucra.
+              i.fas.fa-circle-right
+              | #[b Comunicados de cambio organizacional:] oportunidad para explicar a los equipos por qué cambia algo en la empresa y cómo ese cambio los involucra.
             li.mb-0
-              i.fas.fa-angle-right
-              p.mb-0 #[b Espacios de retroalimentación:] intercambio en el que se dice a alguien qué logró y en qué puede crecer, con ejemplos claros y un tono de apoyo.
+              i.fas.fa-circle-right
+              | #[b Espacios de retroalimentación:] intercambio en el que se dice a alguien qué logró y en qué puede crecer, con ejemplos claros y un tono de apoyo.
       .col-lg-3
         figure.mb-0.h-100
           img(src="@/assets/curso/temas/t1/foto-5.png" alt="").w-100.h-100.object-fit-cover

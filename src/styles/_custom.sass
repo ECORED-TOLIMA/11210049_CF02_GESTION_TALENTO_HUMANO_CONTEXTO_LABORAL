@@ -292,3 +292,71 @@ figcaption
     img
       display: block
       width: 100%
+
+// ============================================================================
+// TARJETA HOVER = `.tarjeta--boton` DEL KIT (catalogo, `CATALOGO/src/views/Tema10.vue`).
+// El XD dibuja la cuarta tarjeta de la fila con OTRO color: no es una tarjeta distinta,
+// es el estado :hover. Medido con el pixel del PDF, no con la ficha, que daba los
+// circulos alternos:
+//   reposo  tarjeta #E5EBFC (4-VC)  ·  circulo #003CE1 (4)     con el glifo en #CBD5FF
+//   hover   tarjeta #F7E3E6 (2-VC)  ·  circulo #5E4A4D (2-VO)  con el glifo en #E5EBFC
+// Los dos juegos de iconos van apilados y se cruzan con `opacity` (no con `display`: asi
+// no hay salto ni una segunda peticion al pasar el raton).
+// ============================================================================
+.tarjeta--boton.color-1
+  background-color: $color-4-vc
+  border-radius: 20px
+  @media (min-width: $bp-min-lg)
+    min-height: 320px         // el XD fija el alto de la tarjeta; no se deja al contenido
+  &:active, &:focus, &:hover
+    background-color: $color-2-vc
+    *
+      color: $color-sistema-texto
+  figure
+    position: relative
+    img
+      transition: opacity .3s ease-in-out
+    .icono-hover
+      position: absolute
+      inset: 0
+      opacity: 0
+  &:hover, &:focus-within
+    figure
+      .icono
+        opacity: 0
+      .icono-hover
+        opacity: 1
+
+// Banda decorativa del slider del 2.4: 1328x559, o sea el ancho COMPLETO de la tarjeta.
+.banda-2
+  background-image: url(../assets/curso/temas/t2/banda-1.png)
+  background-repeat: no-repeat
+  background-size: 100% auto
+  background-position: center
+  margin-inline: -3rem
+  padding: 2rem 3rem
+  @media (max-width: $bp-max-md)
+    margin-inline: 0
+    padding-inline: 0
+    background-image: none
+
+// Botones adelante/atras del slider: el kit los deja pegados a las esquinas de la tarjeta
+// y el XD los mete 23 px por los lados (control de 1182 en x=209 sobre una tarjeta de 1228
+// en x=186) y 24 px por encima del borde inferior.
+.slyder-a__tipo-b
+  padding: 0 23px 24px
+  // El kit los pinta blancos con borde de 1px; el pixel del PDF los da como circulos
+  // RELLENOS de #003CE1 con el chevron en #FAFBFF.
+  .slyder-a__btn--atrs, .slyder-a__btn--sigt
+    background-color: $color-acento-botones
+    border: 0
+    opacity: 1                  // el kit los deja al 70 %; el pixel del PDF da #003CE1 puro
+    color: $color-3-v
+    i
+      color: $color-3-v
+
+// La viñeta de `.lista-ul` no es un chevron suelto: el pasteboard del XD deja escrito el
+// icono («fontawesome.com/icons/classic/solid/circle-right») y el pixel del PDF lo da
+// relleno en #474A59 (3-VO) sobre el fondo de la caja.
+.lista-ul li > i:first-of-type
+  color: $color-3-vo
