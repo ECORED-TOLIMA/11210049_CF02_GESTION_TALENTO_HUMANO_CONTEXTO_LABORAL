@@ -1,0 +1,161 @@
+=== TABLA ===
+| ACTIVIDAD DIDÁCTICA CUESTIONARIO |
+| Generalidades de la actividad ¶ Las indicaciones, el mensaje de correcto e incorrecto debe estar la redacción en segunda persona. ¶ El aprendiz recibe una retroalimentación cuando responde de manera correcta o incorrecta cada pregunta. ¶ Señale en la columna Rta. Correcta con una (x) de acuerdo con las opciones presentadas. ¶ Al final de la actividad se muestra una retroalimentación de felicitación si logra el 70 % de respuestas correctas o retroalimentación de mejora si es inferior a este porcentaje. ¶ Para sugerir este tipo de actividad tener presente equipo de Diseño Instruccional, que solo debe haber máximo doce opciones de pregunta y que cada campo tiene un límite de palabras permitidas para garantizar el responsive web. |
+| Instrucciones para el aprendiz | Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo Comunicación, trabajo colaborativo y asertividad ¶ Antes de su realización, se recomienda la lectura del componente formativo mencionado. Es opcional (no es calificable), y puede realizarse todas las veces que se desee. ¶ Lea la pregunta de cada ítem y seleccione la respuesta correcta. |
+| Nombre de la Actividad | Diálogo y colaboración: comunicación efectiva en la gestión del talento humano. |
+| Objetivo de la actividad | Evaluar la comprensión de los conceptos de comunicación organizacional, trabajo colaborativo, asertividad y resolución de problemas aplicados a la gestión del talento humano. |
+| Texto descriptivo | Lea la pregunta de cada ítem y seleccione la respuesta correcta. |
+| PREGUNTAS |
+| Pregunta 1 | ¿Cuál es una función de la comunicación organizacional relacionada con compartir datos y resultados? |  |
+| Opción a) | Función motivadora. |  |
+| Opción b) | Función informativa. | X |
+| Opción c) | Función integradora. |  |
+| Opción d) | Función de control. |  |
+| Comentario respuesta correcta | ¡Correcto! La función informativa permite transmitir datos, decisiones, indicadores y resultados necesarios para el funcionamiento de la organización. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 2 | ¿Qué componente del proceso comunicativo corresponde al medio por donde circula el mensaje? |
+| Opción a) | Código. |  |
+| Opción b) | Receptor. |  |
+| Opción c) | Canal. | X |
+| Opción d) | Contexto. |  |
+| Comentario respuesta correcta | ¡Correcto! El canal es el medio utilizado para transmitir el mensaje, como correos electrónicos, reuniones o plataformas digitales. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 3 | La comunicación no verbal incluye: |
+| Opción a) | Únicamente documentos escritos. |  |
+| Opción b) | Exclusivamente conversaciones orales. |  |
+| Opción c) | Gestos, posturas y tono de voz. | X |
+| Opción d) | Manuales y políticas institucionales. |  |
+| Comentario respuesta correcta | ¡Correcto! La comunicación no verbal comprende elementos corporales y vocales que complementan o contradicen el mensaje verbal. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 4 | ¿Qué estudia la comunicación proxémica? |
+| Opción a) | El significado de las palabras. |  |
+| Opción b) | El uso del espacio y las distancias. | X |
+| Opción c) | Los movimientos corporales. |  |
+| Opción d) | La redacción de mensajes escritos. |  |
+| Comentario respuesta correcta | ¡Correcto! La comunicación proxémica analiza cómo las personas utilizan el espacio físico durante las interacciones. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 5 | ¿Cuál técnica de comunicación implica prestar atención plena al interlocutor? |
+| Opción a) | Comunicación empática. |  |
+| Opción b) | Escucha activa. | X |
+| Opción c) | Argumentación. |  |
+| Opción d) | Retroalimentación escrita. |  |
+| Comentario respuesta correcta | ¡Correcto! La escucha activa requiere atención, interés y preguntas de clarificación para comprender correctamente al interlocutor. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 6 | ¿Qué riesgo puede presentarse cuando no existe claridad y precisión en el mensaje? |
+| Opción a) | Motivación organizacional. |  |
+| Opción b) | Sentido de pertenencia. |  |
+| Opción c) | Confusión y errores operativos. | X |
+| Opción d) | Innovación organizacional. |  |
+| Comentario respuesta correcta | ¡Correcto! Los mensajes ambiguos generan malentendidos, conflictos y errores en los procesos laborales. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 7 | El trabajo colaborativo se caracteriza principalmente por: |
+| Opción a) | La competencia entre integrantes. |  |
+| Opción b) | La supervisión estricta. |  |
+| Opción c) | La construcción conjunta de soluciones. | X |
+| Opción d) | El trabajo individual aislado. |  |
+| Comentario respuesta correcta | ¡Correcto! En el trabajo colaborativo existe diálogo, negociación y co-creación para alcanzar objetivos comunes. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 8 | ¿Cuál es un principio fundamental del trabajo colaborativo? |
+| Opción a) | Autoridad centralizada. |  |
+| Opción b) | Interdependencia positiva. | X |
+| Opción c) | Competencia individual. |  |
+| Opción d) | Comunicación limitada. |  |
+| Comentario respuesta correcta | ¡Correcto! La interdependencia positiva implica reconocer que el éxito individual depende también del éxito del grupo. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 9 | La técnica conocida como brainstorming tiene como objetivo: |
+| Opción a) | Controlar el desempeño. |  |
+| Opción b) | Sancionar errores. |  |
+| Opción c) | Generar ideas creativas. | X |
+| Opción d) | Elaborar manuales. |  |
+|  | ¡Correcto! La lluvia de ideas permite proponer alternativas sin juicios iniciales para fomentar la creatividad colectiva. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 10 | ¿Cuál es la función principal de la retroalimentación asertiva en el entorno laboral? |
+| Opción a) | Señalar los errores del equipo de forma directa. |  |
+| Opción b) | Comunicar observaciones con claridad y respeto. | X |
+| Opción c) | Evitar el conflicto entre los integrantes del equipo. |  |
+| Opción d) | Reforzar la autoridad del líder frente al grupo. |  |
+| Comentario respuesta correcta | ¡Correcto! La retroalimentación asertiva permite expresar observaciones de manera clara y respetuosa, con el fin de fortalecer el desempeño individual y colectivo. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+=== /TABLA ===
+=== TABLA ===
+| Pregunta 11 | Un conflicto funcional en la organización: |
+| Opción a) | Deteriora permanentemente el desempeño. |  |
+| Opción b) | Impide la innovación. |  |
+| Opción c) | Genera tensión productiva y cambio. | X |
+| Opción d) | Elimina la comunicación. |  |
+| Comentario respuesta correcta | ¡Correcto! Los conflictos funcionales pueden estimular mejoras, innovación y aprendizaje organizacional. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 12 | ¿Cuál es el primer paso en una metodología estructurada de resolución de problemas? |
+| Opción a) | Implementar la solución. |  |
+| Opción b) | Evaluar resultados. |  |
+| Opción c) | Definir el problema con precisión. | X |
+| Opción d) | Asignar sanciones. |  |
+| Comentario respuesta correcta | ¡Correcto! Definir correctamente el problema evita confundir síntomas con causas reales. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 13 | La argumentación organizacional debe basarse en: |
+| Opción a) | Opiniones personales sin evidencia. |  |
+| Opción b) | Hechos y datos verificables. | X |
+| Opción c) | Rumores organizacionales. |  |
+| Opción d) | Emociones únicamente. |  |
+| Comentario respuesta correcta | ¡Correcto! Una argumentación sólida utiliza información objetiva y verificable para sustentar posiciones. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 14 | El consenso organizacional implica: |
+| Opción a) | Que todos piensen exactamente igual. |  |
+| Opción b) | La imposición de una sola opinión. |  |
+| Opción c) | La aceptación colectiva de una decisión. | X |
+| Opción d) | Evitar cualquier desacuerdo. |  |
+| Comentario respuesta correcta | ¡Correcto! El consenso no significa unanimidad absoluta, sino aceptación y compromiso con la decisión tomada. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 15 | La asertividad se ubica entre: |
+| Opción a) | Liderazgo y control. |  |
+| Opción b) | Pasividad y agresividad. | X |
+| Opción c) | Creatividad y disciplina. |  |
+| Opción d) | Motivación y productividad. |  |
+| Comentario respuesta correcta | ¡Correcto! La comunicación asertiva permite expresar ideas y necesidades con respeto y claridad. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 16 | ¿Cuál es una característica de la persona agresiva? |
+| Opción a) | Expresa sus ideas respetando a los demás. |  |
+| Opción b) | Evita cualquier conflicto. |  |
+| Opción c) | Impone sus ideas sin considerar a otros. | X |
+| Opción d) | Escucha activamente todas las opiniones. |  |
+| Comentario respuesta correcta | ¡Correcto! La persona con estilo de comunicación agresivo tiende a imponer sus ideas sin considerar las necesidades ni las opiniones de los demás, lo que genera tensión y dificulta la colaboración en los equipos de trabajo. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 17 | ¿Qué estrategia fortalece la motivación y retención del talento humano? |
+| Opción a) | Comunicación ambigua. |  |
+| Opción b) | Reconocimiento y valoración. | X |
+| Opción c) | Aislamiento laboral. |  |
+| Opción d) | Falta de retroalimentación. |  |
+| Comentario respuesta correcta | ¡Correcto! Reconocer los logros y esfuerzos incrementa el compromiso y el sentido de pertenencia. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 18 | ¿Cuál es una característica de la retroalimentación constructiva? |
+| Opción a) | Se basa en descalificaciones personales. |  |
+| Opción b) | Evita señalar oportunidades de mejora. |  |
+| Opción c) | Se orienta al aprendizaje y mejora futura. | X |
+| Opción d) | Busca generar temor. |  |
+| Comentario respuesta correcta | ¡Correcto! La retroalimentación constructiva ayuda a mejorar el desempeño sin afectar la dignidad de la persona. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 19 | La comunicación kinésica se relaciona con: |
+| Opción a) | Las normas organizacionales. |  |
+| Opción b) | El manejo del espacio físico. |  |
+| Opción c) | Los movimientos corporales y gestos. | X |
+| Opción d) | Los documentos institucionales. |  |
+| Comentario respuesta correcta | ¡Correcto! La kinésica estudia expresiones faciales, posturas y movimientos corporales como formas de comunicación. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+| Pregunta 20 | ¿Qué busca la comunicación empática? |
+| Opción a) | Ignorar emociones del interlocutor. |  |
+| Opción b) | Imponer decisiones rápidamente. |  |
+| Opción c) | Considerar emociones y perspectivas del otro. | X |
+| Opción d) | Limitar la participación grupal. |  |
+| Comentario respuesta correcta | ¡Correcto! La comunicación empática tiene en cuenta las emociones, necesidades y expectativas del interlocutor para fortalecer las relaciones laborales. |
+| Comentario respuesta incorrecta | Revise nuevamente el contenido del componente formativo. |
+=== /TABLA ===
+=== TABLA ===
+| MENSAJE FINAL ACTIVIDAD |
+| Mensaje cuando supera el 70 % de respuestas correctas | Ha superado la actividad. Sus respuestas demuestran conocimientos sólidos sobre la comunicación organizacional, el trabajo colaborativo en equipo, la resolución de problemas y la asertividad para la dirección de personas. |
+| Mensaje cuando el porcentaje de respuestas correctas es inferior al 70 % | No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica. |
+=== /TABLA ===
+=== TABLA ===
+| CONTROL DE REVISIÓN |
+|  | Responsable | Fecha |
+| Revisión Evaluadora instruccional | Gloria Lida Alzate Suárez | Marzo de 2026 |
+=== /TABLA ===

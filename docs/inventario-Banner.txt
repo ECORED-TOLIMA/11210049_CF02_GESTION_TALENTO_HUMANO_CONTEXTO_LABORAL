@@ -1,0 +1,15 @@
+=== 1. RECTS por (fill, r) — una clase por PAR, no por color
+  #FFFFFF  r=[20, 20, 20, 20]     n=  1  401135 1328x244@(136,127)
+
+=== 2. MÁSCARAS de foto (el radio va al <img>)
+  Enmascarar grupo 1119339             1600x180   CUADRADA
+
+=== 3. PESTAÑAS 25x8 -> esas cajas son .cajon, y sólo ésas (0)
+
+=== 4. SEÑAL DE TARJETA HOVER (una tarjeta/icono de otro color en la fila)
+  (ninguna)
+
+=== 4b. RÓTULOS DE COMPONENTE en el pasteboard (el XD los nombra ahí)
+  «DESARROLLADORES» en (-13423,-11919) -> los textos del componente están DEBAJO de este rótulo
+
+=== 5. DEGRADADOS no horizontales (0) — ojo al parche 6

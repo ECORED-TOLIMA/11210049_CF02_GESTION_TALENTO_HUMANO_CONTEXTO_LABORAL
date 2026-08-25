@@ -1,0 +1,53 @@
+=== 1. RECTS por (fill, r) — una clase por PAR, no por color
+  #E5EBFC  r=[20, 20, 20, 20]     n=  7  468250 1020x90@(289,6803), 468251 1020x90@(289,6908), 468252 1020x90@(289,7013)
+  #CBD5FF  r=[10, 10, 10, 10]     n=  5  467559 84x84@(211,1363), 467570 84x84@(640,1830), 467590 84x84@(314,7274)
+  #FFF5E8  r=[10, 10, 10, 10]     n=  5  467558 812x140@(185,1335), Holder 708x200@(289,2550), 468247 812x170@(601,6315)
+  #FFFCF7  SIN r (CUADRADO)       n=  5  467460 84x84@(185,625), 467460 84x84@(185,2108), 467460 84x84@(185,3476)
+  #CBD5FF  SIN r (CUADRADO)       n=  4  467580 1020x140@(290,5729), 468236 1020x140@(289,3655), 468255 1020x271@(290,7476)
+  #E5EBFC  r=[5, 5, 5, 5]         n=  4  468241 962x37@(348,4997), 468246 962x37@(348,5113), 468244 962x37@(348,5055)
+  #FEDDB4  SIN r (CUADRADO)       n=  3  Holder 812x290@(600,1790), Holder 919x340@(496,4272), 454905 584x330@(789,8913)
+  #F7E3E6  r=[20, 20, 20, 20]     n=  2  468249 1020x190@(289,6598), 468294 292x331@(1121,9568)
+  #FEDDB4  r=[40, 40, 40, 40]     n=  2  467481 80x80@(765,5704), 467481 80x80@(759,3630)
+  #CBD5FF  r=[20, 20, 0, 0]       n=  1  Holder 292x128@(185,9977)
+  #EBB9C1  SIN r (CUADRADO)       n=  1  454715 214x330@(1159,8913)
+  #EBB9C1  r=[20, 0, 0, 20]       n=  1  468235 614x531@(1413,3442)
+  #EFF2FF  r=[10, 10, 10, 10]     n=  1  468256 243x220@(315,7501)
+  #EFF2FF  r=[20, 20, 0, 0]       n=  1  467569 292x108@(1121,5223)
+  #F7E3E6  SIN r (CUADRADO)       n=  1  Holder 812x300@(601,8405)
+  #F7E3E6  r=[5, 5, 5, 5]         n=  1  468238 962x170@(348,4749)
+  #FAFBFF  SIN r (CUADRADO)       n=  1  BG 684x270@(686,4307)
+  #FAFBFF  r=[1, 1, 1, 1]         n=  1  468292 1263x584@(169,8779)
+  #FEDDB4  r=[20, 0, 0, 20]       n=  1  468234 614x531@(185,2910)
+  #FFF5E8  SIN r (CUADRADO)       n=  1  467540 916x134@(497,461)
+  #FFFFFF  SIN r (CUADRADO)       n=  1  451 1600x70@(0,0)
+  #FFFFFF  r=[20, 20, 20, 20]     n=  1  575 1328x10290@(136,161)
+
+=== 2. MÁSCARAS de foto (el radio va al <img>)
+  Enmascarar grupo 1119341             1600x220   CUADRADA
+  Enmascarar grupo 1119383             292x279   r=[10, 10, 10, 10]
+  Enmascarar grupo 1119359             395x290   CUADRADA
+  Enmascarar grupo 1119269             291x321   CUADRADA
+  Grupo 1187151                        280x246   CUADRADA
+  Grupo 1187149                        280x246   CUADRADA
+  Grupo 1187146                        280x246   CUADRADA
+  Enmascarar grupo 1119412             613x340   CUADRADA
+  Enmascarar grupo 1119413             396x291   CUADRADA
+  Enmascarar grupo 1119414             292x275   r=[10, 10, 10, 10]
+  Enmascarar grupo 1119415             396x300   CUADRADA
+  Enmascarar grupo 1119416             1328x559   CUADRADA
+  Enmascarar grupo 1119417             1228x474   r=[20, 20, 20, 20]
+  Enmascarar grupo 1119137             560x309   r=[10, 10, 10, 10]
+  Grupo 1202226                        188x137   CUADRADA
+  Grupo 1202125                        226x145   CUADRADA
+  Grupo 1202148                        193x197   CUADRADA
+
+=== 3. PESTAÑAS 25x8 -> esas cajas son .cajon, y sólo ésas (1)
+  (185,7912) #EBB9C1  Rectángulo 468257
+
+=== 4. SEÑAL DE TARJETA HOVER (una tarjeta/icono de otro color en la fila)
+  y≈9570 292x331: {'#E5EBFC': 3, '#F7E3E6': 1} -> el ['#F7E3E6'] es el ESTADO HOVER, no otra tarjeta
+
+=== 4b. RÓTULOS DE COMPONENTE en el pasteboard (el XD los nombra ahí)
+  «DESARROLLADORES» en (-13423,-11919) -> los textos del componente están DEBAJO de este rótulo
+
+=== 5. DEGRADADOS no horizontales (0) — ojo al parche 6

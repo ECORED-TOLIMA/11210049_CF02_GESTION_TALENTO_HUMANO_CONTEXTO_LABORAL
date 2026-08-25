@@ -1,0 +1,65 @@
+=== 1. RECTS por (fill, r) — una clase por PAR, no por color
+  #E5EBFC  r=[5, 5, 5, 5]         n=  9  467575 650x37@(347,2065), 468208 962x37@(347,6289), 468158 650x37@(347,2181)
+  #CBD5FF  SIN r (CUADRADO)       n=  7  467549 292x281@(1121,2424), 468199 1020x248@(289,3965), 468213 1020x248@(289,6684)
+  #CBD5FF  r=[10, 10, 10, 10]     n=  5  467486 84x84@(627,3677), 467570 84x84@(623,5176), 467590 84x84@(226,5688)
+  #FFFCF7  SIN r (CUADRADO)       n=  5  467460 84x84@(185,1148), 467460 84x84@(185,2614), 467460 84x84@(185,4757)
+  #E5EBFC  r=[20, 20, 20, 20]     n=  4  468229 1020x90@(290,11436), 468227 1020x90@(290,11541), 468228 1020x90@(290,11646)
+  #EFF2FF  r=[10, 10, 10, 10]     n=  4  468202 243x197@(314,3990), 468214 243x197@(314,6709), 468224 243x221@(314,9596)
+  #FFF5E8  r=[10, 10, 10, 10]     n=  4  468197 812x160@(601,3639), 468201 812x160@(601,5138), 468154 812x190@(601,1529)
+  #EBB9C1  SIN r (CUADRADO)       n=  3  454715 214x330@(1159,3115), 468220 419x533@(1009,9020), Holder 292x198@(185,11871)
+  #F6F6F6  SIN r (CUADRADO)       n=  3  454433 1019x78@(289,7181), 454434 1019x78@(289,7337), 454435 1019x58@(289,7494)
+  #F7E3E6  SIN r (CUADRADO)       n=  3  Holder 812x290@(186,5648), Holder 708x270@(289,9176), Holder 812x300@(185,12575)
+  #FEDDB4  SIN r (CUADRADO)       n=  3  454905 584x330@(789,3115), Holder 919x280@(496,10427), Holder 1228x198@(185,11871)
+  #FEDDB4  r=[20, 20, 20, 20]     n=  3  455354 327x435@(290,665), 455354 327x435@(637,665), 455354 327x435@(982,665)
+  #FFFFFF  SIN r (CUADRADO)       n=  3  451 1600x70@(0,0), 454436 1019x77@(289,7260), 454437 1019x77@(289,7416)
+  #F7E3E6  r=[5, 5, 5, 5]         n=  2  467572 650x170@(347,1817), 468204 962x170@(347,6041)
+  #F7E3E6  r=[10, 10, 10, 10]     n=  2  468153 916x170@(185,316), 468160 916x154@(497,2735)
+  #EFF2FF  SIN r (CUADRADO)       n=  1  468225 916x130@(185,9958)
+  #EFF2FF  r=[20, 0, 0, 20]       n=  1  468221 405x533@(1413,9020)
+  #F7E3E6  r=[20, 20, 20, 20]     n=  1  468230 1020x210@(290,11211)
+  #FAFBFF  SIN r (CUADRADO)       n=  1  BG 684x200@(686,10467)
+  #FAFBFF  r=[1, 1, 1, 1]         n=  1  468195 1263x584@(169,2981)
+  #FEDDB4  r=[20, 0, 0, 20]       n=  1  468219 405x533@(185,8487)
+  #FEDDB4  r=[40, 40, 40, 40]     n=  1  467481 80x80@(760,5436)
+  #FFFFFF  r=[20, 20, 20, 20]     n=  1  575 1328x12763@(136,161)
+
+=== 2. MÁSCARAS de foto (el radio va al <img>)
+  Enmascarar grupo 1119341             1600x220   CUADRADA
+  Enmascarar grupo 1119403             396x257   CUADRADA
+  Enmascarar grupo 1119375             396x239   CUADRADA
+  Enmascarar grupo 1119387             292x460   CUADRADA
+  Enmascarar grupo 1119400             292x251   r=[10, 10, 10, 10]
+  Enmascarar grupo 1119401             1328x559   CUADRADA
+  Enmascarar grupo 1119402             1228x474   r=[20, 20, 20, 20]
+  Enmascarar grupo 1119137             560x309   r=[10, 10, 10, 10]
+  Enmascarar grupo 1119269             292x387   CUADRADA
+  Grupo 1187151                        282x251   CUADRADA
+  Grupo 1187149                        282x251   CUADRADA
+  Grupo 1187146                        282x251   CUADRADA
+  Enmascarar grupo 1119404             395x257   CUADRADA
+  Enmascarar grupo 1119405             396x290   CUADRADA
+  Enmascarar grupo 1119406             396x271   r=[10, 10, 10, 10]
+  Enmascarar grupo 1119407             292x261   r=[10, 10, 10, 10]
+  Enmascarar grupo 1119408             292x270   r=[10, 10, 10, 10]
+  Enmascarar grupo 1119409             291x217   r=[10, 10, 10, 10]
+  Enmascarar grupo 1119410             613x280   CUADRADA
+  Enmascarar grupo 1119411             397x300   CUADRADA
+  Enmascarar grupo 1119288             327x401   r=[20, 20, 20, 20]
+  Enmascarar grupo 1119288             327x401   r=[20, 20, 20, 20]
+  Enmascarar grupo 1119288             327x401   r=[20, 20, 20, 20]
+  Enmascarar grupo 1119429             292x292   CUADRADA
+  Grupo 1202114                        219x148   CUADRADA
+  Grupo 1202117                        222x165   CUADRADA
+  Grupo 1202120                        214x190   CUADRADA
+  Grupo 1202140                        154x161   CUADRADA
+
+=== 3. PESTAÑAS 25x8 -> esas cajas son .cajon, y sólo ésas (1)
+  (186,2424) #FEDDB4  Rectángulo 467483
+
+=== 4. SEÑAL DE TARJETA HOVER (una tarjeta/icono de otro color en la fila)
+  (ninguna)
+
+=== 4b. RÓTULOS DE COMPONENTE en el pasteboard (el XD los nombra ahí)
+  «DESARROLLADORES» en (-13423,-11919) -> los textos del componente están DEBAJO de este rótulo
+
+=== 5. DEGRADADOS no horizontales (0) — ojo al parche 6

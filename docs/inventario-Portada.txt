@@ -1,0 +1,34 @@
+=== 1. RECTS por (fill, r) — una clase por PAR, no por color
+  #EBB9C1  SIN r (CUADRADO)       n=  3  377656 352x47@(790,1063), 44492 122x122@(258,878), 378446 295x68@(496,1218)
+  #FEDDB4  SIN r (CUADRADO)       n=  3  377649 586x47@(182,1063), 44494 121x122@(418,878), 377670 295x68@(181,1218)
+  #CBD5FF  SIN r (CUADRADO)       n=  2  377657 175x47@(1165,1063), 377672 295x68@(811,1218)
+  #FFE9F8  SIN r (CUADRADO)       n=  2  44493 121x121@(418,721), 377680 295x68@(1126,1354)
+  #003CE1  SIN r (CUADRADO)       n=  1  377681 295x68@(1126,1218)
+  #003CE1  r=[4, 4, 4, 4]         n=  1  401125 152x39@(1434,18)
+  #5E4A4D  SIN r (CUADRADO)       n=  1  378443 295x68@(496,1422)
+  #665848  SIN r (CUADRADO)       n=  1  377684 295x68@(181,1422)
+  #E5EBFC  SIN r (CUADRADO)       n=  1  377685 295x68@(1126,1286)
+  #EFF2FF  SIN r (CUADRADO)       n=  1  377676 295x68@(811,1286)
+  #F7E3E6  SIN r (CUADRADO)       n=  1  378445 295x68@(496,1286)
+  #FAFBFF  SIN r (CUADRADO)       n=  1  377677 295x68@(811,1354)
+  #FDF8F9  SIN r (CUADRADO)       n=  1  378444 295x68@(496,1354)
+  #FFF4FB  SIN r (CUADRADO)       n=  1  409233 295x68@(1126,1422)
+  #FFF5E8  SIN r (CUADRADO)       n=  1  377674 295x68@(181,1286)
+  #FFFCF7  SIN r (CUADRADO)       n=  1  377679 295x68@(181,1354)
+
+=== 2. MÁSCARAS de foto (el radio va al <img>)
+  Enmascarar grupo 1119331             1328x559   r=[20, 20, 20, 20]
+  Enmascarar grupo 1119335             506x506   CUADRADA
+
+=== 3. PESTAÑAS 25x8 -> esas cajas son .cajon, y sólo ésas (0)
+
+=== 4. SEÑAL DE TARJETA HOVER (una tarjeta/icono de otro color en la fila)
+  y≈1220 295x68: {'#FEDDB4': 1, '#EBB9C1': 1, '#CBD5FF': 1, '#003CE1': 1} -> el ['#FEDDB4', '#EBB9C1', '#CBD5FF', '#003CE1'] es el ESTADO HOVER, no otra tarjeta
+  y≈1290 295x68: {'#E5EBFC': 1, '#EFF2FF': 1, '#FFF5E8': 1, '#F7E3E6': 1} -> el ['#E5EBFC', '#EFF2FF', '#FFF5E8', '#F7E3E6'] es el ESTADO HOVER, no otra tarjeta
+  y≈1350 295x68: {'#FFE9F8': 1, '#FAFBFF': 1, '#FFFCF7': 1, '#FDF8F9': 1} -> el ['#FFE9F8', '#FAFBFF', '#FFFCF7', '#FDF8F9'] es el ESTADO HOVER, no otra tarjeta
+  y≈1420 295x68: {'#FFF4FB': 1, '#665848': 1, '#5E4A4D': 1} -> el ['#FFF4FB', '#665848', '#5E4A4D'] es el ESTADO HOVER, no otra tarjeta
+
+=== 4b. RÓTULOS DE COMPONENTE en el pasteboard (el XD los nombra ahí)
+  «DESARROLLADORES» en (-13423,-11919) -> los textos del componente están DEBAJO de este rótulo
+
+=== 5. DEGRADADOS no horizontales (0) — ojo al parche 6
