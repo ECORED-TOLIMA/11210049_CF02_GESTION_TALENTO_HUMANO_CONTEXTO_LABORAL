@@ -174,3 +174,121 @@ figcaption
   border-radius: 10px !important
 .r-20
   border-radius: 20px !important
+
+// Banda decorativa detrás del carrusel de factores (Tema 1). En el XD mide 1328x254, o sea
+// TODO el ancho de la tarjeta: se sale de su padding de 3rem por los dos lados.
+.banda-1
+  background-image: url(../assets/curso/temas/t1/banda-1.png)
+  background-repeat: no-repeat
+  background-size: 100% auto
+  background-position: center
+  margin-inline: -3rem
+  padding-inline: 3rem
+  // En movil la tarjeta lleva `p-4` (1.5rem), no `p-md-5`: con el margen de -3rem la banda
+  // se salia del viewport. Por debajo de md no sale ni un pixel y la banda no se pinta.
+  @media (max-width: $bp-max-md)
+    margin-inline: 0
+    padding-inline: 0
+    background-image: none
+
+// Las flechas del SlyderF van en el azul de acento, como en el XD.
+.slyder--flechas-azules
+  .slyder-f__btn i
+    color: $color-acento-botones
+
+// Numeros y contenido de la linea de tiempo: #E5EBFC en reposo, #003CE1 + #F7E3E6 el abierto.
+.linea-tiempo-d.color-1
+  .linea-tiempo-d__item__number,
+  .linea-tiempo-d__item__content
+    background-color: $color-4-vc     // #E5EBFC en reposo
+    color: $color-sistema-texto
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__number
+      background-color: $color-acento-botones   // #003CE1
+      color: $white
+    .linea-tiempo-d__item__content
+      background-color: $color-2-vc   // #F7E3E6 el item abierto
+
+// Tablas y tarjetas conectadas. Medidas iguales a las de CF01 (cabecera 16px, titulo 14px,
+// filas alternas #F6F6F6/blanco, y la fila de 405/419/405 que pide encoger las de los extremos).
+.tabla-a th
+  font-size: 16px
+.titulo-sexto
+  h5, span
+    font-size: 14px
+
+.tabla-a
+  tbody tr:nth-child(odd)
+    background-color: $color-sistema-h    // #F6F6F6
+  tbody tr:nth-child(even)
+    background-color: $white
+
+.tarjeta--container
+  // El XD NO reparte el ancho a partes iguales: las dos tarjetas exteriores son mas
+  // estrechas que las interiores (299/315/315/301 en las filas de cuatro, 405/419/405 en
+  // las de tres). Con `flex-grow: .95` en las de los extremos salen esos mismos numeros.
+  > .tarjeta:first-child, > .tarjeta:last-child
+    flex-grow: .95
+  > .tarjeta
+    border-radius: 0
+  > .tarjeta:first-child
+    border-radius: 20px 0 0 20px
+  > .tarjeta:last-child
+    border-radius: 0 20px 20px 0
+  @media (max-width: $bp-max-md)
+    > .tarjeta, > .tarjeta:first-child, > .tarjeta:last-child
+      border-radius: 20px
+      margin-bottom: 1rem
+    > .tarjeta:last-child
+      margin-bottom: 0
+
+// Acordeon del 1.2. El kit anade `.acordion__activo` a la tarjeta del item abierto; el
+// resto de clases se las paso por la prop `clase-tarjeta` (`tarjeta bg-4 r-20`), que es
+// parte del contrato del componente y no un override.
+.tarjeta.bg-4.acordion__activo
+  background-color: $color-2-vc
+
+// El boton del acordeon en el XD es un circulo RELLENO de 42 en #003CE1 con el chevron
+// claro; el kit deja el `tipo b` con borde de 1px y sin fondo.
+.acordion__accion__btn--b
+  width: 42px
+  height: 42px
+  border: 0
+  background-color: $color-acento-botones
+  i
+    color: $color-3-v
+
+// La viñeta cuadrada de `.lista-ol--cuadro` lleva el numero DENTRO, en negrilla y OSCURO.
+// Muestreado en el PDF: la caja es #CBD5FF (ya es el color del kit) y el numero #12263F,
+// pero el kit lo pinta en $white y sobre ese azul claro no se lee. El .xd lo confirma:
+// Roboto-Bold 16px. Es el caso de frontera de `textColor()`.
+.lista-ol--cuadro__vineta
+  color: $color-sistema-texto !important
+  span
+    color: $color-sistema-texto !important
+    font-weight: $base-bold-font-weight
+
+// `.cajon` de este curso: la pestana del XD mide 25x8 (el template la pinta de 10) y el
+// cuerpo lleva el `fill` exacto del rect, no el `lighten()` del modificador del kit.
+.cajon.color-1
+  background-color: $color-1-vc       // cuerpo #FFF5E8
+  &:before
+    height: 8px
+    background-color: $color-primario // pestana #FEDDB4
+.cajon.color-2
+  background-color: $color-2-vc       // cuerpo #F7E3E6
+  &:before
+    height: 8px
+    background-color: $color-secundario // pestana #EBB9C1
+
+// Cita destacada del 1.1: banda de 1020x140 con el circulo de 80 montado 25 px por encima
+// de su borde superior (icono y=3691, banda y=3716). No hay componente del kit para esto:
+// `.cajon`, `.cajon-b` y los `.bloque-texto-*` son cajas sin icono montado.
+.cita-destacada
+  display: flow-root                  // sin esto el margin negativo del figure COLAPSA
+  figure
+    margin: -65px auto 12px
+    width: 80px
+    img
+      display: block
+      width: 100%

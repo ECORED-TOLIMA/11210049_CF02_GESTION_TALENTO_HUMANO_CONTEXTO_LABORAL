@@ -49,7 +49,12 @@ def servidor():
     aqui = os.path.dirname(os.path.abspath(__file__))
     m = re.search(r"base:.*?'(/[^']+/)'", open(os.path.join(aqui, '..', 'vite.config.js')).read())
     ruta = m.group(1) if m else '/'
-    for puerto in (5173, 5174, 5175, 5176):
+    # El puerto NO se escribe a fuego: `npm run serve -- --port N` es habitual cuando hay
+    # otro curso levantado, y con la lista corta la herramienta abortaba con «no hay servidor»
+    # o, peor, medía el curso equivocado. Se respeta `$VITE_PORT` y se barre un rango amplio.
+    puertos = ([int(os.environ['VITE_PORT'])] if os.environ.get('VITE_PORT') else []) + \
+        list(range(5173, 5200))
+    for puerto in puertos:
         try:
             url = f'http://localhost:{puerto}{ruta}'
             urllib.request.urlopen(url, timeout=1).read(1)
