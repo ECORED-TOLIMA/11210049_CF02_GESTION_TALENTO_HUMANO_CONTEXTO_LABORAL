@@ -86,6 +86,7 @@
         figure.mb-0
           img(src="@/assets/curso/temas/t4/ilus-2.png" alt="").w-100
 
+    separador
     #t_4_1.titulo-segundo.color-acento-contenido
       h2 4.1 Concepto de asertividad
 
@@ -166,6 +167,7 @@
 
     p.mt-4(data-aos="fade-right") Con el marco conceptual establecido, el paso siguiente consiste en reconocer cómo esta competencia se expresa en las interacciones cotidianas del entorno laboral. Las prácticas concretas no operan en situaciones excepcionales: se ponen en juego cada vez que se informa una expectativa, se ofrece o recibe una crítica, o se gestiona un desacuerdo. El siguiente apartado examina esas manifestaciones en la dinámica real del trabajo.
 
+    separador
     #t_4_2.titulo-segundo.color-acento-contenido
       h2 4.2 Comunicación asertiva en el trabajo
 
@@ -233,6 +235,7 @@
         .bg-3.r-20.p-4(data-aos="fade-up")
           p.mb-0 Desarrollar las habilidades comunicativas abordadas en este apartado constituye la base sobre la cual se construye el liderazgo efectivo de personas. Sin embargo, la capacidad de comunicarse con claridad y respeto no basta por sí sola: requiere integrarse en enfoques deliberados que orienten, motiven y potencien a los integrantes del equipo de manera sostenida. Quien lidera desde esta perspectiva no solo transmite información, sino que genera las condiciones para que cada persona alcance su potencial dentro de la organización. El siguiente apartado examina las herramientas que hacen posible esta forma de dirigir.
 
+    separador
     #t_4_3.titulo-segundo.color-acento-contenido
       h2 4.3 Estrategias para dirigir personas
 
@@ -248,27 +251,27 @@
     //- Cinco estrategias de tres en tres: las dos ultimas y sus iconos, del pasteboard.
     .banda-5.mt-4
       SlyderF.slyder--flechas-azules(columnas="col-md-6 col-lg-4")
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
             img(src="@/assets/curso/temas/t4/est-1.svg" alt="" style="width: 128px").m-auto
           h4.text-center Comunicación de la visión y los objetivos
           p.text-center.mb-0 Compartir de manera frecuente y clara el propósito del equipo y los objetivos organizacionales, de forma que cada colaborador comprenda el sentido y la relevancia de su contribución.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
             img(src="@/assets/curso/temas/t4/est-2.svg" alt="" style="width: 128px").m-auto
           h4.text-center Reconocimiento y valoración
           p.text-center.mb-0 Expresar de manera genuina y específica el reconocimiento por los logros y el esfuerzo, en espacios privados o colectivos según corresponda, para fortalecer la motivación y el sentido de pertenencia.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
             img(src="@/assets/curso/temas/t4/est-3.svg" alt="" style="width: 128px").m-auto
           h4.text-center Escucha organizacional activa
           p.text-center.mb-0 Crear canales formales e informales para recoger las opiniones, inquietudes y sugerencias del equipo, demostrando con acciones concretas que esas voces inciden en las decisiones y la mejora continua.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
             img(src="@/assets/curso/temas/t4/est-4.svg" alt="" style="width: 128px").m-auto
           h4.text-center Comunicación en situaciones difíciles
           p.text-center.mb-0 Preparar con cuidado los mensajes que implican decisiones impopulares, bajo desempeño o situaciones de conflicto, eligiendo el momento, el tono y las palabras que garanticen claridad y respeto.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
             img(src="@/assets/curso/temas/t4/est-5.svg" alt="" style="width: 128px").m-auto
           h4.text-center Desarrollo de redes de comunicación

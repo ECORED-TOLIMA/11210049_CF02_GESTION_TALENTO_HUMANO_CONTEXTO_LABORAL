@@ -427,3 +427,50 @@ figcaption
     margin-inline: 0
     padding-inline: 0
     background-image: none
+
+// Las tarjetas de los carruseles NO son un color plano: el diseño les pone dos adornos
+// recortados por la propia tarjeta — un rayado de 125x45 arriba a la derecha (que se sale
+// 30 px) y una espiral de 68x69 abajo a la izquierda (que se sale 25 px). Medido sobre la
+// tarjeta de 327x435 del Tema 1: rayado en left 70,9 % / top 0; espiral en left -7,6 % y
+// 11 % por encima del borde inferior.
+.tarjeta--adornos
+  position: relative
+  overflow: hidden
+  &::before, &::after
+    content: ''
+    position: absolute
+    background-repeat: no-repeat
+    background-size: contain
+    pointer-events: none
+  &::before
+    background-image: url(../assets/curso/temas/adorno-rayado.svg)
+    width: 38.2%
+    aspect-ratio: 125 / 45
+    top: 0
+    left: 70.9%
+  &::after
+    background-image: url(../assets/curso/temas/adorno-espiral.svg)
+    width: 20.8%
+    aspect-ratio: 68 / 69
+    bottom: 11%
+    left: -7.6%
+
+// Sangría francesa en las viñetas: cuando el texto de un `li` salta de línea, la segunda
+// tiene que empezar DEBAJO DE LA PRIMERA LETRA de la primera, no debajo de la viñeta.
+// El icono va en `position: relative` dentro del flujo del texto, asi que sin esto la
+// linea siguiente vuelve al margen izquierdo y se mete bajo el icono.
+.lista-ul li, .lista-ol--cuadro li
+  padding-left: 2em
+  text-indent: -2em
+  > i:first-of-type, > .lista-ol--cuadro__vineta
+    text-indent: 0
+
+// Viñetas del slider. El kit deja la activa en gris ($color-sistema-b) y las demás en blanco
+// con borde; el pixel del PDF las da al revés de lo esperable: la ACTIVA en #FEDDB4 (1-
+// Primario) y las inactivas RELLENAS en #003CE1.
+.slyder-a__bullets__item
+  background-color: $color-acento-botones !important
+  border-color: $color-acento-botones !important
+  &--active
+    background-color: $color-primario !important
+    border-color: $color-primario !important

@@ -30,12 +30,21 @@ reproductor con su texto («Comunicación asertiva: decir lo que se piensa sin h
 pero no hay archivo de audio. Se genera un **MP3 mudo de 3 minutos** para que el reproductor
 funcione y se reemplaza por el audio real cuando llegue.
 
-## 3. Un párrafo que el diseño dibuja dos veces
+## 3. Aplicado del `.xd` y el PDF nuevos
 
-En el Tema 1, el texto «El siguiente caso ilustra cómo dos funciones de la comunicación
-organizacional…» aparece **dos veces** en el artboard: en `y=3829`, donde presenta el caso de la
-pyme de servicios, y otra vez en `y=5328`, donde no introduce nada. Se maqueta **una sola vez**,
-delante del caso que presenta. Si la segunda aparición era intencional, es añadirla.
+El `.xd` del 2026-08-26 mueve y reescribe contenido del Tema 1. Comparando texto a texto contra
+la maqueta:
+
+- «Estas cinco funciones no actúan de manera independiente…» **cambia de sitio**: estaba en la
+  caja del 1.2 y ahora va en el 1.1 (`y=3662`), en la caja de 812x160 que acompaña a la foto de
+  396x257. Movida.
+- El párrafo que se repetía dos veces («El siguiente caso ilustra…») ya sólo aparece una vez, en
+  `y=3829`. Queda dentro de esa misma columna, delante del caso que presenta.
+- **Dos párrafos nuevos** en el 1.2, los dos maquetados: «En las organizaciones se distingue, de
+  manera general, entre comunicación verbal y comunicación no verbal…» (dentro de la caja con
+  icono) y «La comunicación verbal comprende los mensajes expresados mediante palabras…» (debajo).
+- La fila de `y=2735` llevaba la foto equivocada: son 292x251 (col-3) con la caja de 916 a la
+  derecha (col-9), no 396x257 con una caja de 812.
 
 ## 4. Las imágenes de la actividad didáctica
 
@@ -132,3 +141,21 @@ elemento que se quede sin animar y ningún icono repetido dentro de un mismo tem
 - En ese mismo componente revisa la imagen que la exportaste sin el fondo.
 - Revisa todos los temas que al parecer te falta texto. Revisa nuevamente el XD, el pdf y el di.
 
+
+## 10. Correcciones aplicadas de la revisión
+
+- **Separador antes de cada título segundo, sin excepción.** Añadido en los 15 del curso.
+- **Las tarjetas de los carruseles no son un color plano.** El diseño les pone dos adornos
+  recortados por la propia tarjeta: un rayado de 125x45 arriba a la derecha, que se sale 30 px, y
+  una espiral de 68x69 abajo a la izquierda, que se sale 25 px. Se aplican con la clase
+  `.tarjeta--adornos` en las 22 tarjetas de carrusel, en porcentajes medidos sobre la tarjeta de
+  327x435 del Tema 1, para que acompañen a cualquier tamaño.
+- **Viñetas de los sliders.** El componente deja la activa en gris y las demás en blanco con
+  borde. El píxel del PDF las da al revés de lo esperable: la **activa en `#FEDDB4`** y las
+  inactivas **rellenas en `#003CE1`**.
+- **Sangría francesa en las viñetas.** Cuando el texto de un `li` salta de línea, la segunda
+  empieza ahora debajo de la primera letra de la primera, no debajo de la viñeta. Además, el
+  texto de las listas numeradas iba en un `p` (bloque), que echaba el número a su propia línea:
+  ahora va en línea, como en el diseño.
+- **La foto del 1.1 estaba exportada sin fondo.** El recorte salía sólo con la persona; el diseño
+  la pone sobre un arco de `#EBB9C1` de 273x387. Reexportada con él.

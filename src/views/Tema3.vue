@@ -23,27 +23,27 @@
     //- pasteboard. Detras va la banda decorativa de 1328x254.
     .banda-3.mt-4
       SlyderF.slyder--flechas-azules(columnas="col-md-6 col-lg-4")
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
             img(src="@/assets/curso/temas/t3/prin-1.svg" alt="" style="width: 128px").m-auto
           h4.text-center Reconocimiento oportuno del conflicto
           p.text-center.mb-0 Identificar una situación problemática en sus etapas iniciales permite intervenir antes de que se intensifique y afecte el funcionamiento del equipo. Ignorar las señales tempranas suele derivar en conflictos más complejos que requieren mayor tiempo y recursos para su resolución efectiva.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
             img(src="@/assets/curso/temas/t3/prin-2.svg" alt="" style="width: 128px").m-auto
           h4.text-center Diagnóstico objetivo de la situación
           p.text-center.mb-0 Comprender con precisión cuál es el problema, quiénes están involucrados y cuáles son las causas que lo originan es condición indispensable para diseñar respuestas pertinentes. Un diagnóstico superficial conduce a soluciones que atacan los síntomas sin resolver las causas estructurales del conflicto.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
             img(src="@/assets/curso/temas/t3/prin-3.svg" alt="" style="width: 128px").m-auto
           h4.text-center Orientación hacia soluciones constructivas
           p.text-center.mb-0 Abordar el conflicto con el propósito de encontrar alternativas que beneficien a las partes, en lugar de buscar vencedores o vencidos, favorece la cohesión del equipo y la sostenibilidad de los acuerdos alcanzados. Este enfoque requiere apertura, escucha activa y disposición para ceder en algunos aspectos.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
             img(src="@/assets/curso/temas/t3/prin-4.svg" alt="" style="width: 128px").m-auto
           h4.text-center Participación activa de los involucrados
           p.text-center.mb-0 Las soluciones construidas con la participación de quienes viven el conflicto tienen mayor legitimidad y probabilidad de ser implementadas con compromiso real. La exclusión de alguna parte del proceso puede generar resistencia o reproducir la misma tensión en el futuro cercano.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
             img(src="@/assets/curso/temas/t3/prin-5.svg" alt="" style="width: 128px").m-auto
           h4.text-center Seguimiento y evaluación de los acuerdos
@@ -64,6 +64,7 @@
         .bg-1.r-10.p-4.h-100.d-flex.align-items-center(data-aos="fade-left")
           p.mb-0 Antes de abordar las estrategias y herramientas para resolver conflictos organizacionales, es necesario reconocer que no todos los conflictos son iguales: su naturaleza, sus actores y sus causas determinan el tipo de respuesta más adecuada. El siguiente apartado presenta los principales tipos de conflicto que se presentan en las organizaciones y las características que los distinguen entre sí.
 
+    separador
     #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1 Tipos de conflicto organizacional
 
@@ -211,6 +212,7 @@
 
     p.mt-4(data-aos="fade-right") Identificado el tipo y la causa del conflicto, el paso siguiente consiste en construir argumentos sólidos que orienten la búsqueda de soluciones. La argumentación y los criterios de solución son las herramientas que hacen posible esta transición del diagnóstico a la acción.
 
+    separador
     #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2 Argumentación y criterios de solución
 
@@ -306,6 +308,7 @@
 
     p.mt-4(data-aos="fade-right") Con los criterios de evaluación definidos, el equipo cuenta con los parámetros necesarios para comparar alternativas de manera objetiva. Sin embargo, antes de evaluar, es necesario haber generado un conjunto suficiente de opciones: cuanto más amplio y diverso sea ese conjunto, mayor será la probabilidad de encontrar una solución realmente efectiva. Las estrategias creativas de solución, desarrolladas en el siguiente apartado, ofrecen herramientas concretas para ampliar ese espacio de posibilidades.
 
+    separador
     #t_3_3.titulo-segundo.color-acento-contenido
       h2 3.3 Estrategias creativas de solución
 
@@ -327,32 +330,32 @@
     //- Seis etapas de tres en tres: las tres ultimas estan en el pasteboard.
     .banda-3.mt-4
       SlyderF.slyder--flechas-azules(columnas="col-md-6 col-lg-4")
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
             img(src="@/assets/curso/temas/t3/etapa-1.svg" alt="" style="width: 128px").m-auto
           h4.text-center Definir el problema con precisión
           p.text-center.mb-0 Consiste en describir con claridad la situación que se desea resolver, identificando sus características, su alcance y a quiénes afecta. Es fundamental evitar confundirlo con sus síntomas visibles o con soluciones que el equipo ya tiene en mente antes de comprender su naturaleza real.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
             img(src="@/assets/curso/temas/t3/etapa-2.svg" alt="" style="width: 128px").m-auto
           h4.text-center Identificar las causas raíz
           p.text-center.mb-0 Implica ir más allá de los efectos observables para descubrir los factores que originan el problema. Herramientas como el diagrama de Ishikawa o la técnica de los cinco porqués ayudan al equipo a distinguir entre síntomas superficiales y causas estructurales que requieren intervención directa.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
             img(src="@/assets/curso/temas/t3/etapa-3.svg" alt="" style="width: 128px").m-auto
           h4.text-center Generar alternativas de manera creativa
           p.text-center.mb-0 Corresponde a la etapa de producción de ideas, en la que el equipo propone el mayor número posible de opciones sin filtrarlas ni descartarlas de antemano. La suspensión del juicio en esta fase amplía el espectro de posibilidades y favorece la aparición de soluciones innovadoras y pertinentes.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
             img(src="@/assets/curso/temas/t3/etapa-4.svg" alt="" style="width: 128px").m-auto
           h4.text-center Evaluar las alternativas con parámetros acordados
           p.text-center.mb-0 Supone comparar cada opción a partir de los estándares de evaluación definidos previamente por el grupo. Este análisis estructurado permite jerarquizar las alternativas según su viabilidad, su impacto y su coherencia con los valores y recursos disponibles en la organización.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
             img(src="@/assets/curso/temas/t3/etapa-5.svg" alt="" style="width: 128px").m-auto
           h4.text-center Seleccionar e implementar la solución más adecuada
           p.text-center.mb-0 Una vez evaluadas las opciones, el equipo elige la que mejor responde a los parámetros definidos y diseña un plan de acción concreto. La implementación debe incluir responsables, tiempos y recursos claramente asignados para garantizar una ejecución efectiva y ordenada.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
             img(src="@/assets/curso/temas/t3/etapa-6.svg" alt="" style="width: 128px").m-auto
           h4.text-center Evaluar los resultados y realizar ajustes
@@ -449,6 +452,7 @@
       .col
         p.mb-0 La generación de alternativas creativas representa una etapa fundamental del proceso, pero no la última. Una vez identificadas las opciones más viables, el equipo debe avanzar hacia la construcción de acuerdos que todas las partes puedan asumir como propios. Este tránsito, del análisis al consenso, es el que determina si la solución seleccionada tendrá respaldo real al momento de implementarse.
 
+    separador
     #t_3_4.titulo-segundo.color-acento-contenido
       h2 3.4 Consensos y acuerdos
 

@@ -64,6 +64,7 @@
         figure.mb-0.h-100
           img(src="@/assets/curso/temas/t2/ilus-1.png" alt="").w-100.h-100.object-fit-cover
 
+    separador
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Tipos de trabajo grupal
 
@@ -95,23 +96,23 @@
         li
           .lista-ol--cuadro__vineta
             span 1
-          p.mb-0 #[b División del trabajo:] en el trabajo en equipo las tareas se asignan individualmente; en el colaborativo se construyen de forma conjunta.
+          | #[b División del trabajo:] en el trabajo en equipo las tareas se asignan individualmente; en el colaborativo se construyen de forma conjunta.
         li
           .lista-ol--cuadro__vineta
             span 2
-          p.mb-0 #[b Responsabilidad:] en el trabajo en equipo cada integrante responde por su parte; en el colaborativo la responsabilidad es compartida por el proceso y el resultado.
+          | #[b Responsabilidad:] en el trabajo en equipo cada integrante responde por su parte; en el colaborativo la responsabilidad es compartida por el proceso y el resultado.
         li
           .lista-ol--cuadro__vineta
             span 3
-          p.mb-0 #[b Interdependencia:] en el trabajo en equipo es funcional y operativa; en el colaborativo es cognitiva y relacional.
+          | #[b Interdependencia:] en el trabajo en equipo es funcional y operativa; en el colaborativo es cognitiva y relacional.
         li
           .lista-ol--cuadro__vineta
             span 4
-          p.mb-0 #[b Tipo de resultado:] el trabajo en equipo integra productos individuales; el colaborativo genera soluciones que no podrían surgir de manera aislada.
+          | #[b Tipo de resultado:] el trabajo en equipo integra productos individuales; el colaborativo genera soluciones que no podrían surgir de manera aislada.
         li
           .lista-ol--cuadro__vineta
             span 5
-          p.mb-0 #[b Liderazgo:] en el trabajo en equipo tiende a ser centralizado; en el colaborativo es distribuido y compartido entre los integrantes.
+          | #[b Liderazgo:] en el trabajo en equipo tiende a ser centralizado; en el colaborativo es distribuido y compartido entre los integrantes.
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -156,6 +157,7 @@
 
     p.mt-4(data-aos="fade-right") Reconocida la distinción entre ambas modalidades, surge una pregunta central: ¿qué condiciones hacen posible que la colaboración sea efectiva? Los principios que la sustentan se desarrollan en el siguiente apartado.
 
+    separador
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Principios del trabajo colaborativo
 
@@ -203,19 +205,19 @@
             li
               .lista-ol--cuadro__vineta
                 span 1
-              p.mb-0 Diseñar espacios de trabajo que favorezcan la comunicación horizontal entre los integrantes del equipo.
+              | Diseñar espacios de trabajo que favorezcan la comunicación horizontal entre los integrantes del equipo.
             li
               .lista-ol--cuadro__vineta
                 span 2
-              p.mb-0 Establecer acuerdos de grupo que definan con claridad las responsabilidades individuales y colectivas.
+              | Establecer acuerdos de grupo que definan con claridad las responsabilidades individuales y colectivas.
             li
               .lista-ol--cuadro__vineta
                 span 3
-              p.mb-0 Incorporar momentos de reflexión periódica para evaluar el desempeño grupal y ajustar las dinámicas cuando sea necesario.
+              | Incorporar momentos de reflexión periódica para evaluar el desempeño grupal y ajustar las dinámicas cuando sea necesario.
             li
               .lista-ol--cuadro__vineta
                 span 4
-              p.mb-0 Reconocer la diversidad de perfiles como un activo estratégico del equipo y aprovecharla en la toma de decisiones.
+              | Reconocer la diversidad de perfiles como un activo estratégico del equipo y aprovecharla en la toma de decisiones.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
@@ -233,6 +235,7 @@
 
     p.mt-4(data-aos="fade-right") Comprendidos los principios que sustentan el trabajo colaborativo, el paso siguiente consiste en identificar las técnicas que facilitan su implementación. El siguiente apartado presenta las herramientas más utilizadas en el contexto organizacional para potenciar la productividad y la creatividad de los equipos.
 
+    separador
     #t_2_3.titulo-segundo.color-acento-contenido
       h2 2.3 Técnicas para el trabajo en equipo
 
@@ -296,6 +299,7 @@
         figure.mb-0
           img(src="@/assets/curso/temas/t2/foto-6.png" alt="").w-100
 
+    separador
     #t_2_4.titulo-segundo.color-acento-contenido
       h2 2.4 Barreras y estrategias comunicativas
 
