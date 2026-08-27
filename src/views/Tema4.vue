@@ -120,22 +120,34 @@
                 figure.mb-0
                   img(src="@/assets/curso/temas/t4/estilo-1.png" alt="").w-100
               .col-lg-8
-                p.mb-0 La persona evita expresar sus opiniones o desacuerdos para prevenir el conflicto; cede constantemente y acumula insatisfacción, lo que reduce su influencia en el equipo.#[br]Ejemplo 1: en una empresa de servicios, un coordinador detecta un error de su superior, pero no lo comunica «para no crear problemas», y el error se propaga.#[br]Ejemplo 2: en una empresa de retail, un colaborador acepta sobrecargas sistemáticas sin comunicar sus límites hasta que el agotamiento afecta su rendimiento.
+                p La  persona impone sus ideas, interrumpe o utiliza el lenguaje de forma intimidatoria; puede lograr resultados a corto plazo, pero deteriora la confianza y la motivación del equipo. 
+
+                p #[b Ejemplo 1:] en una empresa constructora, un supervisor da instrucciones en tono hostil; los colaboradores obedecen, pero evitan reportar problemas por temor a su reacción. 
+
+                p #[b Ejemplo 2:] en una empresa de tecnología, un líder que interrumpe y descarta ideas ajenas desmotiva progresivamente a su equipo de desarrollo.
           .tarjeta.bg-3-v.p-4(titulo="Estilo agresivo")
             .row.align-items-center
               .col-lg-4.mb-4.mb-lg-0
                 figure.mb-0
                   img(src="@/assets/curso/temas/t4/estilo-2.png" alt="").w-100
               .col-lg-8
-                p.mb-0 La persona impone sus ideas, interrumpe o utiliza el lenguaje de forma intimidatoria; puede lograr resultados a corto plazo, pero deteriora la confianza y la motivación del equipo.#[br]Ejemplo 1: en una empresa constructora, un supervisor da instrucciones en tono hostil; los colaboradores obedecen, pero evitan reportar problemas por temor a su reacción.#[br]Ejemplo 2: en una empresa de tecnología, un líder que interrumpe y descarta ideas ajenas desmotiva progresivamente a su equipo de desarrollo.
+                p La persona evita expresar sus opiniones o desacuerdos para prevenir el conflicto; cede constantemente y acumula insatisfacción, lo que reduce su influencia en el equipo. 
+
+                p #[b Ejemplo 1:] en una empresa de servicios, un coordinador detecta un error de su superior, pero no lo comunica “para no crear problemas”, y el error se propaga. 
+
+                p #[b Ejemplo 2:] en una empresa de retail, un colaborador acepta sobrecargas sistemáticas sin comunicar sus límites hasta que el agotamiento afecta su rendimiento.
           .tarjeta.bg-3-v.p-4(titulo="Estilo asertivo")
             .row.align-items-center
               .col-lg-4.mb-4.mb-lg-0
                 figure.mb-0
                   img(src="@/assets/curso/temas/t4/estilo-3.png" alt="").w-100
               .col-lg-8
-                p.mb-0 La persona expresa sus ideas, necesidades y límites con claridad y respeto, reconociendo las perspectivas de los demás; favorece el diálogo constructivo y la resolución efectiva de problemas.#[br]Ejemplo 1: en una cooperativa agroindustrial, la coordinadora solicita cambios en el proceso, explica las razones y escucha las inquietudes del equipo antes de decidir.#[br]Ejemplo 2: en una empresa de alimentos, un colaborador comunica que necesita más tiempo para una tarea, argumenta por qué y propone un plan de entrega alternativo.
+                p La persona expresa sus ideas, necesidades y límites con claridad y respeto, reconociendo las perspectivas de los demás; favorece el diálogo constructivo y la resolución efectiva de problemas. 
 
+                p #[b Ejemplo 1:] en una cooperativa agroindustrial, la coordinadora solicita cambios en el proceso, explica las razones y escucha las inquietudes del equipo antes de decidir. 
+
+                p #[b Ejemplo 2:] en una empresa de alimentos, un colaborador comunica que necesita más tiempo para una tarea, argumenta por qué y propone un plan de entrega alternativo.
+    
     p.mt-4(data-aos="fade-right") Los tres estilos descritos no son categorías rígidas ni etiquetas permanentes: la mayoría de las personas oscilan entre ellos según el contexto, la relación y el nivel de presión percibido. Lo relevante es reconocer en cuál se tiende a actuar con mayor frecuencia y comprender que el estilo que más favorece tanto las relaciones como los resultados organizacionales es aquel que combina claridad, respeto y firmeza de manera simultánea.
 
     .row.justify-content-center.mt-5
@@ -143,15 +155,12 @@
         .bg-3-a.cita-destacada.p-4.text-center(data-aos="fade-up")
           figure
             img(src="@/assets/curso/temas/t4/cita-1.svg" alt="")
-          p.mb-0 Comunicarse de forma asertiva no es una cuestión de temperamento ni de carácter; es una competencia que se aprende, se entrena y se fortalece con la práctica cotidiana en cada interacción laboral.
+          p.mb-0 
+            b Comunicarse de forma asertiva no es una cuestión de temperamento ni de carácter; es una competencia que se aprende, se entrena y se fortalece con la práctica cotidiana en cada interacción laboral.
 
-    .row.align-items-start.mt-4(data-aos="fade-right")
-      .col-12.col-md-auto.mb-3.mb-md-0
-        figure.mb-0
-          img(src="@/assets/curso/temas/intro/icono-2.svg" alt="" style="width: 84px")
-      .col
-        p.mb-0 Para profundizar en el concepto de asertividad y reconocer cómo se aplica en situaciones reales del entorno laboral, se presenta el siguiente recurso de audio, que explica qué es la asertividad, en qué se diferencia de la pasividad y la agresividad, y cómo permite mejorar la comunicación en los equipos de trabajo:
+        p.mt-4 Para profundizar en el concepto de asertividad y reconocer cómo se aplica en situaciones reales del entorno laboral, se presenta el siguiente recurso de audio, que explica qué es la asertividad, en qué se diferencia de la pasividad y la agresividad, y cómo permite mejorar la comunicación en los equipos de trabajo:
 
+        
     //- El `_DI.docx` nombra el guion (`11210049_CF02_Guion_podcast`) pero no hay archivo de
     //- audio: se deja un MP3 mudo de 3 minutos hasta que llegue el real.
     .banda-4.mt-4
@@ -159,7 +168,7 @@
         .col-lg-10
           figure.mb-0
             img(src="@/assets/curso/temas/t4/ilus-audio.png" alt="").w-100
-          .p-4
+          .p-4.bg-podcast
             TarjetaAudio.color-acento-botones.mb-0(
               texto="Comunicación asertiva: decir lo que se piensa sin herir ni callar."
               :audio="require_src('@/assets/curso/temas/t4/podcast.mp3')"
@@ -184,7 +193,7 @@
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t4/ic-2.svg" alt="" style="width: 84px")
+          img(src="@/assets/curso/temas/t4/1.svg" alt="" style="width: 84px")
       .col
         p.mb-0 La comunicación asertiva no ocurre de manera espontánea: se construye a través de prácticas concretas que se ejercen día a día en la interacción con equipos, pares y superiores. Reconocer cuándo y cómo actuar en cada situación define, en gran medida, la calidad del liderazgo ejercido en la organización. Las habilidades que mayor impacto generan en la gestión del talento humano son las siguientes:
 

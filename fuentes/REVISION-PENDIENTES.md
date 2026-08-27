@@ -8,11 +8,11 @@ fuente exacta, con su motivo, por si se quieren revertir.
 Tres cosas que no dependen de la maqueta: no están ni en el `.xd` ni en los documentos, y hay
 que pedirlas. Mientras tanto cada una tiene puesto un sustituto que deja el curso funcionando.
 
-| Qué falta | Dónde va | Qué hay puesto mientras tanto |
-| --------- | -------- | ----------------------------- |
-| **La URL del vídeo** | Introducción | el `iframe` de ejemplo del scaffold |
-| **El audio del pódcast** | Tema 4, apartado 4.1 | un MP3 mudo de 3 minutos, `t4/podcast.mp3` |
-| **Las diez imágenes de la actividad** | Actividad didáctica | diez composiciones propias, ver el punto 4 |
+| Qué falta                             | Dónde va             | Qué hay puesto mientras tanto              |
+| ------------------------------------- | -------------------- | ------------------------------------------ |
+| **La URL del vídeo**                  | Introducción         | el `iframe` de ejemplo del scaffold        |
+| **El audio del pódcast**              | Tema 4, apartado 4.1 | un MP3 mudo de 3 minutos, `t4/podcast.mp3` |
+| **Las diez imágenes de la actividad** | Actividad didáctica  | diez composiciones propias, ver el punto 4 |
 
 Ninguna afecta a la maquetación: se sustituye el archivo y ya está.
 
@@ -128,19 +128,18 @@ Las cinco comprobaciones que se ejecutan al cerrar, con lo que dieron:
 Además: **0 desbordes horizontales a 360 px** en las once rutas, ninguna vista rota, ningún
 elemento que se quede sin animar y ningún icono repetido dentro de un mismo tema.
 
-
 **Revisiones pendientes**
+
 - valida el pdf y el xd que tienen algunos cambios.
-- Revisa el background de las tarjetas que inician con este texto "Condiciones físicas, culturales, históricas y relacionales en las que se produce el intercambio comunicativo. El contexto determina el significado de los mensajes: una misma expresión puede interpretarse de manera distinta según el ambiente, la jerarquía o el momento en que se emite." ya que es una imagen png con diseño. 
-- recuerda que siempre antes de un titulo segundo sin excepcion va un separador asi: 
-  separador 
+- Revisa el background de las tarjetas que inician con este texto "Condiciones físicas, culturales, históricas y relacionales en las que se produce el intercambio comunicativo. El contexto determina el significado de los mensajes: una misma expresión puede interpretarse de manera distinta según el ambiente, la jerarquía o el momento en que se emite." ya que es una imagen png con diseño.
+- recuerda que siempre antes de un titulo segundo sin excepcion va un separador asi:
+  separador
   #t_1_1.titulo-segundo.color-acento-contenido
-    h2 1.1 Fundamentos de la comunicación
+  h2 1.1 Fundamentos de la comunicación
 - Recuerda siempre revisar los colores de los bullets de los sliders.
 - Revisar el componente que inicia en: "Reuniones de resultados: espacio para compartir cifras de desempeño y, al mismo tiempo, reconocer el trabajo del equipo en un solo mensaje." ya que recuerda que todas las viñetas que tengan salto de linea deben iniciar sin excepcion debajo de la primer letra de la primera fila.
 - En ese mismo componente revisa la imagen que la exportaste sin el fondo.
 - Revisa todos los temas que al parecer te falta texto. Revisa nuevamente el XD, el pdf y el di.
-
 
 ## 10. Correcciones aplicadas de la revisión
 
@@ -159,3 +158,9 @@ elemento que se quede sin animar y ningún icono repetido dentro de un mismo tem
   ahora va en línea, como en el diseño.
 - **La foto del 1.1 estaba exportada sin fondo.** El recorte salía sólo con la persona; el diseño
   la pone sobre un arco de `#EBB9C1` de 273x387. Reexportada con él.
+
+**Revision Final ten en cuenta que ya corregimos los errores la idea es que valides y aprendas.**
+-Siempre sin excepcion debes validar si las imagenes son con las esquinas en punta o redondas.
+-Siempre sin excepcion validar la distribucion de los textos segun el xd.
+-Siempre sin excepcion, validar si cada imagen si viene con su fondo como esta en el xd
+-Validar la construccion de los podcast, estas usando colores que no son.

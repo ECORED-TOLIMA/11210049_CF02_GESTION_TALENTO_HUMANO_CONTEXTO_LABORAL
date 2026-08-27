@@ -118,13 +118,16 @@
       .col-lg-10
         .row
           .col-lg-8.mb-4.mb-lg-0
-            .bg-1.r-10.p-4.h-100.d-flex.align-items-center(data-aos="fade-right")
+            .bg-1.r-10.p-4.d-flex.align-items-center(data-aos="fade-right")
               p.mb-0 Las diferencias descritas no indican que una modalidad sea superior a la otra, sino que cada una responde a condiciones y propósitos distintos. El gestor de talento humano que comprende estos rasgos puede intervenir con mayor precisión: organizar los grupos de manera coherente con la tarea, distribuir las responsabilidades de forma adecuada y facilitar dinámicas que favorezcan tanto la eficiencia operativa como la construcción conjunta de soluciones.
+          
+            p.mt-4(data-aos="fade-right") Para comprender el alcance de cada modalidad, es útil observar cómo se manifiesta en situaciones reales del entorno organizacional. Los siguientes conceptos describen las características centrales del trabajo en equipo y del trabajo colaborativo, e ilustran su aplicación mediante casos concretos:
+
+          
           .col-lg-4
             figure.mb-0.h-100
               img(src="@/assets/curso/temas/t2/foto-3.png" alt="").w-100.h-100.object-fit-cover
 
-    p.mt-4(data-aos="fade-right") Para comprender el alcance de cada modalidad, es útil observar cómo se manifiesta en situaciones reales del entorno organizacional. Los siguientes conceptos describen las características centrales del trabajo en equipo y del trabajo colaborativo, e ilustran su aplicación mediante casos concretos:
 
     //- Dos tarjetas pegadas de 614x531, con el circulo de 160 dentro.
     .tarjeta--container.row.mt-4(data-aos="fade-up")
@@ -133,13 +136,14 @@
           img(src="@/assets/curso/temas/t2/mod-1.svg" alt="" style="width: 160px").m-auto
         h4.text-center Trabajo en equipo
         p Modalidad en la que un grupo coordina acciones hacia un objetivo común, con roles y responsabilidades individuales claramente definidos. Cada integrante ejecuta una parte específica; el resultado final surge de la articulación de esos aportes.
-        p.mb-0 Ejemplo 1: en una empresa de logística, el equipo divide rutas y consolida reportes de despacho al cierre de cada turno.#[br]Ejemplo 2: en una institución de formación, los instructores asignan áreas temáticas y articulan un plan integrado de aprendizaje.
+        p.mb-0 #[b Ejemplo 1:] en una empresa de logística, el equipo divide rutas y consolida reportes de despacho al cierre de cada turno.
+        p #[b Ejemplo 2:] en una institución de formación, los instructores asignan áreas temáticas y articulan un plan integrado de aprendizaje.
       .col-md.tarjeta.bg-2-s.p-4
         figure.mb-3
           img(src="@/assets/curso/temas/t2/mod-2.svg" alt="" style="width: 160px").m-auto
         h4.text-center Trabajo colaborativo
         p Enfoque en el que los integrantes construyen conocimiento y soluciones de manera conjunta, mediante el diálogo, la negociación y la co-creación. A diferencia del trabajo en equipo, la responsabilidad no se divide: es compartida por todos en cada etapa del proceso.
-        p.mb-0 Ejemplo 1: un equipo de gestión humana diseña colectivamente el plan de bienestar integrando perspectivas de distintas áreas.#[br]Ejemplo 2: un grupo interdisciplinario elabora un protocolo de atención a partir de la experiencia acumulada de cada integrante.
+        p #[b Ejemplo 1:] un equipo de gestión humana diseña colectivamente el plan de bienestar integrando perspectivas de distintas áreas.#[br]Ejemplo 2: un grupo interdisciplinario elabora un protocolo de atención a partir de la experiencia acumulada de cada integrante.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
@@ -153,7 +157,8 @@
         .bg-3-a.cita-destacada.p-4.text-center(data-aos="fade-up")
           figure
             img(src="@/assets/curso/temas/t2/cita-1.svg" alt="")
-          p.mb-0 Las organizaciones más efectivas combinan el trabajo en equipo y el trabajo colaborativo según el desafío que enfrentan. El gestor de talento humano crea las condiciones para que los grupos transiten con flexibilidad entre ambas modalidades.
+          p.mb-0 
+            b Las organizaciones más efectivas combinan el trabajo en equipo y el trabajo colaborativo según el desafío que enfrentan. El gestor de talento humano crea las condiciones para que los grupos transiten con flexibilidad entre ambas modalidades.
 
     p.mt-4(data-aos="fade-right") Reconocida la distinción entre ambas modalidades, surge una pregunta central: ¿qué condiciones hacen posible que la colaboración sea efectiva? Los principios que la sustentan se desarrollan en el siguiente apartado.
 
@@ -231,7 +236,8 @@
         .bg-3-a.cita-destacada.p-4.text-center(data-aos="fade-up")
           figure
             img(src="@/assets/curso/temas/t2/cita-2.svg" alt="")
-          p.mb-0 Un equipo que practica estos principios no solo alcanza mejores resultados: desarrolla la capacidad de aprender, adaptarse y crecer de manera colectiva.
+          p.mb-0 
+            b Un equipo que practica estos principios no solo alcanza mejores resultados: desarrolla la capacidad de aprender, adaptarse y crecer de manera colectiva.
 
     p.mt-4(data-aos="fade-right") Comprendidos los principios que sustentan el trabajo colaborativo, el paso siguiente consiste en identificar las técnicas que facilitan su implementación. El siguiente apartado presenta las herramientas más utilizadas en el contexto organizacional para potenciar la productividad y la creatividad de los equipos.
 

@@ -203,7 +203,7 @@
               h4 Comunicación informativa y motivadora en una pyme de servicios
               p.mb-0 En una empresa de servicios tecnológicos, la dirección de talento humano decide reforzar la comunicación interna sobre resultados trimestrales. Para ello, integra en una misma reunión la presentación de indicadores de desempeño (función informativa) con el reconocimiento público a los equipos que cumplieron metas (función motivadora). Al vincular datos objetivos con mensajes de valoración, se fortalece la percepción de transparencia y se incrementa la disposición de los colaboradores para asumir nuevos retos.
 
-    p.mt-4(data-aos="fade-right") Este tipo de integración comunicativa demuestra que las funciones no son compartimentos separados, sino recursos complementarios que el gestor de talento humano puede combinar según las necesidades del equipo y el propósito de cada momento organizacional. Las siguientes situaciones ilustran cuándo y cómo aplicar cada función de manera estratégica:
+        p.mt-4(data-aos="fade-right") Este tipo de integración comunicativa demuestra que las funciones no son compartimentos separados, sino recursos complementarios que el gestor de talento humano puede combinar según las necesidades del equipo y el propósito de cada momento organizacional. Las siguientes situaciones ilustran cuándo y cómo aplicar cada función de manera estratégica:
 
     //- Caja #F7E3E6 de 916x387 (col-9) con la lista, y la foto de 292x387 pegada a la derecha.
     .row.mt-4
@@ -263,7 +263,8 @@
         .bg-3-a.cita-destacada.p-4.text-center(data-aos="fade-up")
           figure
             img(src="@/assets/curso/temas/t1/ic-1.svg" alt="")
-          p.mb-0 La comunicación no verbal (gestos, tono de voz y manejo de distancias) puede reforzar o contradecir el mensaje verbal, y es determinante en la credibilidad y la confianza que genera quien comunica.
+          p.mb-0
+            b La comunicación no verbal (gestos, tono de voz y manejo de distancias) puede reforzar o contradecir el mensaje verbal, y es determinante en la credibilidad y la confianza que genera quien comunica.
 
     //- Caja #F7E3E6 de 812x290 con icono (col-8) y la foto de 396x290 a la derecha (col-4).
     .row.mt-4
@@ -273,8 +274,8 @@
             .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
                 img(src="@/assets/curso/temas/t1/ic-3.svg" alt="" style="width: 84px")
-            .col
-              p.mb-0 Sus manifestaciones abarcan un espectro amplio: expresiones faciales, posturas corporales, silencios, uso del espacio y del tiempo, vestimenta y elementos simbólicos presentes en el entorno laboral. Cada uno de estos canales transmite información sobre el estado emocional, la actitud y el nivel de apertura de quien comunica, con efectos directos en la percepción de la empatía, la autoridad y la disposición al diálogo.
+         
+              p.mt-2 Sus manifestaciones abarcan un espectro amplio: expresiones faciales, posturas corporales, silencios, uso del espacio y del tiempo, vestimenta y elementos simbólicos presentes en el entorno laboral. Cada uno de estos canales transmite información sobre el estado emocional, la actitud y el nivel de apertura de quien comunica, con efectos directos en la percepción de la empatía, la autoridad y la disposición al diálogo.
       .col-lg-4
         figure.mb-0.h-100
           img(src="@/assets/curso/temas/t1/foto-7.png" alt="").w-100.h-100.object-fit-cover
@@ -369,13 +370,15 @@
     //- Caja #FFF5E8 de 812x150 con r=10 (col-8) y la foto de 396x271 a la derecha (col-4).
     .row.mt-4
       .col-lg-8.mb-4.mb-lg-0
-        .bg-1.r-10.p-4.h-100.d-flex.align-items-center(data-aos="fade-right")
+        .bg-1.r-10.p-4(data-aos="fade-right")
           p.mb-0 La gestión efectiva de personas requiere, además del dominio de la comunicación escrita y oral, la capacidad de leer e interpretar las señales no verbales que circulan en los equipos de trabajo. Reconocer una postura cerrada, un silencio prolongado o una mirada esquiva puede ofrecer información valiosa sobre el clima del grupo y anticipar situaciones que aún no han sido verbalizadas.
+      
+        p.mt-4(data-aos="fade-right") Profundizar en la coherencia entre el mensaje verbal y las señales no verbales implica conocer con mayor detalle los sistemas a través de los cuales opera la comunicación no verbal. La comunicación kinésica y la paralingüística son dos de esos sistemas, y su comprensión resulta clave para interpretar con mayor exactitud las interacciones cotidianas en el entorno organizacional.
+
       .col-lg-4
         figure.mb-0.h-100
           img(src="@/assets/curso/temas/t1/foto-8.png" alt="").w-100.h-100.object-fit-cover
 
-    p.mt-4(data-aos="fade-right") Profundizar en la coherencia entre el mensaje verbal y las señales no verbales implica conocer con mayor detalle los sistemas a través de los cuales opera la comunicación no verbal. La comunicación kinésica y la paralingüística son dos de esos sistemas, y su comprensión resulta clave para interpretar con mayor exactitud las interacciones cotidianas en el entorno organizacional.
 
 
     separador
@@ -431,8 +434,8 @@
                 .col-12.col-md-auto.mb-3.mb-md-0
                   figure.mb-0
                     img(src="@/assets/curso/temas/t1/ic-4.svg" alt="" style="width: 84px")
-                .col
-                  p.mb-0 La aplicación efectiva de estas dimensiones no es automática: requiere observación, práctica y disposición para ajustar los propios patrones comunicativos. Quien gestiona personas no solo debe conocer estas categorías, sino también reconocerlas en tiempo real durante las interacciones cotidianas con los colaboradores.
+                
+                  p.mt-3 La aplicación efectiva de estas dimensiones no es automática: requiere observación, práctica y disposición para ajustar los propios patrones comunicativos. Quien gestiona personas no solo debe conocer estas categorías, sino también reconocerlas en tiempo real durante las interacciones cotidianas con los colaboradores.
           .col-lg-4
             figure.mb-0.h-100
               img(src="@/assets/curso/temas/t1/foto-10.png" alt="").w-100.h-100.object-fit-cover
@@ -523,14 +526,15 @@
             p.mb-0 Considera las emociones, las circunstancias y la perspectiva del interlocutor al construir y transmitir un mensaje. Implica adaptar el tono, el contenido y el momento de la comunicación al estado emocional del receptor. En contexto: una jefa de talento humano en Manizales ajusta el estilo comunicativo con un colaborador que atraviesa una situación personal difícil para preservar la confianza y el vínculo laboral.
 
     //- Ilustracion de 292x198 sobre #EBB9C1 (col-3) y la caja #FEDDB4 al lado.
-    .row.mt-4
-      .col-lg-3.mb-4.mb-lg-0
-        figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t1/ilus-5.png" alt="").w-100.h-100.object-fit-cover
-      .col-lg-9
-        .bg-1-p.p-4.h-100(data-aos="fade-left")
-          p Integrar estas técnicas de manera sistemática transforma la comunicación de un proceso improvisado en un componente planificado de la gestión. Esto se traduce en una reducción de errores, una resolución más constructiva de los conflictos y el fortalecimiento de relaciones laborales más colaborativas y respetuosas.
-          p.mb-0 La aplicación simultánea de varias de estas técnicas en una misma situación organizacional multiplica su impacto. El siguiente caso ilustra cómo su uso combinado puede facilitar la implementación de un cambio significativo en el equipo:
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        .row.mt-4
+          .col-lg-4.mb-4.mb-lg-0.order-2
+            figure.mb-0.h-100
+              img(src="@/assets/curso/temas/t1/ilus-5.png" alt="").w-100.h-100.object-fit-cover
+          .col-lg-8
+              p Integrar estas técnicas de manera sistemática transforma la comunicación de un proceso improvisado en un componente planificado de la gestión. Esto se traduce en una reducción de errores, una resolución más constructiva de los conflictos y el fortalecimiento de relaciones laborales más colaborativas y respetuosas.
+              p.mb-0 La aplicación simultánea de varias de estas técnicas en una misma situación organizacional multiplica su impacto. El siguiente caso ilustra cómo su uso combinado puede facilitar la implementación de un cambio significativo en el equipo:
 
     .row.justify-content-center.mt-4
       .col-lg-10

@@ -127,7 +127,7 @@
         p.mb-0 Se presentan entre diferentes áreas, departamentos o equipos de la organización, generalmente por competencia de recursos, objetivos divergentes o fallas en la coordinación. Su resolución requiere intervención desde el liderazgo y acuerdos que superen los intereses de cada unidad.
 
     .row.mt-4
-      .col-lg-9
+      .col-lg-8
         .row.align-items-start(data-aos="fade-right")
           .col-12.col-md-auto.mb-3.mb-md-0
             figure.mb-0
@@ -137,7 +137,7 @@
 
         .bg-3.p-4.mt-4(data-aos="fade-right")
           p.mb-0 La figura 1 presenta los tres tipos de conflicto organizacional más frecuentes en los equipos de trabajo y los distingue según su naturaleza: el conflicto de tarea surge de desacuerdos sobre contenidos y plazos; el de relación, de tensiones interpersonales entre integrantes; y el de proceso, de diferencias sobre cómo organizar las actividades y tomar decisiones. Esta clasificación orienta al gestor de talento humano en la identificación del tipo de conflicto antes de intervenir, lo que permite seleccionar estrategias más precisas y efectivas para cada situación.
-      .col-lg-3.mt-4.mt-lg-0
+      .col-lg-4.mt-4.mt-lg-0
         figure.mb-0.h-100
           img(src="@/assets/curso/temas/t3/foto-4.png" alt="").w-100.h-100.object-fit-cover
 
@@ -158,10 +158,10 @@
         figure.mb-0
           img(src="@/assets/curso/temas/t3/foto-5.png" alt="").w-100
       .col-lg-8
-        .bg-3.r-10.p-4.h-100.d-flex.align-items-center(data-aos="fade-left")
+        .bg-3.r-10.p-4.d-flex.align-items-center(data-aos="fade-left")
           p.mb-0 Distinguir el tipo de conflicto permite seleccionar la estrategia de intervención más adecuada: los conflictos de tarea requieren clarificación de criterios y procesos, los de relación demandan espacios de escucha y mediación, y los de proceso exigen acuerdos explícitos sobre las reglas del trabajo conjunto.
 
-    p.mt-4(data-aos="fade-right") Para gestionar los conflictos de manera efectiva, es indispensable identificar su causa raíz, pues intervenir sobre los síntomas sin comprender el origen prolonga la tensión y reduce las posibilidades de una solución duradera. En el entorno organizacional, los conflictos rara vez surgen de manera aislada: responden a condiciones estructurales, relacionales o comunicativas que, si no se atienden oportunamente, se convierten en fuente recurrente de malestar y bajo desempeño. Reconocer estos factores permite al gestor de talento humano anticiparse al conflicto y acompañar a los equipos con mayor precisión. Los conflictos organizacionales suelen tener su origen en los siguientes factores:
+        p.mt-4(data-aos="fade-right") Para gestionar los conflictos de manera efectiva, es indispensable identificar su causa raíz, pues intervenir sobre los síntomas sin comprender el origen prolonga la tensión y reduce las posibilidades de una solución duradera. En el entorno organizacional, los conflictos rara vez surgen de manera aislada: responden a condiciones estructurales, relacionales o comunicativas que, si no se atienden oportunamente, se convierten en fuente recurrente de malestar y bajo desempeño. Reconocer estos factores permite al gestor de talento humano anticiparse al conflicto y acompañar a los equipos con mayor precisión. Los conflictos organizacionales suelen tener su origen en los siguientes factores:
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -426,11 +426,11 @@
           p.mb-0 #[b Tormenta de ideas inversa:] variación de la lluvia de ideas que parte de la pregunta ¿cómo podríamos causar o empeorar el problema?; a partir de las respuestas se identifican las acciones contrarias, que constituyen las posibles soluciones. Resulta útil cuando el equipo está bloqueado o no genera ideas nuevas.
 
     .row.mt-4
-      .col-lg-9
+      .col-lg-8
         p(data-aos="fade-right") La elección de la técnica depende del tipo de problema y del nivel de estructuración que requiera el equipo. Lo fundamental es que el proceso sea colectivo: la diversidad de perspectivas amplía el abanico de alternativas y mejora la calidad de la decisión final.
 
         p.mb-0(data-aos="fade-right") El siguiente caso ilustra cómo la aplicación combinada de estas herramientas permite al equipo de gestión humana avanzar desde el diagnóstico del conflicto hasta la construcción de una solución acordada con resultados concretos. La situación descrita corresponde a un entorno organizacional en el que la creatividad y el análisis actúan de manera complementaria:
-      .col-lg-3.mt-4.mt-lg-0
+      .col-lg-4.mt-4.mt-lg-0
         figure.mb-0
           img(src="@/assets/curso/temas/t3/ilus-2.png" alt="").w-100
 
