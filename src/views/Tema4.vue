@@ -10,7 +10,7 @@
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t4/foto-1.png" alt="").w-100
+          img(src="@/assets/curso/temas/t4/foto-1.png" ).w-100
       .col-lg-8
         .bg-3.p-4.h-100.d-flex.align-items-center(data-aos="fade-left")
           p.mb-0 En cualquier organización, la calidad de las relaciones laborales depende en gran medida de la forma en que las personas expresan sus ideas, necesidades y desacuerdos. Comunicarse de manera efectiva no significa simplemente hablar con fluidez: implica transmitir pensamientos, sentimientos y posiciones de forma directa, honesta y respetuosa, sin agredir al interlocutor ni renunciar a los propios derechos por temor al conflicto. Esta capacidad, una de las más valoradas en el mundo contemporáneo y, al mismo tiempo, una de las menos desarrolladas en muchos entornos laborales, es el eje central de este apartado.
@@ -20,7 +20,7 @@
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t4/ic-1.svg" alt="" style="width: 84px")
+          img(src="@/assets/curso/temas/t4/ic-1.svg"  style="width: 84px")
       .col
         p.mb-0 La comprensión profunda de una competencia comunicativa requiere abordarla desde múltiples ángulos: su fundamento conceptual, sus manifestaciones en la interacción cotidiana y las estrategias que permiten aplicarla de manera efectiva en la dirección de equipos. En el contexto de la gestión del talento humano, estas tres dimensiones se articulan de manera progresiva y complementaria, de modo que cada una prepara el terreno para la siguiente. Las dimensiones que estructuran este desarrollo son:
 
@@ -29,26 +29,26 @@
       .col-md-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta.bg-1-p.tarjeta--icono-arriba
           figure
-            img(src="@/assets/curso/temas/t4/dim-1.svg" alt="")
+            img(src="@/assets/curso/temas/t4/dim-1.svg" )
           h4.text-center Concepto de asertividad
           p.mb-0 Estudio de los fundamentos teóricos que definen esta competencia, los estilos comunicativos que la contextualizan y su incidencia directa en el clima y las relaciones organizacionales.
       .col-md-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta.bg-1-p.tarjeta--icono-arriba
           figure
-            img(src="@/assets/curso/temas/t4/dim-2.svg" alt="")
+            img(src="@/assets/curso/temas/t4/dim-2.svg" )
           h4.text-center Comunicación asertiva en el trabajo
           p.mb-0 Conjunto de habilidades que permiten expresar ideas, necesidades y límites de manera directa y respetuosa en la interacción cotidiana con equipos, pares y superiores.
       .col-md-6.col-lg-4
         .tarjeta.bg-1-p.tarjeta--icono-arriba
           figure
-            img(src="@/assets/curso/temas/t4/dim-3.svg" alt="")
+            img(src="@/assets/curso/temas/t4/dim-3.svg" )
           h4.text-center Estrategias para dirigir personas
           p.mb-0 Herramientas comunicativas aplicadas al liderazgo que favorecen el compromiso, la motivación y el desarrollo del talento humano mediante una dirección efectiva, clara y respetuosa.
 
     .row.mt-4
       .col-lg-3.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t4/ilus-1.png" alt="").w-100
+          img(src="@/assets/curso/temas/t4/ilus-1.png" ).w-100
       .col-lg-9
         p(data-aos="fade-left") Estas tres dimensiones se articulan de manera progresiva: la primera provee el marco conceptual; la segunda lo traslada a las interacciones cotidianas; y la tercera lo integra en las decisiones que definen el estilo de liderazgo organizacional.
 
@@ -79,12 +79,12 @@
         .row.align-items-start.mt-4(data-aos="fade-right")
           .col-12.col-md-auto.mb-3.mb-md-0
             figure.mb-0
-              img(src="@/assets/curso/temas/intro/icono-2.svg" alt="" style="width: 84px")
+              img(src="@/assets/curso/temas/intro/icono-2.svg"  style="width: 84px")
           .col
             p.mb-0 Para consolidar esta habilidad comunicativa en el entorno laboral, es necesario comprender primero en qué consiste y cómo se diferencia de otros estilos comunicativos que, aunque frecuentes, resultan menos efectivos y más costosos para la organización. El siguiente apartado aborda este concepto desde sus fundamentos teóricos.
       .col-lg-4.mt-4.mt-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t4/ilus-2.png" alt="").w-100
+          img(src="@/assets/curso/temas/t4/ilus-2.png" ).w-100
 
     separador
     #t_4_1.titulo-segundo.color-acento-contenido
@@ -95,7 +95,7 @@
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t4/foto-2.png" alt="").w-100
+          img(src="@/assets/curso/temas/t4/foto-2.png" ).w-100
       .col-lg-8
         .bg-3.r-10.p-4(data-aos="fade-left")
           p.mb-0 La persona asertiva, en cambio, se expresa con claridad y honestidad, defiende sus derechos y expresa sus necesidades sin atropellar los derechos y necesidades de los demás. Reconoce que tiene derecho a opinar, a decir no, a expresar desacuerdos y a pedir lo que necesita, pero ejerce ese derecho con respeto y consideración hacia el interlocutor.
@@ -103,7 +103,7 @@
         .row.align-items-start.mt-4(data-aos="fade-left")
           .col-12.col-md-auto.mb-3.mb-md-0
             figure.mb-0
-              img(src="@/assets/curso/temas/t4/ic-3.svg" alt="" style="width: 84px")
+              img(src="@/assets/curso/temas/t4/ic-3.svg"  style="width: 84px")
           .col
             p.mb-0 En los entornos organizacionales, esta competencia resulta fundamental para comunicar expectativas con claridad, para brindar retroalimentación constructiva, para establecer límites cuando es necesario y para resolver conflictos sin dañar las relaciones. Un líder asertivo genera confianza porque sus colaboradores saben qué esperar de él y confían en que será honesto y respetuoso en sus comunicaciones.
 
@@ -118,7 +118,7 @@
             .row.align-items-center
               .col-lg-4.mb-4.mb-lg-0
                 figure.mb-0
-                  img(src="@/assets/curso/temas/t4/estilo-1.png" alt="").w-100
+                  img(src="@/assets/curso/temas/t4/estilo-1.png" ).w-100
               .col-lg-8
                 p La  persona impone sus ideas, interrumpe o utiliza el lenguaje de forma intimidatoria; puede lograr resultados a corto plazo, pero deteriora la confianza y la motivación del equipo. 
 
@@ -129,7 +129,7 @@
             .row.align-items-center
               .col-lg-4.mb-4.mb-lg-0
                 figure.mb-0
-                  img(src="@/assets/curso/temas/t4/estilo-2.png" alt="").w-100
+                  img(src="@/assets/curso/temas/t4/estilo-2.png" ).w-100
               .col-lg-8
                 p La persona evita expresar sus opiniones o desacuerdos para prevenir el conflicto; cede constantemente y acumula insatisfacción, lo que reduce su influencia en el equipo. 
 
@@ -140,7 +140,7 @@
             .row.align-items-center
               .col-lg-4.mb-4.mb-lg-0
                 figure.mb-0
-                  img(src="@/assets/curso/temas/t4/estilo-3.png" alt="").w-100
+                  img(src="@/assets/curso/temas/t4/estilo-3.png" ).w-100
               .col-lg-8
                 p La persona expresa sus ideas, necesidades y límites con claridad y respeto, reconociendo las perspectivas de los demás; favorece el diálogo constructivo y la resolución efectiva de problemas. 
 
@@ -154,7 +154,7 @@
       .col-lg-10
         .bg-3-a.cita-destacada.p-4.text-center(data-aos="fade-up")
           figure
-            img(src="@/assets/curso/temas/t4/cita-1.svg" alt="")
+            img(src="@/assets/curso/temas/t4/cita-1.svg" )
           p.mb-0 
             b Comunicarse de forma asertiva no es una cuestión de temperamento ni de carácter; es una competencia que se aprende, se entrena y se fortalece con la práctica cotidiana en cada interacción laboral.
 
@@ -167,7 +167,7 @@
       .row.justify-content-center
         .col-lg-10
           figure.mb-0
-            img(src="@/assets/curso/temas/t4/ilus-audio.png" alt="").w-100
+            img(src="@/assets/curso/temas/t4/ilus-audio.png" ).w-100
           .p-4.bg-podcast
             TarjetaAudio.color-acento-botones.mb-0(
               texto="Comunicación asertiva: decir lo que se piensa sin herir ni callar."
@@ -183,7 +183,7 @@
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t4/foto-4.png" alt="").w-100
+          img(src="@/assets/curso/temas/t4/foto-4.png" ).w-100
       .col-lg-8
         .bg-3.r-10.p-4.h-100.d-flex.align-items-center(data-aos="fade-left")
           p.mb-0 La comunicación asertiva constituye una de las competencias más demandadas en la gestión contemporánea del talento humano. Según Trujillo Vargas (2023), comunicar de manera asertiva no solo implica transmitir mensajes con claridad, sino también construir relaciones de trabajo basadas en el respeto mutuo, la confianza y la apertura al diálogo. En las organizaciones colombianas, esta habilidad se convierte en un factor diferenciador que incide directamente en el clima laboral, la productividad y la retención del talento.
@@ -193,7 +193,7 @@
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t4/1.svg" alt="" style="width: 84px")
+          img(src="@/assets/curso/temas/t4/1.svg"  style="width: 84px")
       .col
         p.mb-0 La comunicación asertiva no ocurre de manera espontánea: se construye a través de prácticas concretas que se ejercen día a día en la interacción con equipos, pares y superiores. Reconocer cuándo y cómo actuar en cada situación define, en gran medida, la calidad del liderazgo ejercido en la organización. Las habilidades que mayor impacto generan en la gestión del talento humano son las siguientes:
 
@@ -219,7 +219,7 @@
           p.mb-0 La teoría adquiere sentido cuando se contrasta con situaciones concretas. A continuación, se presenta un caso de aplicación en un entorno organizacional colombiano, que permite reconocer cómo estas habilidades se articulan en la gestión real del talento humano:
       .col-lg-3.mt-4.mt-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t4/foto-5.png" alt="").w-100
+          img(src="@/assets/curso/temas/t4/foto-5.png" ).w-100
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -227,7 +227,7 @@
           .row.align-items-center
             .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
-                img(src="@/assets/curso/temas/t4/ilus-3.png" alt="").w-100.r-10
+                img(src="@/assets/curso/temas/t4/ilus-3.png" ).w-100.r-10
             .col
               h4 Retroalimentación asertiva en una empresa de confecciones
               p.mb-0 En una empresa de confecciones, la coordinadora de talento humano debe dar retroalimentación a un operario cuya calidad de producción ha disminuido. En lugar de esperar la evaluación semestral o abordar el tema frente al grupo, solicita una reunión privada, presenta datos objetivos del indicador de calidad y reconoce el buen desempeño previo. Le pregunta si hay factores que estén afectando su rendimiento. El operario comparte dificultades personales y se siente escuchado. Juntos acuerdan un plan de apoyo. La producción mejora en las semanas siguientes y la relación se fortalece.
@@ -235,7 +235,7 @@
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
-          img(src="@/assets/curso/temas/intro/icono-2.svg" alt="" style="width: 84px")
+          img(src="@/assets/curso/temas/intro/icono-2.svg"  style="width: 84px")
       .col
         p.mb-0 El caso ilustra cómo la intervención oportuna y respetuosa transforma una situación de bajo rendimiento en una oportunidad de desarrollo y fortalecimiento del vínculo laboral. La coordinadora no recurrió a la confrontación ni al silencio; eligió el diálogo estructurado, la escucha activa y el acuerdo mutuo. Ese tipo de intervención, fundamentada en la claridad y el respeto, distingue la gestión del talento humano efectiva de la que se reduce a cumplir procedimientos.
 
@@ -262,27 +262,27 @@
       SlyderF.slyder--flechas-azules(columnas="col-md-6 col-lg-4")
         .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
-            img(src="@/assets/curso/temas/t4/est-1.svg" alt="" style="width: 128px").m-auto
+            img(src="@/assets/curso/temas/t4/est-1.svg"  style="width: 128px").m-auto
           h4.text-center Comunicación de la visión y los objetivos
           p.text-center.mb-0 Compartir de manera frecuente y clara el propósito del equipo y los objetivos organizacionales, de forma que cada colaborador comprenda el sentido y la relevancia de su contribución.
         .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
-            img(src="@/assets/curso/temas/t4/est-2.svg" alt="" style="width: 128px").m-auto
+            img(src="@/assets/curso/temas/t4/est-2.svg"  style="width: 128px").m-auto
           h4.text-center Reconocimiento y valoración
           p.text-center.mb-0 Expresar de manera genuina y específica el reconocimiento por los logros y el esfuerzo, en espacios privados o colectivos según corresponda, para fortalecer la motivación y el sentido de pertenencia.
         .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
-            img(src="@/assets/curso/temas/t4/est-3.svg" alt="" style="width: 128px").m-auto
+            img(src="@/assets/curso/temas/t4/est-3.svg"  style="width: 128px").m-auto
           h4.text-center Escucha organizacional activa
           p.text-center.mb-0 Crear canales formales e informales para recoger las opiniones, inquietudes y sugerencias del equipo, demostrando con acciones concretas que esas voces inciden en las decisiones y la mejora continua.
         .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
-            img(src="@/assets/curso/temas/t4/est-4.svg" alt="" style="width: 128px").m-auto
+            img(src="@/assets/curso/temas/t4/est-4.svg"  style="width: 128px").m-auto
           h4.text-center Comunicación en situaciones difíciles
           p.text-center.mb-0 Preparar con cuidado los mensajes que implican decisiones impopulares, bajo desempeño o situaciones de conflicto, eligiendo el momento, el tono y las palabras que garanticen claridad y respeto.
         .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
-            img(src="@/assets/curso/temas/t4/est-5.svg" alt="" style="width: 128px").m-auto
+            img(src="@/assets/curso/temas/t4/est-5.svg"  style="width: 128px").m-auto
           h4.text-center Desarrollo de redes de comunicación
           p.text-center.mb-0 Fomentar flujos de información horizontales y verticales que conecten a los integrantes entre sí y con otras áreas, favoreciendo la colaboración y la cohesión institucional de manera sostenida.
 

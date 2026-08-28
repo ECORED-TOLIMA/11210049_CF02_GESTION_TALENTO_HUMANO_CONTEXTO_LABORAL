@@ -12,7 +12,7 @@
     .row.mt-4
       .col-lg-3.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t2/foto-1.png" alt="").w-100
+          img(src="@/assets/curso/temas/t2/foto-1.png" ).w-100
       .col-lg-9
         p(data-aos="fade-left") En el contexto de las organizaciones contemporáneas, la capacidad de trabajar en equipo y de manera colaborativa es considerada una de las competencias más valoradas y necesarias. Las tareas que enfrentan las organizaciones son cada vez más complejas y requieren la integración de diferentes habilidades, perspectivas y conocimientos que ningún individuo por sí solo puede poseer en su totalidad.
 
@@ -22,7 +22,7 @@
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
-          img(src="@/assets/curso/temas/intro/icono-2.svg" alt="" style="width: 84px")
+          img(src="@/assets/curso/temas/intro/icono-2.svg"  style="width: 84px")
       .col
         p.mb-0 Las empresas afrontan entornos cambiantes y estructuras cada vez más diversas, la capacidad de trabajar en equipo y de forma colaborativa se convierte en un factor diferenciador. Organizaciones del sector público, pymes, cooperativas y grandes empresas encuentran en estas modalidades una vía para potenciar sus recursos, distribuir responsabilidades y generar soluciones más innovadoras y sostenibles.
 
@@ -57,12 +57,12 @@
           .row.align-items-center
             .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
-                img(src="@/assets/curso/temas/t2/ic-1.svg" alt="" style="width: 84px")
+                img(src="@/assets/curso/temas/t2/ic-1.svg"  style="width: 84px")
             .col
               p.mb-0 Para aplicar estas modalidades de manera estratégica, es necesario conocer primero los distintos tipos de trabajo grupal que pueden configurarse en una organización. Cada tipo responde a características específicas del equipo, del objetivo y del contexto, y ofrece posibilidades distintas para la gestión del talento humano.
       .col-lg-4.mt-4.mt-lg-0
         figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t2/ilus-1.png" alt="").w-100.h-100.object-fit-cover
+          img(src="@/assets/curso/temas/t2/ilus-1.png" ).w-100.h-100.object-fit-cover
 
     separador
     #t_2_1.titulo-segundo.color-acento-contenido
@@ -74,17 +74,17 @@
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t2/foto-2.png" alt="").w-100
+          img(src="@/assets/curso/temas/t2/foto-2.png" ).w-100
       .col-lg-8
         .bg-1-p.p-4.h-100(data-aos="fade-left")
           figure.mb-3
-            img(src="@/assets/curso/temas/t2/ic-2.svg" alt="" style="width: 84px")
+            img(src="@/assets/curso/temas/t2/ic-2.svg"  style="width: 84px")
           p.mb-0 En las organizaciones, los conceptos de trabajo en equipo y trabajo colaborativo se emplean con frecuencia como sinónimos, pero presentan características que los distinguen y los hacen apropiados para distintos tipos de tareas y contextos. Comprender estas diferencias permite al gestor de talento humano seleccionar y facilitar la modalidad que mejor responde a los objetivos del grupo y a la naturaleza del desafío que enfrenta la organización.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
-          img(src="@/assets/curso/temas/intro/icono-2.svg" alt="" style="width: 84px")
+          img(src="@/assets/curso/temas/intro/icono-2.svg"  style="width: 84px")
       .col
         p.mb-0 La elección de una u otra modalidad no depende únicamente del tipo de tarea, sino también de factores como la composición del grupo, el nivel de confianza entre sus integrantes y la disponibilidad de tiempo y recursos. Un gestor de talento humano que comprende estas variables está en mejor posición para facilitar dinámicas de trabajo que potencien las capacidades colectivas y generen resultados sostenibles para la organización.
 
@@ -126,21 +126,21 @@
           
           .col-lg-4
             figure.mb-0.h-100
-              img(src="@/assets/curso/temas/t2/foto-3.png" alt="").w-100.h-100.object-fit-cover
+              img(src="@/assets/curso/temas/t2/foto-3.png" ).w-100.h-100.object-fit-cover
 
 
     //- Dos tarjetas pegadas de 614x531, con el circulo de 160 dentro.
     .tarjeta--container.row.mt-4(data-aos="fade-up")
       .col-md.tarjeta.bg-1-p.p-4
         figure.mb-3
-          img(src="@/assets/curso/temas/t2/mod-1.svg" alt="" style="width: 160px").m-auto
+          img(src="@/assets/curso/temas/t2/mod-1.svg"  style="width: 160px").m-auto
         h4.text-center Trabajo en equipo
         p Modalidad en la que un grupo coordina acciones hacia un objetivo común, con roles y responsabilidades individuales claramente definidos. Cada integrante ejecuta una parte específica; el resultado final surge de la articulación de esos aportes.
         p.mb-0 #[b Ejemplo 1:] en una empresa de logística, el equipo divide rutas y consolida reportes de despacho al cierre de cada turno.
         p #[b Ejemplo 2:] en una institución de formación, los instructores asignan áreas temáticas y articulan un plan integrado de aprendizaje.
       .col-md.tarjeta.bg-2-s.p-4
         figure.mb-3
-          img(src="@/assets/curso/temas/t2/mod-2.svg" alt="" style="width: 160px").m-auto
+          img(src="@/assets/curso/temas/t2/mod-2.svg"  style="width: 160px").m-auto
         h4.text-center Trabajo colaborativo
         p Enfoque en el que los integrantes construyen conocimiento y soluciones de manera conjunta, mediante el diálogo, la negociación y la co-creación. A diferencia del trabajo en equipo, la responsabilidad no se divide: es compartida por todos en cada etapa del proceso.
         p #[b Ejemplo 1:] un equipo de gestión humana diseña colectivamente el plan de bienestar integrando perspectivas de distintas áreas.#[br]Ejemplo 2: un grupo interdisciplinario elabora un protocolo de atención a partir de la experiencia acumulada de cada integrante.
@@ -148,7 +148,7 @@
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
-          img(src="@/assets/curso/temas/intro/icono-2.svg" alt="" style="width: 84px")
+          img(src="@/assets/curso/temas/intro/icono-2.svg"  style="width: 84px")
       .col
         p.mb-0 El trabajo en equipo y el trabajo colaborativo no son modalidades excluyentes; en la práctica, las organizaciones combinan ambas según el tipo de desafío que enfrentan. Lo que determina la efectividad no es elegir una sobre la otra, sino reconocer cuándo cada una aporta mayor valor: el primero, cuando la eficiencia operativa depende de la especialización y la coordinación; el segundo, cuando la complejidad del problema exige la inteligencia colectiva y la construcción conjunta de soluciones. El gestor de talento humano cumple un papel central en crear las condiciones para que ambas prosperen dentro de la organización.
 
@@ -156,7 +156,7 @@
       .col-lg-10
         .bg-3-a.cita-destacada.p-4.text-center(data-aos="fade-up")
           figure
-            img(src="@/assets/curso/temas/t2/cita-1.svg" alt="")
+            img(src="@/assets/curso/temas/t2/cita-1.svg" )
           p.mb-0 
             b Las organizaciones más efectivas combinan el trabajo en equipo y el trabajo colaborativo según el desafío que enfrentan. El gestor de talento humano crea las condiciones para que los grupos transiten con flexibilidad entre ambas modalidades.
 
@@ -201,7 +201,7 @@
         p.mb-0(data-aos="fade-right") Para que estos principios se consoliden en la práctica organizacional, el área de talento humano puede implementar acciones concretas que los activen y los sostengan en el tiempo:
       .col-lg-3.mt-4.mt-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t2/ilus-2.png" alt="").w-100
+          img(src="@/assets/curso/temas/t2/ilus-2.png" ).w-100
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -227,7 +227,7 @@
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
-          img(src="@/assets/curso/temas/intro/icono-2.svg" alt="" style="width: 84px")
+          img(src="@/assets/curso/temas/intro/icono-2.svg"  style="width: 84px")
       .col
         p.mb-0 Estas acciones no son medidas aisladas: conforman una estrategia integrada que permite al área de talento humano crear las condiciones para que los principios del trabajo colaborativo se expresen en la cotidianidad de los equipos. Su implementación progresiva transforma la cultura organizacional y fortalece la capacidad colectiva de responder a los desafíos del entorno.
 
@@ -235,7 +235,7 @@
       .col-lg-10
         .bg-3-a.cita-destacada.p-4.text-center(data-aos="fade-up")
           figure
-            img(src="@/assets/curso/temas/t2/cita-2.svg" alt="")
+            img(src="@/assets/curso/temas/t2/cita-2.svg" )
           p.mb-0 
             b Un equipo que practica estos principios no solo alcanza mejores resultados: desarrolla la capacidad de aprender, adaptarse y crecer de manera colectiva.
 
@@ -248,7 +248,7 @@
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t2/foto-5.png" alt="").w-100
+          img(src="@/assets/curso/temas/t2/foto-5.png" ).w-100
       .col-lg-8
         p(data-aos="fade-left") Las técnicas de trabajo colaborativo son herramientas metodológicas que estructuran la manera en que los grupos interactúan, toman decisiones y construyen soluciones conjuntas. En el contexto organizacional colombiano, su aplicación ha demostrado ser un factor diferenciador en empresas de distintos tamaños: desde grandes organizaciones del sector financiero y manufacturero hasta pequeñas y medianas empresas del comercio y la agroindustria, donde favorecen la participación equitativa y la calidad de los resultados colectivos.
 
@@ -277,7 +277,7 @@
           .row.align-items-center
             .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
-                img(src="@/assets/curso/temas/t2/ic-3.svg" alt="" style="width: 84px")
+                img(src="@/assets/curso/temas/t2/ic-3.svg"  style="width: 84px")
             .col
               p.mb-0 Estas técnicas no son excluyentes entre sí: en la práctica, los equipos más efectivos las combinan de acuerdo con el objetivo que persiguen y el momento del proceso en que se encuentran. Su valor radica no solo en los resultados que producen, sino en los hábitos colaborativos que instalan progresivamente en la cultura del equipo.
 
@@ -289,7 +289,7 @@
           .row.align-items-center
             .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
-                img(src="@/assets/curso/temas/t2/ilus-3.png" alt="").w-100.r-10
+                img(src="@/assets/curso/temas/t2/ilus-3.png" ).w-100.r-10
             .col
               h4 Lluvia de ideas y retrospectiva en una empresa de logística
               p.mb-0 En una empresa de logística con 35 colaboradores, el equipo de talento humano detecta que los tiempos de despacho aumentan sin causa clara. El coordinador convoca una sesión de lluvia de ideas con representantes de cada área, sin filtros previos. En la siguiente sesión seleccionan las tres alternativas más viables e implementan un piloto. Al finalizar, realizan una retrospectiva: identifican lo que funcionó (la participación equitativa) y lo que mejorar (la documentación de acuerdos). Este ciclo; generar, seleccionar, evaluar; redujo los tiempos de despacho un 18 % en el trimestre siguiente.
@@ -303,7 +303,7 @@
           p.mb-0 La efectividad del trabajo colaborativo, sin embargo, no está garantizada por las técnicas en sí mismas. En muchos equipos, las dinámicas comunicativas presentan barreras que limitan la participación, bloquean el flujo de información y afectan la calidad de los resultados. Reconocer y gestionar estas barreras es el tema que se desarrolla en el siguiente apartado.
       .col-lg-3.mt-4.mt-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t2/foto-6.png" alt="").w-100
+          img(src="@/assets/curso/temas/t2/foto-6.png" ).w-100
 
     separador
     #t_2_4.titulo-segundo.color-acento-contenido
@@ -314,11 +314,11 @@
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t2/foto-7.png" alt="").w-100
+          img(src="@/assets/curso/temas/t2/foto-7.png" ).w-100
       .col-lg-8
         .bg-2.p-4.h-100(data-aos="fade-left")
           figure.mb-3
-            img(src="@/assets/curso/temas/t2/ic-4.svg" alt="" style="width: 84px")
+            img(src="@/assets/curso/temas/t2/ic-4.svg"  style="width: 84px")
           p.mb-0 Las barreras comunicativas en los equipos pueden clasificarse en cuatro tipos: semánticas, cuando los integrantes asignan significados distintos a los mismos términos; tecnológicas o físicas, cuando los canales no son adecuados para el intercambio; psicológicas, cuando los prejuicios o el temor al juicio bloquean la expresión abierta; y culturales u organizacionales, cuando las jerarquías informales limitan la participación equitativa de todos los integrantes.
 
     p.mt-4(data-aos="fade-right") Cada tipo de barrera presenta rasgos propios que permiten identificarla y gestionarla de forma diferenciada. A continuación, se describen las más frecuentes en el entorno organizacional colombiano, con situaciones concretas que ilustran su impacto en los equipos de trabajo:
@@ -333,25 +333,25 @@
               p.mb-0 #[b A. Barreras semánticas:] ocurren cuando los interlocutores asignan significados distintos a los mismos términos, generando interpretaciones erróneas que dificultan la coordinación. Caso 1: en una empresa del sector salud, el término «urgente» tiene distinto significado para el área clínica y para el área administrativa. Caso 2: en una compañía de logística, «disponible» significa para bodega que el producto está en existencia, mientras que para ventas implica entrega inmediata al cliente.
             .col-lg-6
               figure.mb-0
-                img(src="@/assets/curso/temas/t2/barrera-1.png" alt="").w-100
+                img(src="@/assets/curso/temas/t2/barrera-1.png" ).w-100
           .row.justify-content-center.align-items-center.p-4.p-lg-5
             .col-lg-6.mb-4.mb-lg-0
               p.mb-0 #[b B. Barreras psicológicas:] se originan en estados emocionales, actitudes o sesgos que distorsionan la recepción o emisión del mensaje; incluyen el temor al juicio, los prejuicios y la baja confianza para expresarse. Caso 1: en una empresa de confecciones, un operario identifica una falla, pero no la reporta por temor a represalias del supervisor. Caso 2: en una empresa de tecnología, un líder descarta las propuestas de nuevos colaboradores por considerarlas «poco maduras» sin analizarlas.
             .col-lg-6
               figure.mb-0
-                img(src="@/assets/curso/temas/t2/barrera-2.png" alt="").w-100
+                img(src="@/assets/curso/temas/t2/barrera-2.png" ).w-100
           .row.justify-content-center.align-items-center.p-4.p-lg-5
             .col-lg-6.mb-4.mb-lg-0
               p.mb-0 #[b C. Barreras tecnológicas o físicas:] surgen cuando los canales son inadecuados o el ambiente físico dificulta la transmisión del mensaje con claridad. Caso 1: en una organización pública, las reuniones virtuales se realizan sin herramientas estables ni agenda previa, generando confusión y pérdida de información. Caso 2: en una empresa del sector construcción, el ruido en la obra impide que los trabajadores reciban las instrucciones de seguridad con claridad.
             .col-lg-6
               figure.mb-0
-                img(src="@/assets/curso/temas/t2/barrera-3.png" alt="").w-100
+                img(src="@/assets/curso/temas/t2/barrera-3.png" ).w-100
           .row.justify-content-center.align-items-center.p-4.p-lg-5
             .col-lg-6.mb-4.mb-lg-0
               p.mb-0 #[b D. Barreras culturales u organizacionales:] se presentan cuando jerarquías, normas no escritas o diferencias culturales limitan la participación equitativa y el libre flujo de ideas. Caso 1: en una empresa familiar, la cultura de «no contradecir al jefe» impide que los colaboradores señalen errores en las decisiones directivas. Caso 2: en una organización con equipos multigeneracionales, las diferencias en el uso de canales digitales generan brechas en el acceso a la información.
             .col-lg-6
               figure.mb-0
-                img(src="@/assets/curso/temas/t2/barrera-4.png" alt="").w-100
+                img(src="@/assets/curso/temas/t2/barrera-4.png" ).w-100
 
     p.mt-4(data-aos="fade-right") El reconocimiento de estas barreras es el primer paso para superarlas: una vez identificadas, el equipo puede diseñar respuestas puntuales que transformen los obstáculos en oportunidades de diálogo y mejora colectiva.
 
@@ -365,38 +365,38 @@
           .row.justify-content-center.mb-3
             .col-7
               figure.mb-0
-                img.icono(src="@/assets/curso/temas/t2/est-1.svg" alt="")
-                img.icono-hover(src="@/assets/curso/temas/t2/est-1-hover.svg" alt="")
+                img.icono(src="@/assets/curso/temas/t2/est-1.svg" )
+                img.icono-hover(src="@/assets/curso/temas/t2/est-1-hover.svg" )
           p.text-center.mb-0 1. Unificar el significado de los términos clave antes de iniciar cualquier proyecto colaborativo, para evitar interpretaciones distintas entre áreas.
       .col-md-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.color-1.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure.mb-0
-                img.icono(src="@/assets/curso/temas/t2/est-2.svg" alt="")
-                img.icono-hover(src="@/assets/curso/temas/t2/est-2-hover.svg" alt="")
+                img.icono(src="@/assets/curso/temas/t2/est-2.svg" )
+                img.icono-hover(src="@/assets/curso/temas/t2/est-2-hover.svg" )
           p.text-center.mb-0 2. Establecer normas claras de participación equitativa que garanticen que todos los integrantes puedan expresarse sin restricciones jerárquicas.
       .col-md-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.color-1.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure.mb-0
-                img.icono(src="@/assets/curso/temas/t2/est-3.svg" alt="")
-                img.icono-hover(src="@/assets/curso/temas/t2/est-3-hover.svg" alt="")
+                img.icono(src="@/assets/curso/temas/t2/est-3.svg" )
+                img.icono-hover(src="@/assets/curso/temas/t2/est-3-hover.svg" )
           p.text-center.mb-0 3. Seleccionar plataformas digitales síncronas o asíncronas según el tipo de tarea y las condiciones reales del equipo.
       .col-md-6.col-lg-3
         .tarjeta--boton.color-1.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure.mb-0
-                img.icono(src="@/assets/curso/temas/t2/est-4.svg" alt="")
-                img.icono-hover(src="@/assets/curso/temas/t2/est-4-hover.svg" alt="")
+                img.icono(src="@/assets/curso/temas/t2/est-4.svg" )
+                img.icono-hover(src="@/assets/curso/temas/t2/est-4-hover.svg" )
           p.text-center.mb-0 4. Cultivar climas de confianza donde cada persona sepa que sus aportes serán valorados y escuchados con respeto.
 
     .row.mt-4
       .col-lg-3.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t2/ilus-4.png" alt="").w-100
+          img(src="@/assets/curso/temas/t2/ilus-4.png" ).w-100
       .col-lg-9
         p.mb-0(data-aos="fade-left") La implementación de estas estrategias no garantiza la ausencia de barreras, pero sí reduce significativamente su impacto en la dinámica del equipo. Cuando los integrantes comparten un lenguaje común, conocen las normas de participación, cuentan con herramientas adecuadas y se sienten seguros para expresarse, la comunicación fluye con mayor naturalidad y los conflictos se gestionan antes de que escalen. Este tipo de entorno no se construye de un día para otro: requiere intencionalidad, seguimiento y el compromiso sostenido del área de talento humano. Superar estas barreras transforma al equipo en un espacio donde la diversidad de perspectivas deja de ser un obstáculo y se convierte en valor colectivo.
 
@@ -406,14 +406,14 @@
           .row.align-items-center
             .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
-                img(src="@/assets/curso/temas/t2/ic-5.svg" alt="" style="width: 84px")
+                img(src="@/assets/curso/temas/t2/ic-5.svg"  style="width: 84px")
             .col
               p.mb-0 #[b Idea clave:] identificar las barreras comunicativas es tan importante como desarrollar habilidades de comunicación. Un equipo que reconoce lo que obstaculiza su diálogo puede intervenir a tiempo, antes de que esas barreras generen conflictos o bloqueen la colaboración.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
-          img(src="@/assets/curso/temas/intro/icono-2.svg" alt="" style="width: 84px")
+          img(src="@/assets/curso/temas/intro/icono-2.svg"  style="width: 84px")
       .col
         p.mb-0 La comprensión de las barreras comunicativas y las estrategias para superarlas prepara el terreno para el tercer desafío organizacional: la resolución de conflictos y problemas. Su abordaje constructivo, desde la argumentación rigurosa y la construcción de acuerdos colectivos, constituye el eje del siguiente apartado.
 

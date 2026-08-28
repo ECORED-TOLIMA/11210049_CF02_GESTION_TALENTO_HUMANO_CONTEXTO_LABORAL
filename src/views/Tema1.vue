@@ -18,7 +18,7 @@
 
       .col-lg-3.mt-4.mt-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t1/foto-1.png" alt="").w-100
+          img(src="@/assets/curso/temas/t1/foto-1.png" ).w-100
 
     //- Seis factores, de tres en tres: `SlyderF` con la banda decorativa de 1328x254 detrás,
     //- que se sale del padding de la tarjeta (por eso el margen negativo de `.banda-1`).
@@ -26,39 +26,39 @@
       SlyderF.slyder--flechas-azules(columnas="col-md-6 col-lg-4")
         .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
-            img(src="@/assets/curso/temas/t1/factor-1.svg" alt="" style="width: 128px").m-auto
+            img(src="@/assets/curso/temas/t1/factor-1.svg"  style="width: 128px").m-auto
           h4.text-center Actores
           p.text-center.mb-0 Personas, grupos o unidades organizacionales que participan en el proceso comunicativo, ya sea como emisores, receptores o en ambos roles de manera simultánea, dependiendo del flujo de información y de las relaciones establecidas en el contexto de la organización.
         .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
-            img(src="@/assets/curso/temas/t1/factor-2.svg" alt="" style="width: 128px").m-auto
+            img(src="@/assets/curso/temas/t1/factor-2.svg"  style="width: 128px").m-auto
           h4.text-center Canales
           p.text-center.mb-0 Medios o vías a través de los cuales se transmite el mensaje. Pueden ser formales (correos electrónicos, reuniones, informes) o informales (conversaciones espontáneas, mensajería instantánea); su elección incide directamente en el alcance y la efectividad del proceso comunicativo.
         .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
-            img(src="@/assets/curso/temas/t1/factor-3.svg" alt="" style="width: 128px").m-auto
+            img(src="@/assets/curso/temas/t1/factor-3.svg"  style="width: 128px").m-auto
           h4.text-center Códigos
           p.text-center.mb-0 Sistemas de signos, lenguajes y convenciones compartidas que posibilitan codificar y decodificar los mensajes. Comprenden el lenguaje verbal (oral y escrito), los gestos y los símbolos propios de la cultura organizacional que hacen posible la comprensión mutua entre los actores.
         .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
-            img(src="@/assets/curso/temas/t1/factor-4.svg" alt="" style="width: 128px").m-auto
+            img(src="@/assets/curso/temas/t1/factor-4.svg"  style="width: 128px").m-auto
           h4.text-center Contextos
           p.text-center.mb-0 Condiciones físicas, culturales, históricas y relacionales en las que se produce el intercambio comunicativo. El contexto determina el significado de los mensajes: una misma expresión puede interpretarse de manera distinta según el ambiente, la jerarquía o el momento en que se emite.
         .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
-            img(src="@/assets/curso/temas/t1/factor-5.svg" alt="" style="width: 128px").m-auto
+            img(src="@/assets/curso/temas/t1/factor-5.svg"  style="width: 128px").m-auto
           h4.text-center Intencionalidades
           p.text-center.mb-0 Propósitos explícitos o implícitos que orientan el acto comunicativo. Detrás de cada mensaje existe una finalidad (informar, persuadir, coordinar, motivar o resolver un desacuerdo) que condiciona la forma, el tono y el canal seleccionados para establecer el intercambio.
         .tarjeta.bg-1-p.r-20.p-4.h-100.tarjeta--adornos
           figure.mb-3
-            img(src="@/assets/curso/temas/t1/factor-6.svg" alt="" style="width: 128px").m-auto
+            img(src="@/assets/curso/temas/t1/factor-6.svg"  style="width: 128px").m-auto
           h4.text-center Retroalimentaciones
           p.text-center.mb-0 Respuestas o reacciones del receptor ante el mensaje recibido, que facilitan verificar si la comunicación fue efectiva. Pueden manifestarse de forma verbal, gestual o comportamental y convierten el proceso en un intercambio bidireccional que posibilita la comprensión y el ajuste mutuo.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
-          img(src="@/assets/curso/temas/intro/icono-2.svg" alt="" style="width: 84px")
+          img(src="@/assets/curso/temas/intro/icono-2.svg"  style="width: 84px")
       .col
         p Estos seis factores no operan de manera independiente, se articulan y se condicionan mutuamente para generar un proceso comunicativo complejo y dinámico. Identificar cómo interactúan hace posible reconocer los puntos en los que la comunicación puede fortalecerse o deteriorarse dentro de la organización.
         p.mb-0 Con esta comprensión del proceso comunicativo en su conjunto, es posible ahondar en los fundamentos teóricos que explican cómo se origina, se transmite y se recibe un mensaje en el entorno de trabajo.
@@ -71,7 +71,7 @@
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t1/foto-2.png" alt="").w-100
+          img(src="@/assets/curso/temas/t1/foto-2.png" ).w-100
       .col-lg-8
         .bg-1.r-10.p-4(data-aos="fade-left")
           p.mb-0 Desde una perspectiva clásica, la comunicación puede describirse como el proceso mediante el cual un emisor codifica y transmite un mensaje a un receptor, a través de un canal y en un contexto determinado, esperando una respuesta o una comprensión compartida. Sin embargo, este modelo lineal resulta insuficiente para explicar la complejidad de la comunicación en las organizaciones actuales, donde los mensajes circulan en múltiples direcciones, utilizan diversos medios y se interpretan a la luz de culturas organizacionales, experiencias previas y relaciones de poder.
@@ -105,7 +105,7 @@
                   p.mb-0 Condiciones físicas, culturales, temporales y emocionales en las que se desarrolla el intercambio comunicativo. Determina cómo se emite e interpreta el mensaje: un mismo enunciado puede adquirir significados distintos según el momento, el lugar o la relación entre los actores.
           .col-lg-4
             figure.mb-0
-              img(src="@/assets/curso/temas/t1/foto-3.png" alt="").w-100
+              img(src="@/assets/curso/temas/t1/foto-3.png" ).w-100
 
     p.mt-4(data-aos="fade-right") Reconocer estos componentes en su interacción permite comprender por qué algunos mensajes llegan con claridad mientras otros generan malentendidos. En la gestión del talento humano, identificar en cuál de estos elementos se produce la falla orienta las acciones de mejora y fortalece la calidad de la comunicación en la organización.
 
@@ -118,18 +118,18 @@
         .row.align-items-start.mt-4(data-aos="fade-right")
           .col-12.col-md-auto.mb-3.mb-md-0
             figure.mb-0
-              img(src="@/assets/curso/temas/intro/icono-2.svg" alt="" style="width: 84px")
+              img(src="@/assets/curso/temas/intro/icono-2.svg"  style="width: 84px")
           .col
             p.mb-0 Analizar las interacciones a partir de estos componentes permite identificar con mayor precisión dónde se originan las fallas de comunicación: mensajes ambiguos, canales inadecuados, ausencia de retroalimentación o contextos emocionales poco favorables. Esta mirada estructurada es esencial para que el gestor de talento humano pueda proponer ajustes específicos en la forma de comunicar en la organización.
       .col-lg-3.mt-4.mt-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t1/ilus-1.png" alt="").w-100
+          img(src="@/assets/curso/temas/t1/ilus-1.png" ).w-100
 
     //- Foto de 292x251 (col-3) y la caja #F7E3E6 de 916x154 con r=10 en x=497 (col-9).
     .row.mt-4
       .col-lg-3.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t1/foto-14.png" alt="").w-100
+          img(src="@/assets/curso/temas/t1/foto-14.png" ).w-100
       .col-lg-9
         .bg-2.r-10.p-4(data-aos="fade-left")
           p.mb-0 Las funciones de la comunicación organizacional describen los propósitos que esta cumple y los efectos que produce en el comportamiento colectivo. Comprender estas funciones permite diseñar estrategias comunicativas coherentes con el momento y el propósito de cada intercambio, y evitar mensajes que lleguen sin el impacto esperado en los equipos de trabajo.
@@ -146,31 +146,31 @@
               p.mb-0 #[b Función informativa:] permite compartir con los integrantes de la organización datos, indicadores, decisiones, cambios en procesos y resultados de gestión. Garantiza que cada persona cuente con la información necesaria para ejecutar sus tareas, comprender el estado de los procesos y fundamentar sus decisiones.
             .col-lg-6
               figure.mb-0
-                img(src="@/assets/curso/temas/t1/funcion-1.png" alt="").w-100
+                img(src="@/assets/curso/temas/t1/funcion-1.png" ).w-100
           .row.justify-content-center.align-items-center.p-4.p-lg-5
             .col-lg-6.mb-4.mb-lg-0
               p.mb-0 #[b Función reguladora:] orienta el comportamiento de los integrantes de la organización mediante el establecimiento y la difusión de normas, políticas, procedimientos y manuales. Asegura que las decisiones y acciones individuales sean coherentes con los estándares institucionales y contribuyan al logro de los objetivos colectivos.
             .col-lg-6
               figure.mb-0
-                img(src="@/assets/curso/temas/t1/funcion-2.png" alt="").w-100
+                img(src="@/assets/curso/temas/t1/funcion-2.png" ).w-100
           .row.justify-content-center.align-items-center.p-4.p-lg-5
             .col-lg-6.mb-4.mb-lg-0
               p.mb-0 #[b Función motivadora:] contribuye a generar compromiso, sentido de propósito y reconocimiento en los integrantes de la organización. Cuando la comunicación explica el significado del trabajo, reconoce los logros y vincula las tareas individuales con los objetivos institucionales, fortalece la motivación y el sentido de pertenencia.
             .col-lg-6
               figure.mb-0
-                img(src="@/assets/curso/temas/t1/funcion-3.png" alt="").w-100
+                img(src="@/assets/curso/temas/t1/funcion-3.png" ).w-100
           .row.justify-content-center.align-items-center.p-4.p-lg-5
             .col-lg-6.mb-4.mb-lg-0
               p.mb-0 #[b Función integradora:] refuerza la identidad organizacional, los valores compartidos y la cohesión entre los integrantes. Al promover espacios de diálogo, intercambio de experiencias y trabajo colaborativo, contribuye a que las personas se reconozcan como parte de un proyecto colectivo con propósitos comunes.
             .col-lg-6
               figure.mb-0
-                img(src="@/assets/curso/temas/t1/funcion-4.png" alt="").w-100
+                img(src="@/assets/curso/temas/t1/funcion-4.png" ).w-100
           .row.justify-content-center.align-items-center.p-4.p-lg-5
             .col-lg-6.mb-4.mb-lg-0
               p.mb-0 #[b Función de control:] posibilita el seguimiento, la verificación y la evaluación del cumplimiento de metas, estándares y compromisos organizacionales. A través de informes, indicadores y mecanismos de rendición de cuentas, permite detectar desviaciones y tomar decisiones correctivas de manera oportuna y fundamentada.
             .col-lg-6
               figure.mb-0
-                img(src="@/assets/curso/temas/t1/funcion-5.png" alt="").w-100
+                img(src="@/assets/curso/temas/t1/funcion-5.png" ).w-100
 
 
     //- El XD dibuja este parrafo DOS veces (y=3829 y y=5328); la segunda no introduce nada,
@@ -179,13 +179,13 @@
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t1/foto-4.png" alt="").w-100
+          img(src="@/assets/curso/temas/t1/foto-4.png" ).w-100
       .col-lg-8
         .bg-1.r-10.p-4(data-aos="fade-left")
           .row.align-items-center
             .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
-                img(src="@/assets/curso/temas/t1/ic-6.svg" alt="" style="width: 84px")
+                img(src="@/assets/curso/temas/t1/ic-6.svg"  style="width: 84px")
             .col
               p.mb-0 Estas cinco funciones no actúan de manera independiente: en la práctica, un mismo mensaje puede informar, regular y motivar de forma simultánea. Comprender cómo se interrelacionan facilita al gestor de talento humano diseñar estrategias comunicativas coherentes con el propósito de la organización y con las necesidades reales de los equipos.
 
@@ -198,7 +198,7 @@
           .row.align-items-center
             .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
-                img(src="@/assets/curso/temas/t1/ilus-2.png" alt="").w-100.r-10
+                img(src="@/assets/curso/temas/t1/ilus-2.png" ).w-100.r-10
             .col
               h4 Comunicación informativa y motivadora en una pyme de servicios
               p.mb-0 En una empresa de servicios tecnológicos, la dirección de talento humano decide reforzar la comunicación interna sobre resultados trimestrales. Para ello, integra en una misma reunión la presentación de indicadores de desempeño (función informativa) con el reconocimiento público a los equipos que cumplieron metas (función motivadora). Al vincular datos objetivos con mensajes de valoración, se fortalece la percepción de transparencia y se incrementa la disposición de los colaboradores para asumir nuevos retos.
@@ -227,12 +227,12 @@
               | #[b Espacios de retroalimentación:] intercambio en el que se dice a alguien qué logró y en qué puede crecer, con ejemplos claros y un tono de apoyo.
       .col-lg-3
         figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t1/foto-5.png" alt="").w-100.h-100.object-fit-cover
+          img(src="@/assets/curso/temas/t1/foto-5.png" ).w-100.h-100.object-fit-cover
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
-          img(src="@/assets/curso/temas/intro/icono-2.svg" alt="" style="width: 84px")
+          img(src="@/assets/curso/temas/intro/icono-2.svg"  style="width: 84px")
       .col
         p La elección de la función comunicativa adecuada para cada situación requiere que el gestor de talento humano lea el contexto, identifique la necesidad del equipo y construya el mensaje con el propósito específico que el momento demanda.
         p.mb-0 La efectividad de cada una de estas funciones depende, en parte, del tipo de comunicación que se emplee para ejercerlas. Conocer las diferencias entre la comunicación verbal y la no verbal amplía las posibilidades del gestor y le permite ajustar no solo qué comunica, sino también cómo lo comunica en cada contexto.
@@ -245,13 +245,13 @@
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t1/foto-6.png" alt="").w-100
+          img(src="@/assets/curso/temas/t1/foto-6.png" ).w-100
       .col-lg-8
         .bg-1.r-10.p-4(data-aos="fade-left")
           .row.align-items-center
             .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
-                img(src="@/assets/curso/temas/t1/ic-2.svg" alt="" style="width: 84px")
+                img(src="@/assets/curso/temas/t1/ic-2.svg"  style="width: 84px")
             .col
               p.mb-0 En las organizaciones se distingue, de manera general, entre comunicación verbal y comunicación no verbal. Aunque esta separación tiene fines didácticos, en la práctica ambas dimensiones se presentan de forma simultánea y su coherencia o incoherencia influye significativamente en la interpretación de los mensajes.
 
@@ -262,7 +262,7 @@
       .col-lg-10
         .bg-3-a.cita-destacada.p-4.text-center(data-aos="fade-up")
           figure
-            img(src="@/assets/curso/temas/t1/ic-1.svg" alt="")
+            img(src="@/assets/curso/temas/t1/ic-1.svg" )
           p.mb-0
             b La comunicación no verbal (gestos, tono de voz y manejo de distancias) puede reforzar o contradecir el mensaje verbal, y es determinante en la credibilidad y la confianza que genera quien comunica.
 
@@ -273,12 +273,12 @@
           .row.align-items-center
             .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
-                img(src="@/assets/curso/temas/t1/ic-3.svg" alt="" style="width: 84px")
+                img(src="@/assets/curso/temas/t1/ic-3.svg"  style="width: 84px")
          
               p.mt-2 Sus manifestaciones abarcan un espectro amplio: expresiones faciales, posturas corporales, silencios, uso del espacio y del tiempo, vestimenta y elementos simbólicos presentes en el entorno laboral. Cada uno de estos canales transmite información sobre el estado emocional, la actitud y el nivel de apertura de quien comunica, con efectos directos en la percepción de la empatía, la autoridad y la disposición al diálogo.
       .col-lg-4
         figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t1/foto-7.png" alt="").w-100.h-100.object-fit-cover
+          img(src="@/assets/curso/temas/t1/foto-7.png" ).w-100.h-100.object-fit-cover
 
     p.mt-4(data-aos="fade-right") La comunicación verbal y la no verbal se expresan a través de formas específicas que varían según el canal y el propósito del mensaje. Identificar estas clases permite al gestor de talento humano reconocer cuándo y cómo emplear cada una para lograr una interacción más efectiva y coherente en los distintos contextos organizacionales:
 
@@ -306,7 +306,7 @@
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
-          img(src="@/assets/curso/temas/intro/icono-2.svg" alt="" style="width: 84px")
+          img(src="@/assets/curso/temas/intro/icono-2.svg"  style="width: 84px")
       .col
         p.mb-0 La atención a estas señales no es solo una habilidad individual: se convierte en una responsabilidad de gestión cuando el mensaje que se emite contradice las actitudes que se proyectan. Esta contradicción, conocida como incoherencia comunicativa, puede erosionar la credibilidad del gestor y deteriorar el ambiente laboral de manera gradual. El siguiente caso ilustra cómo esta situación se presenta en un contexto organizacional concreto:
 
@@ -316,7 +316,7 @@
           .row.align-items-center
             .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
-                img(src="@/assets/curso/temas/t1/ilus-3.png" alt="").w-100.r-10
+                img(src="@/assets/curso/temas/t1/ilus-3.png" ).w-100.r-10
             .col
               h4 Incoherencia entre mensaje verbal y no verbal
               p.mb-0 En una entidad del sector público, un directivo comunica verbalmente su disposición al diálogo con los funcionarios, pero durante las reuniones mantiene los brazos cruzados, evita el contacto visual y responde de manera evasiva a las preguntas incómodas. Aunque las palabras sugieren apertura, el lenguaje corporal transmite distancia y resistencia. Como consecuencia, los colaboradores perciben que no existe un verdadero espacio para expresar inquietudes, y se incrementa la comunicación informal cargada de rumores.
@@ -377,7 +377,7 @@
 
       .col-lg-4
         figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t1/foto-8.png" alt="").w-100.h-100.object-fit-cover
+          img(src="@/assets/curso/temas/t1/foto-8.png" ).w-100.h-100.object-fit-cover
 
 
 
@@ -389,7 +389,7 @@
     .row.mt-4
       .col-lg-3.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t1/foto-9.png" alt="").w-100
+          img(src="@/assets/curso/temas/t1/foto-9.png" ).w-100
       .col-lg-9
         p(data-aos="fade-left") En toda interacción laboral, la comunicación va más allá de las palabras. El cuerpo expresa actitudes a través de gestos y posturas; la voz transmite emociones mediante el tono, el volumen y las pausas; el espacio físico condiciona la disposición de quienes interactúan. Estas señales operan de manera simultánea al mensaje verbal y tienen un efecto directo en cómo se interpreta lo que se dice en cada contexto organizacional.
 
@@ -403,24 +403,24 @@
     .tarjeta--container.row.mt-4(data-aos="fade-up")
       .col-md.tarjeta.bg-1-p.p-4
         figure.mb-3
-          img(src="@/assets/curso/temas/t1/dim-1.svg" alt="" style="width: 150px").m-auto
+          img(src="@/assets/curso/temas/t1/dim-1.svg"  style="width: 150px").m-auto
         h4.text-center Comunicación kinésica
         p.mb-0 Estudia los movimientos del cuerpo, los gestos y las expresiones faciales como portadores de significado en la interacción humana. Incluye la postura, la orientación del cuerpo, el contacto visual y los movimientos de manos. En el entorno laboral, estos elementos pueden reforzar la credibilidad del comunicador o generar distancia con el interlocutor.
       .col-md.tarjeta.bg-2-s.p-4
         figure.mb-3
-          img(src="@/assets/curso/temas/t1/dim-2.svg" alt="" style="width: 150px").m-auto
+          img(src="@/assets/curso/temas/t1/dim-2.svg"  style="width: 150px").m-auto
         h4.text-center Comunicación proxémica
         p.mb-0 Analiza el uso del espacio físico y las distancias interpersonales en las interacciones. La distancia que se mantiene durante una conversación comunica información sobre el tipo de relación, el nivel de confianza y las normas culturales del entorno. En las organizaciones, el diseño del espacio también influye en la dinámica comunicativa del equipo.
       .col-md.tarjeta.bg-3.p-4
         figure.mb-3
-          img(src="@/assets/curso/temas/t1/dim-3.svg" alt="" style="width: 150px").m-auto
+          img(src="@/assets/curso/temas/t1/dim-3.svg"  style="width: 150px").m-auto
         h4.text-center Comunicación paralingüística
         p.mb-0 Examina los elementos vocales que acompañan el habla sin pertenecer al lenguaje verbal en sí: el tono, el volumen, el ritmo, las pausas y los silencios. Estos componentes modulan el significado del mensaje y revelan estados emocionales, actitudes e intenciones que las palabras por sí solas no siempre logran expresar.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
-          img(src="@/assets/curso/temas/intro/icono-2.svg" alt="" style="width: 84px")
+          img(src="@/assets/curso/temas/intro/icono-2.svg"  style="width: 84px")
       .col
         p.mb-0 Estas tres dimensiones actúan de manera simultánea e interdependiente durante cualquier intercambio. Conocerlas permite identificar señales de tensión o apertura en el equipo y ajustar la propia comunicación para transmitir mensajes más coherentes. En la gestión del talento humano, esta habilidad se traduce en una lectura más precisa de las situaciones interpersonales en el entorno laboral.
 
@@ -433,12 +433,12 @@
               .row.align-items-center
                 .col-12.col-md-auto.mb-3.mb-md-0
                   figure.mb-0
-                    img(src="@/assets/curso/temas/t1/ic-4.svg" alt="" style="width: 84px")
+                    img(src="@/assets/curso/temas/t1/ic-4.svg"  style="width: 84px")
                 
                   p.mt-3 La aplicación efectiva de estas dimensiones no es automática: requiere observación, práctica y disposición para ajustar los propios patrones comunicativos. Quien gestiona personas no solo debe conocer estas categorías, sino también reconocerlas en tiempo real durante las interacciones cotidianas con los colaboradores.
           .col-lg-4
             figure.mb-0.h-100
-              img(src="@/assets/curso/temas/t1/foto-10.png" alt="").w-100.h-100.object-fit-cover
+              img(src="@/assets/curso/temas/t1/foto-10.png" ).w-100.h-100.object-fit-cover
 
     p.mt-4(data-aos="fade-right") El desconocimiento de estas dimensiones puede llevar a interpretaciones erróneas o a la reproducción involuntaria de señales que generan distancia y desconfianza. En contraste, cuando el gestor ajusta de manera consciente sus gestos, el uso del espacio y el tono de voz, fortalece la efectividad de sus mensajes y contribuye al cuidado del clima organizacional. El siguiente caso ilustra cómo este ajuste transforma el resultado de una conversación de retroalimentación:
 
@@ -448,7 +448,7 @@
           .row.align-items-center
             .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
-                img(src="@/assets/curso/temas/t1/ilus-4.png" alt="").w-100.r-10
+                img(src="@/assets/curso/temas/t1/ilus-4.png" ).w-100.r-10
             .col
               h4 Ajuste proxémico en una retroalimentación de desempeño
               p.mb-0 En una empresa del sector comercio, una coordinadora de talento humano debe brindar retroalimentación a un colaborador respecto a incumplimientos reiterados en los horarios de llegada. En lugar de abordar el tema en el pasillo o frente a otros compañeros, decide realizar la conversación en un espacio privado, adecuadamente ventilado y con sillas ubicadas a una distancia que no invade la zona íntima del colaborador. Este manejo proxémico, sumado a un tono de voz sereno, reduce la actitud defensiva del colaborador y facilita que asuma compromisos de mejora concretos.
@@ -462,7 +462,7 @@
           p.mb-0 El dominio de estas dimensiones no verbales alcanza su mayor potencial cuando se integra con el uso deliberado de técnicas de comunicación verbal. La comunicación efectiva en el trabajo surge precisamente de esta articulación: de saber no solo qué comunicar, sino cómo hacerlo, en qué momento y con qué actitud corporal y vocal.
       .col-lg-3.mt-4.mt-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t1/foto-11.png" alt="").w-100
+          img(src="@/assets/curso/temas/t1/foto-11.png" ).w-100
 
     separador
     #t_1_4.titulo-segundo.color-acento-contenido
@@ -531,7 +531,7 @@
         .row.mt-4
           .col-lg-4.mb-4.mb-lg-0.order-2
             figure.mb-0.h-100
-              img(src="@/assets/curso/temas/t1/ilus-5.png" alt="").w-100.h-100.object-fit-cover
+              img(src="@/assets/curso/temas/t1/ilus-5.png" ).w-100.h-100.object-fit-cover
           .col-lg-8
               p Integrar estas técnicas de manera sistemática transforma la comunicación de un proceso improvisado en un componente planificado de la gestión. Esto se traduce en una reducción de errores, una resolución más constructiva de los conflictos y el fortalecimiento de relaciones laborales más colaborativas y respetuosas.
               p.mb-0 La aplicación simultánea de varias de estas técnicas en una misma situación organizacional multiplica su impacto. El siguiente caso ilustra cómo su uso combinado puede facilitar la implementación de un cambio significativo en el equipo:
@@ -542,7 +542,7 @@
           .row.align-items-center
             .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
-                img(src="@/assets/curso/temas/t1/ilus-6.png" alt="").w-100.r-10
+                img(src="@/assets/curso/temas/t1/ilus-6.png" ).w-100.r-10
             .col
               h4 Uso combinado de técnicas de comunicación efectiva
               p.mb-0 En una organización del sector salud, la jefatura de talento humano debe comunicar la implementación de un nuevo sistema de registro de turnos. Para ello, realiza primero una reunión sincrónica donde explica con claridad el propósito del cambio, los pasos de implementación y los apoyos disponibles (claridad, elección adecuada del canal). Durante la reunión, abre espacios para preguntas, escucha activamente las preocupaciones de los colaboradores y las recoge para ajustar el plan de soporte (escucha activa, comunicación empática). Posteriormente, envía un instructivo escrito con los procedimientos y fechas clave, y programa sesiones de retroalimentación sobre la experiencia inicial con la nueva herramienta (refuerzo del mensaje, retroalimentación constructiva). Esta combinación de técnicas reduce la resistencia al cambio y mejora la adopción del sistema.
@@ -554,11 +554,11 @@
       .col-lg-8.mb-4.mb-lg-0
         .bg-2.p-4.h-100(data-aos="fade-right")
           figure.mb-3
-            img(src="@/assets/curso/temas/t1/ic-5.svg" alt="" style="width: 84px")
+            img(src="@/assets/curso/temas/t1/ic-5.svg"  style="width: 84px")
           p.mb-0 Las técnicas de comunicación efectiva no operan de manera aislada: su verdadero alcance se evidencia cuando se aplican en el marco del trabajo colaborativo y el trabajo en equipo. La calidad de los intercambios comunicativos entre los integrantes de un equipo determina la coordinación de las tareas, la cohesión del grupo y la capacidad colectiva para alcanzar resultados que ningún individuo podría lograr por sí solo.
       .col-lg-4
         figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t1/foto-13.png" alt="").w-100.h-100.object-fit-cover
+          img(src="@/assets/curso/temas/t1/foto-13.png" ).w-100.h-100.object-fit-cover
 
 
 </template>

@@ -476,3 +476,21 @@ figcaption
   &--active
     background-color: $color-primario !important
     border-color: $color-primario !important
+
+// Banda decorativa del podcast del 2.3 (rects de 1328 en y=7711, el ancho de la tarjeta).
+.bg-fondo-3
+  background-image: url(../assets/curso/temas/t4/bg-audio.png)
+  background-repeat: no-repeat
+  background-size: 100% auto
+  background-position: center bottom
+  margin-inline: -3rem
+  padding-inline: 3rem
+  @media (max-width: $bp-max-md)
+    margin-inline: 0
+    padding-inline: 0
+    background-image: none
+
+// La barra de audio del XD es una pildora #FAFBFF sobre el panel naranja; el kit no le
+// pone fondo y quedaba translucida sobre el #FEDDB4.
+.tarjeta-audio
+  background-color: $color-3-v

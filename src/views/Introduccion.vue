@@ -20,18 +20,18 @@
           .row.align-items-center
             .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
-                img(src="@/assets/curso/temas/intro/icono-1.svg" alt="" style="width: 84px")
+                img(src="@/assets/curso/temas/intro/icono-1.svg"  style="width: 84px")
             .col
               p.mb-0 A partir de este recorrido, se analizan los fundamentos de la comunicación en el contexto organizacional, con sus procesos, componentes y sus manifestaciones verbales y no verbales. También se reconoce el papel del trabajo colaborativo y del trabajo en equipo para potenciar la inteligencia colectiva y la construcción conjunta de soluciones.
 
       .col-lg-3.mt-4.mt-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/intro/foto.png" alt="").w-100.r-10
+          img(src="@/assets/curso/temas/intro/foto.png" ).w-100.r-10
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
-          img(src="@/assets/curso/temas/intro/icono-2.svg" alt="" style="width: 84px")
+          img(src="@/assets/curso/temas/intro/icono-2.svg"  style="width: 84px")
       .col
         p.mb-0 De manera complementaria, el componente integra la resolución de problemas organizacionales para la dirección de personas, con énfasis en la argumentación, las alternativas creativas y la construcción de consensos. Estos elementos favorecen el aprendizaje activo, la reflexión sobre casos cercanos al contexto colombiano y la toma de decisiones informadas, para conectar los contenidos con situaciones reales del entorno organizacional.
 
