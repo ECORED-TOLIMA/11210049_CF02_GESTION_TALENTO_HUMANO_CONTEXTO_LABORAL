@@ -149,9 +149,9 @@
           h5 Figura 1.
           span  Tipos de conflicto más habituales en las organizaciones
         figure.mb-0.d-none.d-md-block(data-aos="fade-up")
-          img(src="@/assets/curso/temas/t3/figura-1.svg" alt="Diagrama con tres nodos que clasifica los conflictos organizacionales en tarea, relación y proceso, conectados al concepto central mediante flechas punteadas.").w-100
+          img(src="@/assets/curso/temas/t3/figura-1.svg" alt="Figura que presenta los tres tipos de conflicto organizacional: el de tarea, sobre el trabajo; el de relación, entre personas; y el de proceso, sobre los métodos. Reconocer el tipo de conflicto orienta su solución.").w-100
         figure.mb-0.d-md-none
-          img(src="@/assets/curso/temas/t3/figura-1-movil.svg" alt="Diagrama con tres nodos que clasifica los conflictos organizacionales en tarea, relación y proceso, conectados al concepto central mediante flechas punteadas.").w-100
+          img(src="@/assets/curso/temas/t3/figura-1-movil.svg" alt="Figura que presenta los tres tipos de conflicto organizacional: el de tarea, sobre el trabajo; el de relación, entre personas; y el de proceso, sobre los métodos. Reconocer el tipo de conflicto orienta su solución.").w-100
 
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0

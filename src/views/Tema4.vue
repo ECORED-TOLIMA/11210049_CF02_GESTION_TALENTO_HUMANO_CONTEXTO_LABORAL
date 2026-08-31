@@ -120,22 +120,22 @@
                 figure.mb-0
                   img(src="@/assets/curso/temas/t4/estilo-1.png" ).w-100
               .col-lg-8
-                p La  persona impone sus ideas, interrumpe o utiliza el lenguaje de forma intimidatoria; puede lograr resultados a corto plazo, pero deteriora la confianza y la motivación del equipo. 
+                p La persona evita expresar sus opiniones o desacuerdos para prevenir el conflicto; cede constantemente y acumula insatisfacción, lo que reduce su influencia en el equipo. 
 
-                p #[b Ejemplo 1:] en una empresa constructora, un supervisor da instrucciones en tono hostil; los colaboradores obedecen, pero evitan reportar problemas por temor a su reacción. 
+                p #[b Ejemplo 1:] en una empresa de servicios, un coordinador detecta un error de su superior, pero no lo comunica “para no crear problemas”, y el error se propaga.  
 
-                p #[b Ejemplo 2:] en una empresa de tecnología, un líder que interrumpe y descarta ideas ajenas desmotiva progresivamente a su equipo de desarrollo.
+                p #[b Ejemplo 2:] en una empresa de retail, un colaborador acepta sobrecargas sistemáticas sin comunicar sus límites hasta que el agotamiento afecta su rendimiento.
           .tarjeta.bg-3-v.p-4(titulo="Estilo agresivo")
             .row.align-items-center
               .col-lg-4.mb-4.mb-lg-0
                 figure.mb-0
                   img(src="@/assets/curso/temas/t4/estilo-2.png" ).w-100
               .col-lg-8
-                p La persona evita expresar sus opiniones o desacuerdos para prevenir el conflicto; cede constantemente y acumula insatisfacción, lo que reduce su influencia en el equipo. 
+                p La persona impone sus ideas, interrumpe o utiliza el lenguaje de forma intimidatoria; puede lograr resultados a corto plazo, pero deteriora la confianza y la motivación del equipo. 
 
-                p #[b Ejemplo 1:] en una empresa de servicios, un coordinador detecta un error de su superior, pero no lo comunica “para no crear problemas”, y el error se propaga. 
+                p #[b Ejemplo 1:] en una empresa constructora, un supervisor da instrucciones en tono hostil; los colaboradores obedecen, pero evitan reportar problemas por temor a su reacción. 
 
-                p #[b Ejemplo 2:] en una empresa de retail, un colaborador acepta sobrecargas sistemáticas sin comunicar sus límites hasta que el agotamiento afecta su rendimiento.
+                p #[b Ejemplo 2:] en una empresa de tecnología, un líder que interrumpe y descarta ideas ajenas desmotiva progresivamente a su equipo de desarrollo.
           .tarjeta.bg-3-v.p-4(titulo="Estilo asertivo")
             .row.align-items-center
               .col-lg-4.mb-4.mb-lg-0
@@ -201,15 +201,24 @@
       .col-lg-10
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg-4 r-20")
           div(titulo="Comunicar expectativas con claridad")
-            p.mb-0 Transmitir de manera específica los resultados, plazos y estándares que se esperan de un colaborador, sin dar por supuesto que la información es conocida. Esta claridad reduce la ambigüedad, orienta el desempeño y evita fricciones desde el inicio de cada tarea. Aplicación: en una empresa distribuidora del sector comercial, el supervisor comunica por escrito los indicadores de desempeño antes de iniciar cada ciclo de trabajo.
+            p Transmitir de manera específica los resultados, plazos y estándares que se esperan de un colaborador, sin dar por supuesto que la información es conocida. Esta claridad reduce la ambigüedad, orienta el desempeño y evita fricciones desde el inicio de cada tarea. 
+            
+            p #[b Aplicación: ]en una empresa distribuidora del sector comercial, el supervisor comunica por escrito los indicadores de desempeño antes de iniciar cada ciclo de trabajo.
           div(titulo="Dar y recibir retroalimentación")
-            p.mb-0 Comunicar observaciones sobre el desempeño de manera específica, objetiva y constructiva, reconociendo los logros y señalando las áreas de mejora de forma que la persona se sienta orientada y no atacada. Saber recibirla sin reactividad es igual de importante para el crecimiento profesional. Contexto: en una institución educativa del sector público, la jefatura retroalimenta describiendo hechos concretos y proponiendo acciones de mejora sin generalizar ni descalificar.
+            p Comunicar observaciones sobre el desempeño de manera específica, objetiva y constructiva, reconociendo los logros y señalando las áreas de mejora de forma que la persona se sienta orientada y no atacada. Saber recibirla sin reactividad es igual de importante para el crecimiento profesional. 
+            
+            p #[b Contexto: ]en una institución educativa del sector público, la jefatura retroalimenta describiendo hechos concretos y proponiendo acciones de mejora sin generalizar ni descalificar.
           div(titulo="Decir no de manera respetuosa")
-            p.mb-0 Declinar una solicitud o establecer un límite ante comportamientos inadecuados de forma directa y respetuosa, explicando las razones sin culpar al interlocutor ni generar conflictos innecesarios. Esta habilidad protege el bienestar personal y la calidad del trabajo sin deteriorar la relación profesional. Situación: en una empresa del sector servicios, un colaborador declina asumir tareas adicionales explicando su carga actual y proponiendo una redistribución del trabajo.
+            p Declinar una solicitud o establecer un límite ante comportamientos inadecuados de forma directa y respetuosa, explicando las razones sin culpar al interlocutor ni generar conflictos innecesarios. Esta habilidad protege el bienestar personal y la calidad del trabajo sin deteriorar la relación profesional.
+            
+            p #[b Situación:] en una empresa del sector servicios, un colaborador declina asumir tareas adicionales explicando su carga actual y proponiendo una redistribución del trabajo.
           div(titulo="Manejar las críticas")
-            p.mb-0 Responder a observaciones negativas de manera serena y reflexiva, evaluando si son válidas para aprender de ellas o injustas para señalarlo con calma y sin reactividad. Este manejo transforma cada crítica en una oportunidad de aprendizaje o en un momento de clarificación respetuosa. En la práctica: en una empresa de confecciones, el líder reconoce los logros públicamente y aborda las dificultades en reuniones privadas, sin generalizar ni descalificar.
+            p Responder a observaciones negativas de manera serena y reflexiva, evaluando si son válidas para aprender de ellas o injustas para señalarlo con calma y sin reactividad. Este manejo transforma cada crítica en una oportunidad de aprendizaje o en un momento de clarificación respetuosa. 
+            
+            p #[b En la práctica: ]en una empresa de confecciones, el líder reconoce los logros públicamente y aborda las dificultades en reuniones privadas, sin generalizar ni descalificar.
           div(titulo="Negociar acuerdos")
-            p.mb-0 Buscar soluciones que satisfagan las necesidades esenciales de ambas partes en situaciones de desacuerdo, evitando la capitulación incondicional y la imposición unilateral. Requiere escucha activa, disposición al diálogo y voluntad de ceder en aspectos secundarios para preservar los vínculos y los resultados compartidos. Caso: en una cooperativa agropecuaria, los socios acuerdan turnos de trabajo y distribución de recursos mediante consenso en asamblea.
+            p Buscar soluciones que satisfagan las necesidades esenciales de ambas partes en situaciones de desacuerdo, evitando la capitulación incondicional y la imposición unilateral. Requiere escucha activa, disposición al diálogo y voluntad de ceder en aspectos secundarios para preservar los vínculos y los resultados compartidos. 
+            p #[b Caso: ]en una cooperativa agropecuaria, los socios acuerdan turnos de trabajo y distribución de recursos mediante consenso en asamblea.
 
     .row.mt-4
       .col-lg-9

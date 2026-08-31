@@ -260,7 +260,7 @@
     .row.justify-content-center.mt-4
       .col-lg-10
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg-4 r-20")
-          div(titulo="Lluvia de ideas (Brainstorming)")
+          div(titulo="Lluvia de ideas (<em>Brainstorming</em>)")
             p.mb-0 Técnica de generación creativa de ideas en la que los integrantes expresan propuestas libremente, sin juicios ni filtros, para luego evaluar y seleccionar las más viables. Se aplica al inicio de proyectos o cuando el equipo requiere explorar soluciones ante desafíos organizacionales sin respuestas evidentes.
           div(titulo="Grupos de discusión")
             p.mb-0 Espacios estructurados para el análisis y debate de un tema específico, en los que un moderador facilita la participación equitativa y orienta el diálogo hacia conclusiones concretas. Se aplican para tomar decisiones colectivas, resolver conflictos o construir acuerdos frente a situaciones que afectan al equipo.
