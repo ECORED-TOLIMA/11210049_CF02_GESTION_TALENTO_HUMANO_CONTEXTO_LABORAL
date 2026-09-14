@@ -227,39 +227,39 @@ export default {
   referencias: [
     {
       referencia:
-        'Comunicación asertiva como factor relevante en el recurso humano. (2024). <em>Experior. Revista de ciencias aplicadas</em>.',
+        'Comunicación asertiva como factor relevante en el recurso humano. (2024). Experior. Revista de ciencias aplicadas.',
     },
     {
       referencia:
-        'Comunicación asertiva: la clave en el liderazgo organizacional. (2024). <em>Repositorio RedCol – MinCiencias</em>.',
+        'Comunicación asertiva: la clave en el liderazgo organizacional. (2024). Repositorio RedCol – MinCiencias.',
     },
     {
       referencia:
-        'Estilos de comunicación y recursos humanos: la asertividad en la organización. (2019). <em>Universidad de Buenos Aires</em>.',
+        'Estilos de comunicación y recursos humanos: la asertividad en la organización. (2019). Universidad de Buenos Aires.',
     },
     {
       referencia:
-        'Fernández Romero, A. (2010). <em>Creatividad e innovación en empresas y organizaciones: técnicas para la resolución de problemas</em>. Díaz de Santos.',
+        'Fernández Romero, A. (2010). Creatividad e innovación en empresas y organizaciones: técnicas para la resolución de problemas. Díaz de Santos.',
     },
     {
       referencia:
-        'Gonçalves, S. (2024). <em>La gestión de la comunicación organizacional: un enfoque estratégico</em>. Tecnos.',
+        'Gonçalves, S. (2024). La gestión de la comunicación organizacional: un enfoque estratégico. Tecnos.',
     },
     {
       referencia:
-        'IESE Business School. (2026). <em>Tres modelos de gestión del conflicto organizativo</em>. IESE Insight.',
+        'IESE Business School. (2026). Tres modelos de gestión del conflicto organizativo. IESE Insight.',
     },
     {
       referencia:
-        'Ruiz Hernández, Y. E., y Sánchez Jaramillo, A. F. (2021). Caracterización de las actividades de trabajo en equipo en una empresa. <em>Revista Perspectiva Empresarial, 8</em>(2), 122-138.',
+        'Ruiz Hernández, Y. E., y Sánchez Jaramillo, A. F. (2021). Caracterización de las actividades de trabajo en equipo en una empresa. Revista Perspectiva Empresarial, 8(2), 122-138.',
     },
     {
       referencia:
-        'Trujillo Vargas, J. J. (2023). <em>Fórmulas para una comunicación organizacional efectiva</em>. Tecnos.',
+        'Trujillo Vargas, J. J. (2023). Fórmulas para una comunicación organizacional efectiva. Tecnos.',
     },
     {
       referencia:
-        'Universidad Autónoma del Estado de Hidalgo. (s. f.). Técnica: solución creativa de problemas. <em>Revista ICEA</em>.',
+        'Universidad Autónoma del Estado de Hidalgo. (s. f.). Técnica: solución creativa de problemas. Revista ICEA.',
     },
   ],
   creditos: [
