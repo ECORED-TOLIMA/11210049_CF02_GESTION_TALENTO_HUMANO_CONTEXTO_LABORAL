@@ -60,7 +60,7 @@
         figure.mb-0
           img(src="@/assets/curso/temas/intro/icono-2.svg"  style="width: 84px")
       .col
-        p Estos seis factores no operan de manera independiente, se articulan y se condicionan mutuamente para generar un proceso comunicativo complejo y dinámico. Identificar cómo interactúan hace posible reconocer los puntos en los que la comunicación puede fortalecerse o deteriorarse dentro de la organización.
+        p Estos seis factores no operan de manera independiente; se articulan y se condicionan mutuamente para generar un proceso comunicativo complejo y dinámico. Identificar cómo interactúan hace posible reconocer los puntos en los que la comunicación puede fortalecerse o deteriorarse dentro de la organización.
         p.mb-0 Con esta comprensión del proceso comunicativo en su conjunto, es posible ahondar en los fundamentos teóricos que explican cómo se origina, se transmite y se recibe un mensaje en el entorno de trabajo.
 
     separador 
@@ -301,7 +301,7 @@
             .col-12
               p.mb-0 Abarca los espacios físicos, los tiempos y los símbolos que enmarcan la interacción y condicionan su interpretación. Ejemplo: una cooperativa del Huila organiza su oficina de atención al asociado con espacios cómodos, iluminados y ordenados, lo que transmite confianza y profesionalismo desde el primer contacto con la persona.
 
-    p.mt-4(data-aos="fade-right") La combinación de estas clases de comunicación determina la calidad del intercambio en la organización. Un mensaje verbal sólido puede verse reforzado o contradicho por la postura, el tono o el espacio en el que se emite. Para el gestor de talento humano, desarrollar consciencia sobre todos estos canales resulta tan importante como seleccionar las palabras adecuadas al comunicar.
+    p.mt-4(data-aos="fade-right") La combinación de estas clases de comunicación determina la calidad del intercambio en la organización. Un mensaje verbal sólido puede verse reforzado o contradicho por la postura, el tono o el espacio en el que se emite. Para el gestor de talento humano, desarrollar conciencia sobre todos estos canales resulta tan importante como seleccionar las palabras adecuadas al comunicar.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0

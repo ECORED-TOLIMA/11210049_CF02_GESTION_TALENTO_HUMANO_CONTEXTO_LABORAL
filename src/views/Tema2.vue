@@ -24,7 +24,7 @@
         figure.mb-0
           img(src="@/assets/curso/temas/intro/icono-2.svg"  style="width: 84px")
       .col
-        p.mb-0 Las empresas afrontan entornos cambiantes y estructuras cada vez más diversas, la capacidad de trabajar en equipo y de forma colaborativa se convierte en un factor diferenciador. Organizaciones del sector público, pymes, cooperativas y grandes empresas encuentran en estas modalidades una vía para potenciar sus recursos, distribuir responsabilidades y generar soluciones más innovadoras y sostenibles.
+        p.mb-0 Las empresas afrontan entornos cambiantes y estructuras cada vez más diversas; la capacidad de trabajar en equipo y de forma colaborativa se convierte en un factor diferenciador. Organizaciones del sector público, pymes, cooperativas y grandes empresas encuentran en estas modalidades una vía para potenciar sus recursos, distribuir responsabilidades y generar soluciones más innovadoras y sostenibles.
 
     p.mt-4(data-aos="fade-right") Para comprender el alcance de estas modalidades de trabajo, es útil precisar los conceptos fundamentales que las sustentan. Los siguientes términos constituyen la base conceptual del trabajo colaborativo y en equipo en el entorno organizacional:
 
@@ -104,7 +104,7 @@
         li
           .lista-ol--cuadro__vineta
             span 3
-          | #[b Interdependencia:] en el trabajo en equipo es funcional y operativa; en el colaborativo es cognitiva y relacional.
+          | #[b Interdependencia:] en el trabajo en equipo, es funcional y operativa; en el colaborativo, es cognitiva y relacional.
         li
           .lista-ol--cuadro__vineta
             span 4
@@ -143,7 +143,8 @@
           img(src="@/assets/curso/temas/t2/mod-2.svg"  style="width: 160px").m-auto
         h4.text-center Trabajo colaborativo
         p Enfoque en el que los integrantes construyen conocimiento y soluciones de manera conjunta, mediante el diálogo, la negociación y la co-creación. A diferencia del trabajo en equipo, la responsabilidad no se divide: es compartida por todos en cada etapa del proceso.
-        p #[b Ejemplo 1:] un equipo de gestión humana diseña colectivamente el plan de bienestar integrando perspectivas de distintas áreas.#[br]Ejemplo 2: un grupo interdisciplinario elabora un protocolo de atención a partir de la experiencia acumulada de cada integrante.
+        p.mb-0 #[b Ejemplo 1:] un equipo de gestión humana diseña colectivamente el plan de bienestar integrando perspectivas de distintas áreas.
+        p #[b Ejemplo 2:] un grupo interdisciplinario elabora un protocolo de atención a partir de la experiencia acumulada de cada integrante.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
@@ -292,7 +293,7 @@
                 img(src="@/assets/curso/temas/t2/ilus-3.png" ).w-100.r-10
             .col
               h4 Lluvia de ideas y retrospectiva en una empresa de logística
-              p.mb-0 En una empresa de logística con 35 colaboradores, el equipo de talento humano detecta que los tiempos de despacho aumentan sin causa clara. El coordinador convoca una sesión de lluvia de ideas con representantes de cada área, sin filtros previos. En la siguiente sesión seleccionan las tres alternativas más viables e implementan un piloto. Al finalizar, realizan una retrospectiva: identifican lo que funcionó (la participación equitativa) y lo que mejorar (la documentación de acuerdos). Este ciclo; generar, seleccionar, evaluar; redujo los tiempos de despacho un 18 % en el trimestre siguiente.
+              p.mb-0 En una empresa de logística con 35 colaboradores, el equipo de talento humano detecta que los tiempos de despacho aumentan sin causa clara. El coordinador convoca una sesión de lluvia de ideas con representantes de cada área, sin filtros previos. En la siguiente sesión seleccionan las tres alternativas más viables e implementan un piloto. Al finalizar, realizan una retrospectiva: identifican lo que funcionó (la participación equitativa) y lo que mejorar (la documentación de acuerdos). Este ciclo: generar, seleccionar, evaluar; redujo los tiempos de despacho un 18 % en el trimestre siguiente.
 
     .row.mt-4
       .col-lg-9

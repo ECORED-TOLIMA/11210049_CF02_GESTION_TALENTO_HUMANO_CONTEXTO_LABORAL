@@ -89,7 +89,7 @@
         figure.mb-3
           img(src="@/assets/curso/temas/t3/conf-1.svg"  style="width: 160px").m-auto
         h4.text-center Conflictos funcionales
-        p.mb-0 Generan tensión productiva dentro del equipo y actúan como motor de cambio e innovación. Lejos de ser perjudiciales, cuando se gestionan adecuadamente estimulan el pensamiento crítico, cuestionan los supuestos establecidos y abren espacio para nuevas soluciones.
+        p.mb-0 Generan tensión productiva dentro del equipo y actúan como motor de cambio e innovación. Lejos de ser perjudiciales, cuando se gestionan adecuadamente, estimulan el pensamiento crítico, cuestionan los supuestos establecidos y abren espacio para nuevas soluciones.
       .col-md.tarjeta.bg-2-s.p-4
         figure.mb-3
           img(src="@/assets/curso/temas/t3/conf-2.svg"  style="width: 160px").m-auto
@@ -226,7 +226,7 @@
         figure.mb-0.h-100
           img(src="@/assets/curso/temas/t3/foto-6.png" ).w-100.h-100.object-fit-cover
 
-    p.mt-4(data-aos="fade-right") Una argumentación sólida en el entorno organizacional no se construye de manera espontánea: requiere el cumplimiento de criterios que garantizan que las razones presentadas sean válidas, pertinentes y evaluables por todos los involucrados. Cuando estos criterios se respetan, el debate deja de ser una confrontación de opiniones y se convierte en un proceso racional orientado a encontrar la mejor solución posible. Los criterios que deben cumplir una argumentación sólida son los siguientes:
+    p.mt-4(data-aos="fade-right") Una argumentación sólida en el entorno organizacional no se construye de manera espontánea: requiere el cumplimiento de criterios que garantizan que las razones presentadas sean válidas, pertinentes y evaluables por todos los involucrados. Cuando estos criterios se respetan, el debate deja de ser una confrontación de opiniones y se convierte en un proceso racional orientado a encontrar la mejor solución posible. Los criterios que debe cumplir una argumentación sólida son los siguientes:
 
     //- Cuatro tarjetas con el circulo de 150 montado sobre el borde superior.
     .row.mt-5
