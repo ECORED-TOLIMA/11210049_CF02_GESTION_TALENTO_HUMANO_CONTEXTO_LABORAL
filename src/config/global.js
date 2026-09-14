@@ -60,7 +60,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Trabajo colaborativo y en equipo',
+        titulo: 'Trabajo colaborativo y trabajo en equipo',
         desarrolloContenidos: true,
         subMenu: [
           {
